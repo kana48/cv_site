@@ -1,0 +1,98 @@
+$main-color:#000;
+$sub-color:#fff;
+// 144px
+$fs-page-title:144px;
+// 80px
+$fs-hero:80px;
+// 11px
+$fs-cap:11px;
+$fs-p:20px;
+// 60px
+$fs-h2:60px;
+
+
+*{
+  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+}
+
+h1{
+  color:$main-color;
+  &.page-title{
+    font-size:$fs-page-title;
+    font-weight: 900;
+    margin-top: 12vh;
+  }
+  &.hero{
+    font-size:$fs-hero;
+    font-weight: 700;
+  }
+}
+h2 {
+    font-size: $fs-h2;
+}
+p{
+  font-size: $fs-p;
+}
+button{
+  font-size: $fs-h2;
+}
+
+
+
+// commun
+main{
+  background: linear-gradient(to right, #fff 0%, #fff 16%, #f2f2f2 16%,  #f2f2f2 84%, #fff 84%, #fff 100%);
+  margin:0 auto;
+}
+.gray{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  &:hover{
+    filter: none;
+    filter: contrast(200%);
+    filter: hue-rotate(10deg);
+  }
+}
+
+
+
+
+
+@import './_header.scss';
+@import './_footer.scss';
+@import './_button.scss';
+@import './_home.scss';
+
+@media (max-width:599px) {
+
+  h1{
+    color:$main-color;
+    &.page-title{
+      font-size:60px;
+      font-weight: 900;
+      margin-top: 12vh;
+    }
+    &.hero{
+      font-size:30px;
+      font-weight: 700;
+    }
+  }
+  h2 {
+      font-size: 46px;/* 24px*/
+  }
+  p{
+    font-size: 16px;
+  }
+  button{
+    font-size:20px;
+  }
+}
