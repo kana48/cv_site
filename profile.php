@@ -20,7 +20,7 @@
           <p>DALIM SOFTWARE GmbH. | Mai 2021 - Décembre 2022</p>
           <p>Rédaction d'articles sur le tourisme en France pour des guides touristiques</p>
   </div>
-   <img src="img/dalim-logo.jpg" alt="" class="profile-career-img">
+   <img src="img/dalim-logo.jpg" alt="" class="profile-career-img logo">
 </div>
 
 <div class="profile-career-item">
@@ -29,7 +29,7 @@
           <p>DALIM SOFTWARE GmbH. | Mai 2021 - Décembre 2022</p>
           <p>Rédaction d'articles sur le tourisme en France pour des guides touristiques</p>
   </div>
-   <img src="img/dalim-logo.jpg" alt="" class="profile-career-img">
+   <img src="img/dalim-logo.jpg" alt="" class="profile-career-img logo">
 </div>
 
 <div class="profile-career-item">
@@ -38,7 +38,7 @@
           <p>DALIM SOFTWARE GmbH. | Mai 2021 - Décembre 2022</p>
           <p>Rédaction d'articles sur le tourisme en France pour des guides touristiques</p>
   </div>
-   <img src="img/dalim-logo.jpg" alt="" class="profile-career-img">
+   <img src="img/dalim-logo.jpg" alt="" class="profile-career-img logo">
 </div>
 </section>
 
@@ -57,7 +57,7 @@
             </ul>
             <p>IIEF -  DUEF C1/ C2 |Septembre 2019－Mai 2020</p>
     </div>
-    <img src="img/caweb-logo.png" alt="" class="profile-education-img">
+    <img src="img/caweb-logo.png" alt="" class="profile-education-img logo">
   </div>
 
   <div class="profile-education-item">
@@ -71,7 +71,7 @@
             </ul>
             <p>Echange Universitaire en France Université Lyon 3 |2014－ 2015</p>
     </div>
-    <img src="img/caweb-logo.png" alt="" class="profile-education-img">
+    <img src="img/caweb-logo.png" alt="" class="profile-education-img logo">
   </div>
 </section>
 

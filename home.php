@@ -25,6 +25,7 @@
       <img src="img/p1.png" alt="" class="gray">
       <img src="img/p2.jpg" alt="" class="gray">
       <img src="img/p3.jpg" alt="" class="gray">
+      <a href="#" class="seeMore ver">see more</a>
       <ul class="sort">
           <li><a href="">#WEB</a></li>
           <li><a href="">#PAO</a></li>
