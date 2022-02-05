@@ -6,8 +6,9 @@ div{
   }
   .caption{
     position: absolute;
-    top:200px;
-    left:50px;
+    top:38vh;
+    right:16%;
+    width: 190px;
   }
   .h-photo-date{
     position: absolute;
@@ -38,6 +39,7 @@ header{
   .logo{
     text-align: left !important;
     margin-left: 0;
+    margin-bottom: 10px;
   }
   .h-left{
     position: absolute;
@@ -85,7 +87,17 @@ nav{
     display: none;
   }
   .caption{
-    top:150px;
-    left:-50px;
+    right: -16% !important;
+  }
+  nav.menu{
+    margin-top: 5vh;
+  }
+  .h-left{
+    position: absolute;
+    left: 0vw;
+    width: 36vw;
+  }
+  .pc{
+    display: none;
   }
 }
