@@ -1,5 +1,6 @@
 <section>
-<img src="img/profile.jpg" alt="" class="profile-profile-img gray">
+<img src="img/profile.jpg" alt="" class="profile-profile-img gray pc">
+<img src="img/profile-sp.jpg" alt="" class="profile-profile-img gray sp">
 </section>
 
 <section class="profile-profile">

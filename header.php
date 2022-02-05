@@ -10,7 +10,7 @@
   <!-- <div class="caption small ver pc">Je m’appele Kana,</br>
   Je suis etudiante en Master CAWEB</div> -->
 
-  <ul class="liens">
+  <ul class="liens pc">
     <li><a href="#" >Facebook</a></li>
     <li><a href="#" >Instagram</a></li>
     <li><a href="#" >Twitter</a></li>
