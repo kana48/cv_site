@@ -1,3 +1,10 @@
+<section>
+  <p>
+  Si vous avez des questions à propos de ce site, de mon profil,</br>
+  ou si vous voulez vous renseigner sur les meilleurs restaurants de Tokyo,</br>
+  veuillez m'envoyer un e-mail ou me contacter sur LinkedIn. Je vous répondrai dès que possible.
+  </p>
+</section>
 <section class="box_con06">
     <form method="post" action="mail.php">
         <ul class="formTable">

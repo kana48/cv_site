@@ -19,7 +19,7 @@ switch ($page) {
     break;
   case 'travaux-item':
     $page="travaux-item";
-    $title="Travaux-item";
+    $title="Travail";
     // $cta="Contact";
     break;
   default:
@@ -46,7 +46,6 @@ switch ($page) {
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200;500&display=swap"
     rel="stylesheet">
-
   <link rel="stylesheet" href="css/style.min.css" type="text/css">
 </head>
 

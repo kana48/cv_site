@@ -29,11 +29,12 @@ h1{
   }
   &.hero{
     font-size:$fs-hero;
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 h2 {
     font-size: $fs-h2;
+    font-weight: 800;
 }
 p{
   font-size: $fs-p;
@@ -69,6 +70,7 @@ section{
   margin: 50px auto;
 }
 
+
 @import './_header.scss';
 @import './_navig.scss';
 @import './_footer.scss';
@@ -76,6 +78,7 @@ section{
 @import './_home.scss';
 @import './_contact.scss';
 @import './_profile.scss';
+@import './_travaux.scss';
 
 @media (max-width:599px) {
 

@@ -9,10 +9,10 @@
       <h2>Profile</h2>
       <div class="intro">
         <p>Kana YAMADA</p>
-        <p>Je suis Web designer</p>
+        <p>Web designer,Web developer</p>
       </div>
         <p class=home-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum eros a eros egestas, in finibus ante mollis. Morbi hendrerit tortor ex, at convallis dui volutpat eget. Nullam imperdiet sit amet magna ut tempor. Etiam porta sagittis felis, vel faucibus orci varius vitae. Etiam dui purus, lacinia at felis et, iaculis sagittis lorem. </p>
-      <a href="#" class="readMore ver">read more</a>
+      <a href="?page=profile" class="readMore ver">read more</a>
     </section>
 
     <section>
@@ -21,11 +21,47 @@
   
 
     <section class="travaux animate slide-from-right">
+      
+
+
       <h2>Travaux</h2>
-      <img src="img/p1.png" alt="" class="gray">
-      <img src="img/p2.jpg" alt="" class="gray">
-      <img src="img/p3.jpg" alt="" class="gray">
-      <a href="#" class="seeMore ver">see more</a>
+      <div class="body-slider">
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p2.jpg" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p3.jpg" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+    <div class="slide">
+    <img src="img/p1.png" height="200" width="300" alt="" class="gray"/>
+    </div>
+  </div>
+</div>
+</div>
+      <a href="?page=travaux" class="seeMore ver">see more</a>
       <ul class="sort">
           <li><a href="">#WEB</a></li>
           <li><a href="">#PAO</a></li>
