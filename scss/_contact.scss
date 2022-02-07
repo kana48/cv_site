@@ -47,6 +47,10 @@
   padding: 1em;
   position: relative;
 }
+.contact-footer{
+  margin-top: 0 !important;
+}
+
 @media only screen and (min-width: 769px) {
   .box_con06 form ul li .title {
     display: -webkit-flex;

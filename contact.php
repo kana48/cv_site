@@ -10,7 +10,7 @@
         <ul class="formTable">
           <li>
             <p class="title"><em>Votre nom<span>Requis</span></em></p>
-            <div class="box_det"><input size="20" type="text" class="wide" name="お名前" /></div>
+            <div class="box_det"><input size="20" type="text" class="wide" name="Name" /></div>
           </li>
           <li>
             <p class="title"><em>Adresse Mail<span>Requis</span></em></p>
@@ -18,7 +18,7 @@
           </li>
           <li>
             <p class="title"><em>Message</em></p>
-            <div class="box_det"><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></div>
+            <div class="box_det"><textarea name="Message" cols="50" rows="5"></textarea></div>
           </li>
         </ul>
         <div class="con_pri">
@@ -41,7 +41,7 @@
       </form>
 </section>
 
-<footer>
+<footer class="contact-footer">
   <button type="button"><input type="submit" value="Envoyer" /></button>
   <a href="#" id="to_top"></a>
   <h2>Merci d'avoir visité mon site</h2>
