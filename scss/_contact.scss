@@ -91,7 +91,8 @@
   z-index: 1;
 }
 .box_con06 form ul li .title span {
-  background: #cd6f55;
+  // background: #cd6f55;
+  background: $main-color;
   padding: 0 .3em;
   color: $sub-color;
   margin-left: .5em;
