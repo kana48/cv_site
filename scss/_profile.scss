@@ -19,47 +19,47 @@
     width: 60%;
   }
 }
-.profile-career-item,
-.profile-education-item,
-.profile-volunteer-item{
-  display: flex;
-}
-.profile-career{
-  width: 65%;
-  h2{
-    text-align: left;
-  }
-  .info p{
-    font-weight: bold;
-  }
-  .info p:nth-child(3){
-    font-weight: normal;
-  }
-  .profile-career-img{
-    width: auto;
-    height: 100px;
-    object-fit: cover;
-    padding: 5px;
-  }
-}
-.profile-education{
-  width: 65%;
-  h2{
-    text-align: left;
-  }
-  .info p{
-    font-weight: bold;
-  }
-  ul li{
-    font-weight: normal;
-  }
-  .profile-education-img{
-    width: auto;
-    height: 100px;
-    object-fit: cover;
-    padding: 5px;
-  }
-}
+// .profile-career-item,
+// .profile-education-item,
+// .profile-volunteer-item{
+//   display: flex;
+// }
+// .profile-career{
+//   width: 65%;
+//   h2{
+//     text-align: left;
+//   }
+//   .info p{
+//     font-weight: bold;
+//   }
+//   .info p:nth-child(3){
+//     font-weight: normal;
+//   }
+//   .profile-career-img{
+//     width: auto;
+//     height: 100px;
+//     object-fit: cover;
+//     padding: 5px;
+//   }
+// }
+// .profile-education{
+//   width: 65%;
+//   h2{
+//     text-align: left;
+//   }
+//   .info p{
+//     font-weight: bold;
+//   }
+//   ul li{
+//     font-weight: normal;
+//   }
+//   .profile-education-img{
+//     width: auto;
+//     height: 100px;
+//     object-fit: cover;
+//     padding: 5px;
+//   }
+// }
 .profile-volunteer{
   width: 65%;
   h2{
@@ -158,6 +158,16 @@
   .profile-skills{
     display: block;
   }
+  .timeline__img{
+    display: none;
+  }
+  .profile-timeline{
+    width: 70%;
+  }
+  .timeline__content-title{
+    font-size: 33px !important;
+  }
+
 }
 
 // Timeline
@@ -182,7 +192,7 @@ $timeline-container-width:100%;
     color: #fff;
     &-title {
       font-weight: normal;
-      font-size: 66px;
+      font-size: 60px;
       margin: -10px 0 0 0;
       transition: .4s;
       padding: 0 10px;
@@ -256,7 +266,7 @@ $timeline-container-width:100%;
         opacity: 1;
       }
       .timeline__content-title {
-        margin: -50px 0 20px 0;
+        margin: -30px 0 20px 0;
       }
     }
     @include responsive() {
@@ -305,7 +315,7 @@ $timeline-container-width:100%;
     &__title {
       color: #fff;
       font-size: 46px;
-      font-weight: normal;
+      font-weight: 700;
       margin: 0;
     }
   }

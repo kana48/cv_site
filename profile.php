@@ -15,56 +15,59 @@
     conception de sites web. J'adore voyager et cuisiner. 
        </p>
 </section>
-<section>
+<section class="profile-timeline">
   <div class="timeline-container" id="timeline-1">
     <div class="timeline-header">
       <h2 class="timeline-header__title">Expérience professionnelle & Formation universitaire</h2>
     </div>
     <!-- Meiji -->
     <div class="timeline">
+
       <div class="timeline-item" data-text="Formation universitaire">
-        <div class="timeline__content"><img class="timeline__img" src="img/tokyo2.jpg"/><img src="img/tokyo.jpg" height="100" width="100"/>
+        <div class="timeline__content"><img class="timeline__img" src="img/tokyo-day.png"/><img src="img/meiji-logo.png" height="100" width="100"/>
           <h2 class="timeline__content-title">Avril 2013 - Mars 2017</h2>
           <p class="timeline__content-desc">
-              <p>Université de Meiji</p>
+              <strong><p>Université de Meiji</p></strong>
               <p>Licence Littérature et Art</p>
               <ul>
                 <li>- Français </li>
                 <li>- Littérature et édition</li>
                 <li>- Études des médias</li>
               </ul>
-              <p>Echange Universitaire en France Université Lyon 3 |2014－ 2015</p>
+              <strong><p>Echange Universitaire en France Université Lyon3 2014 - 2015</p></strong>
             </p>
         </div>
       </div>
 
       <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/dnp-logo.png"/><img src="img/tokyo.jpg" height="100" width="100"/>
+        <div class="timeline__content"><img class="timeline__img" src="img/printing.png"/><img src="img/dnp-logo.png" height="100" width="170"/>
           <h2 class="timeline__content-title">Avril 2017 - Mars 2019</h2>
           <p class="timeline__content-desc">
-            <p>Cheffe de Fabrication des industries graphiques</p>
+            <strong><p>Cheffe de Fabrication des industries graphiques</p></strong>
             <p>DNP Dai Nippon Printing co.</p>
             <p>Négociation avec les fournisseurs et imprimeurs. Relation et conseil client</p>
           </p>
         </div>
       </div>
+
       <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/tikyu.jpg"/><img src="img/tokyo.jpg" height="100" width="100"/>
-          <h2 class="timeline__content-title">Mai 2019 - Décembre 2019</h2>
+        <div class="timeline__content"><img class="timeline__img" src="img/travel-guide.png"/>
+          <h2 class="timeline__content-title">Mai 2019 - Déc 2019</h2>
           <p class="timeline__content-desc">
-            <p>Rédactrice du guide</p>
+            <strong><p>Rédactrice du guide</p></strong>
             <p>Office Guia inc.</p>
             <p>Rédaction d'articles sur le tourisme en France pour des guides touristiques</p>
           </p>
         </div>
       </div>
+
       <div class="timeline-item" data-text="Formation universitaire">
-        <div class="timeline__content"><img class="timeline__img" src="img/caweb-logo.png"/><img src="img/tokyo.jpg" height="100" width="100"/>
-          <h2 class="timeline__content-title">Septembre 2019 - aujourd'hui</h2>
+        <div class="timeline__content"><img class="timeline__img" src="img/Strasbourg.png"/><img src="img/caweb-logo.png" height="100" width="100"/>
+          <h2 class="timeline__content-title">Sept 2019 - aujourd'hui</h2>
           <p class="timeline__content-desc">
             <p>Université de Strasbourg</p>
-                <p>IIEF -  DUEF C1/ C2</p>
-                <p>Master CAWEB</p>
+            <strong><p>IIEF -  DUEF C1/ C2</p></strong>
+                <strong><p>Master CAWEB</p></strong>
                 <ul>
                   <li>- Marketing digital. Rédaction web</li>
                   <li>- Création de sites web multilingues</li>
@@ -72,15 +75,15 @@
                   <li>- Méthodes et outils de la localisation</li>
                   <li>- Gestion de projet</li>
                 </ul>
-                
               </p>
         </div>
       </div>
+
       <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/dalim-logo.jpg"/><img src="img/tokyo.jpg" height="100" width="100"/>
-          <h2 class="timeline__content-title">Novembre 2021 - aujourd'hui</h2>
+        <div class="timeline__content"><img class="timeline__img" src="img/mac.png"/><img src="img/dalim-logo.png" height="100" width="170"/>
+          <h2 class="timeline__content-title">Nov 2021 - aujourd'hui</h2>
           <p class="timeline__content-desc">
-            <p>Assistante Marketing</p>
+            <strong><p>Assistante Marketing</p></strong>
               <p>DALIM SOFTWARE GmbH.</p>
               <ul>
                   <li>- Développement web(Hubspot CMS)</li>
@@ -90,6 +93,7 @@
             </p>
         </div>
       </div>
+
     </div>
   </div>
 </section>

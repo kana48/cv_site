@@ -7,6 +7,9 @@ section{
     position: relative;
   }
 }
+.pc_hid{
+  display: none;
+}
 
 h2{
   font-weight: bold;
@@ -163,5 +166,20 @@ $animationSpeed: 40s;
   }
   .p-img{
     height: 100px;
+  }
+  .pc_hid{
+    display: block;
+ }
+ .heroSkills{
+   font-size: 25px;
+   text-align: right;
+ }
+}
+
+@media (min-width:600px){
+   &.heroSkills{
+    font-size:$fs-hero-skills;
+    font-weight: 800;
+    text-align: right;
   }
 }

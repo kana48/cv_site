@@ -1,6 +1,6 @@
 <section class="home-hero">
   <h1 class="hero">Je m'appelle Kana.</h1>
-  <h1 class="heroSkills">Mes spécialités <span id="skills">Web Design</span></h1>
+  <h1 class="heroSkills">Mes spécialités <br class="pc_hid"><span id="skills">Web Design</span></h1>
 </section>
 
 <!-- Script to handle the typing effect : credit - https://github.com/mattboldt/typed.js/ -->
@@ -26,7 +26,7 @@
   <h2>Profile</h2>
   <div class="intro">
     <p>Kana YAMADA</p>
-    <p>Web designer,Web developer</p>
+    <p>Web designer,<br class="pc_hid">Web developer</p>
   </div>
   <p class=home-text>Etudiante M2 en Master CAWEB & Apprentie dans le département marketing chez DALIM SoftWare. Née à
     Tokyo, Japon. Après avoir travaillé pour une grande entreprise japonaise spécialisée dans l’imprimerie Dai Nippon
