@@ -14,10 +14,22 @@ switch ($page) {
     $page="travaux";
     $title="Travaux";
     break;
-  case 'travaux-item':
-    $page="travaux-item";
+  case 'dalimsustainability':
+      $page="dalimsustainability";
+      $title="Travail";
+      break;
+  case 'kakekomigyoza':
+    $page="kakekomigyoza";
     $title="Travail";
     break;
+  case 'sunnyphotostory':
+      $page="sunnyphotostory";
+      $title="Travail";
+      break;
+  case 'hackmybody':
+        $page="hackmybody";
+        $title="Travail";
+        break;
   default:
     $page="home";
     $title="Bonjour,";

@@ -51,36 +51,18 @@
   <div class="body-slider">
     <div class="slider">
       <div class="slide-track">
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
+        <a class="slide" href="?page=dalimsustainability">
+          <img src="img/dalim-sust1.jpg" height="200" width="300" alt="" class="gray" />
+       </a>
+        <a class="slide" href="?page=kakekomigyoza">
           <img src="img/p2.jpg" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p3.jpg" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
-        <div class="slide">
-          <img src="img/p1.png" height="200" width="300" alt="" class="gray" />
-        </div>
+        </a>
+        <a class="slide" href="?page=sunnyphotostory">
+          <img src="img/p4.jpg" height="200" width="300" alt="" class="gray" />
+        </a>
+        <a class="slide" href="?page=hackmybody">
+          <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />
+        </a>
       </div>
     </div>
   </div>
