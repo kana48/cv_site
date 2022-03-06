@@ -30,6 +30,14 @@ switch ($page) {
         $page="hackmybody";
         $title="Travail";
         break;
+  case 'web':
+        $page="web";
+        $title="#web";
+        break;
+  case 'traduction':
+        $page="traduction";
+        $title="#L10n";
+        break;
   default:
     $page="home";
     $title="Bonjour,";

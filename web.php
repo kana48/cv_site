@@ -1,11 +1,7 @@
 
 <section class="travaux-list">
-<ul class="sort">
-    <li><a href="?page=web">#WEB</a></li>
-    <li><a href="">#PAO</a></li>
-    <li><a href="?page=traduction">#L10n</a></li>
-  </ul>
 
+<a href="?page=travaux">←retour</a>
 
   <a class="item full" href="?page=dalimsustainability">
     <span class="web">Web</span>
@@ -78,6 +74,8 @@
   </a> -->
   </div>
 </section>
+
+
 <?php 
   include "footer.php"; 
   ?>
