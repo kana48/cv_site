@@ -11,7 +11,7 @@
 
   <section>
   <p class=travaux-single-text>Il s'agit d'un projet de refonte de site web pour une société de coachs d'entraînement personnel. En collaboration avec un développeur web, j'ai été chargé de la conception du site. Nous sommes maintenant dans la phase de codage.
-  Vous pouvez voir le tout à partir du bouton ci-dessous.
+  Vous pouvez voir les maquettes à partir du bouton ci-dessous.
   </p>
   <a href="https://xd.adobe.com/view/0a2def30-6b27-4fa3-9e2c-fcc79263231e-5f7e/?fullscreen" class="travaux-single-link">Desktop</a>
   <a href="https://xd.adobe.com/view/c3889e3e-d3ed-4e99-82c2-6aafeefb9993-96db/?fullscreen" class="travaux-single-link">Mobile</a>

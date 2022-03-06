@@ -28,18 +28,18 @@
     <p>Kana YAMADA</p>
     <p>Web designer,<br class="pc_hid">Web developer</p>
   </div>
-  <p class=home-text>Etudiante M2 en Master CAWEB & Apprentie dans le département marketing chez DALIM SoftWare. Née à
+  <p class=home-text>Etudiante M2 en <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> & Apprentie dans le département marketing chez <strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>. Née à
     Tokyo, Japon. Après avoir travaillé pour une grande entreprise japonaise spécialisée dans l’imprimerie Dai Nippon
     Printing, puis comme rédactrice de guides touristiques sur la France, je me suis installée en France. En 2020 j’ai
     intégré le Master CAWEB à l'Université de Strasbourg. J'étudie le marketing digital, la localisation et la
     conception de sites web. J'adore voyager et cuisiner. 
 
   </p>
-  <a href="?page=profile" class="readMore ver">read more</a>
+  <a href="?page=profile" class="readMore ver">En savoir plus</a>
 </section>
 
 <section>
-  <img src="img/profile.jpg" alt="" class="p-img gray">
+  <img src="img/profile.jpg" alt="" class="p-img gray-only">
 </section>
 
 
@@ -63,10 +63,22 @@
         <a class="slide" href="?page=hackmybody">
           <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />
         </a>
+        <a class="slide" href="?page=dalimsustainability">
+          <img src="img/dalim-sust1.jpg" height="200" width="300" alt="" class="gray" />
+       </a>
+        <a class="slide" href="?page=kakekomigyoza">
+          <img src="img/p2.jpg" height="200" width="300" alt="" class="gray" />
+        </a>
+        <a class="slide" href="?page=sunnyphotostory">
+          <img src="img/p4.jpg" height="200" width="300" alt="" class="gray" />
+        </a>
+        <a class="slide" href="?page=hackmybody">
+          <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />
+        </a>
       </div>
     </div>
   </div>
-  <a href="?page=travaux" class="seeMore ver">see more</a>
+  <a href="?page=travaux" class="seeMore ver">Voir plus</a>
   <ul class="sort">
     <li><a href="">#WEB</a></li>
     <li><a href="">#PAO</a></li>

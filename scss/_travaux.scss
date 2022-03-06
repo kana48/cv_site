@@ -61,34 +61,7 @@
   left: -4px;
 }
 
-.popular{
-	width: 100px;
-	margin: 20PX;
-	z-index: 10;
-	padding: 7px;
-	background: #9D50BB; 
-	background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  
-	border-radius: 50px 120px 120px;
-}
-.action{
-	width: 16%;
-	margin: 20PX;
-	z-index: 10;
-	padding: 7px;
-	background: #50C9C3;  
-	background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  
-	background: linear-gradient(to right, #96DEDA, #50C9C3); 
-}
-.romance{
-	width: 24%;
-	margin: 20PX;
-	z-index: 10;
-	padding: 7px;
-	background: #24C6DC; 
-	background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  
-	background: linear-gradient(to right, #514A9D, #24C6DC); 
 
-}
 .item:nth-of-type(1n) {
 	background-image: url("../img/dalim-sust1.jpg");
 	
@@ -154,7 +127,6 @@
 	z-index: 1;
 	padding: 15px;
 	background: #fff;
-	text-transform: lowercase;
 	letter-spacing: 1px;
 	color: #828282;
 }
@@ -172,6 +144,7 @@
 }
 .travaux-single-info{
 	float: left;
+	letter-spacing: -1px;
 }
 .travaux-single-img-horizontal{
 	object-fit: cover;
@@ -199,4 +172,14 @@
 .travaux-single-link:hover{
 	background-color: $main-color;
 	color:#fff;
+}
+.travaux-back{
+	display: block;
+	text-decoration: underline;
+	padding: 10px 10px 10px 0;
+	text-align: center;
+}
+
+.travaux-back:hover{
+	opacity: 0.5;
 }

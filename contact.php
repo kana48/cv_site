@@ -64,7 +64,7 @@
 <footer class="contact-footer">
   <button type="submit"><input type="submit" value="Envoyer" /></button>
   <a href="#" id="to_top"></a>
-  <h2>Merci d'avoir visité mon site</h2>
+  <h2>Merci d'avoir <br class="pc_hid">visité mon site</h2>
   <a class="copyright">copyright@kanayamada</a>
 </footer>
 </form>

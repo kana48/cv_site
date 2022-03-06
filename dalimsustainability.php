@@ -1,6 +1,6 @@
 <section class="travaux-single">
   <div class="intro travaux-single-info">
-    <p>Duration: 2 month</p>
+    <p>Duration: 2 mois</p>
     <a>#Web</a>
     <p>Coporate Project</p>
     <hr>
@@ -10,11 +10,11 @@
   </section>
 
   <section>
-  <p class=travaux-single-text>J’ai créé un site web pour sunny_photostory, une photographe basée à Strasbourg. Sur le thème de son slogan, “Feel this moment”, J’ai essayé de rester simple, et de mettre en avant ses atouts et son état d’esprit. J’ai également utilisé des plugins tels que Elementor et Smart Slider afin qu’elle puisse personnaliser et mettre à jour le site facilement par elle-même.
+  <p class=travaux-single-text>Il s'agit de ma première mission en tant qu'apprentie chez Dalim software, basée sur la maquette d'un designer web, construite à l'aide du CMS Hubspot.
   </p>
   <a href="https://sustainability.dalim.com/" class="travaux-single-link">Visiter le site</a>
   <h2>Outils</h2>
-  <p class=travaux-single-text-tool>Hubspot CMS,Figma,HTML&CSS,JavaScript
+  <p class=travaux-single-text-tool>Hubspot CMS <br class="pc_hid">Figma HTML&CSS JavaScript
   </p>
   </section>
 
@@ -28,6 +28,7 @@
     <img src="img/p8.jpg" alt="">
   </div> -->
 </section>
+<a href="?page=travaux" class="travaux-back">Retour à la liste</a>
 
 <?php 
   include "footer.php"; 

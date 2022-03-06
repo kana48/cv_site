@@ -80,9 +80,6 @@ nav{
 // end of nav
 
 @media (max-width:599px){
-  // .liens,nav{
-  //   display: none;
-  // }
   .h-photo{
     display: none;
   }
@@ -99,5 +96,8 @@ nav{
   }
   .pc{
     display: none;
+  }
+  .header .logo{
+    margin: 0 auto;
   }
 }

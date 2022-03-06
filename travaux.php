@@ -13,7 +13,7 @@
   </a>
 
   <a class="item large" href="?page=kakekomigyoza">
-    <span class="web">WEB</span>
+    <span class="web">Web</span>
     <div class="details">Kakekomi Gyoza</div>
   </a>
 
@@ -25,7 +25,7 @@
   </a>
 
   <a class="item large" href="?page=hackmybody">
-    <span>Wireframe</span>
+    <span>Web design</span>
     <div class="details">
       Hack my body
     </div>
