@@ -1,8 +1,7 @@
 <section>
   <p>
-    Si vous avez des questions à propos de ce site, de mon profil,</br>
-    ou si vous voulez vous renseigner sur les meilleurs restaurants de Tokyo,</br>
-    veuillez m'envoyer un e-mail ou me contacter sur LinkedIn. Je vous répondrai dès que possible.
+  If you want to ask something about this website, about me or just say hi,
+  please send me an e-mail or contact me on LinkedIn. I will get back to you as soon as possible.
   </p>
 </section>
 <section class="box_con06">
@@ -11,12 +10,12 @@
     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScKTb6ylqPOHa7f9LHzPdQCLSBQFaPsrnZaEEuUoU2Mnk1xwQ/formResponse">
     <ul class="formTable">
       <li>
-        <p class="title"><em>Votre nom<span>Requis</span></em></p>
+        <p class="title"><em>Name<span>required</span></em></p>
         <div class="box_det"><input size="20" type="text" class="wide" name="entry.1613331913" required /></div>
       </li>
 
       <li>
-        <p class="title"><em>Adresse Mail<span>Requis</span></em></p>
+        <p class="title"><em>Mail Adress<span>required</span></em></p>
         <label for="email"></label>
         <div class="box_det">
           <input id="email" type="text" size="30" class="wide" name="entry.1731947848" placeholder="example@mail.co.jp"
@@ -25,7 +24,7 @@
       </li>
 
       <li>
-        <p class="title"><em>Message<span>Requis</span></em></p>
+        <p class="title"><em>Message<span>required</span></em></p>
         <label for="msg"></label>
         <div class="box_det">
           <textarea cols="50" rows="5" id="msg" name="entry.612911345" placeholder="Veuillez écrire votre message"
@@ -37,7 +36,7 @@
     <div class="con_pri">
       <div class="box_pri">
         <div class="box_tori">
-          <h4>Politique de confidentialité</h4>
+          <h4>Privacy Policy</h4>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nobis quis culpa velit sed mollitia in!
             Velit quasi ut ipsam possimus eaque dolorem? Assumenda obcaecati odit deserunt, quas nostrum animi?
             Voluptatum consequatur tenetur officiis nihil reprehenderit voluptates magni ducimus dolorum harum explicabo
@@ -62,9 +61,9 @@
 </section>
 
 <footer class="contact-footer">
-  <button type="submit"><input type="submit" value="Envoyer" /></button>
+  <button type="submit"><input type="submit" value="Submit" /></button>
   <a href="#" id="to_top"></a>
-  <h2>Merci d'avoir <br class="pc_hid">visité mon site</h2>
+  <h2>Thank you for dropping by</h2>
   <a class="copyright">copyright@kanayamada</a>
 </footer>
 </form>

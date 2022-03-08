@@ -1,0 +1,170 @@
+
+$main-color:#000;
+$sub-color:#fff;
+// 144px
+$fs-page-title:144px;
+// 80px
+$fs-hero:80px;
+$fs-hero-skills:55px;
+// 11px
+$fs-cap:11px;
+$fs-p:20px;
+// 60px
+$fs-h2:60px;
+
+@import './_header.scss';
+@import './_navig.scss';
+@import './_footer.scss';
+@import './_button.scss';
+@import './_home.scss';
+@import './_contact.scss';
+@import './_profile.scss';
+@import './_travaux.scss';
+
+*{
+  font-family: 'Barlow', sans-serif;
+  box-sizing: border-box;
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+}
+
+h1{
+  color:$main-color;
+  &.page-title{
+    font-size:$fs-page-title;
+    font-weight: 900;
+    margin-top: 12vh;
+  }
+  &.hero{
+    font-size:$fs-hero;
+    font-weight: 800;
+  }
+  // &.heroSkills{
+  //   font-size:$fs-hero-skills;
+  //   font-weight: 800;
+  //   text-align: right;
+  // }
+}
+h2 {
+    font-size: $fs-h2;
+    font-weight: 800;
+}
+p{
+  font-size: $fs-p;
+}
+button{
+  font-size: $fs-h2;
+}
+
+.sort li a:hover{
+  text-decoration: underline;
+}
+
+
+// commun
+main{
+  background: linear-gradient(to right, #fff 0%, #fff 16%, #f2f2f2 16%,  #f2f2f2 84%, #fff 84%, #fff 100%);
+  margin:0 auto;
+}
+.gray{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  &:hover{
+    filter: none;
+    filter: contrast(200%);
+    filter: hue-rotate(10deg);
+  }
+}
+.gray-only{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  }
+section{
+  // width: calc(100% - 32px);
+  margin: 0 auto;
+  max-width: 800px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+// cursor
+body {
+  position: relative;
+  cursor: none;
+}
+#cursor{
+  position: fixed;
+
+  /*丸の大きさと色の指定*/
+  background: #000;
+  border-radius:10px;
+  width: 10px;
+  height: 10px;
+  margin: -10px 0 0 -10px;/*真ん中にくるようにマイナスマージンで調整*/
+
+  z-index: 12;/*一番手前に来るように*/
+  pointer-events: none;/*クリックできなくなるのを防ぐため。noneで対応*/
+  opacity: 0;
+  transition: transform 0.1s;/*アニメーションの秒数指定*/
+}
+
+/*ちょっと遅れてついてくるストーカー要素*/
+#stalker{
+  position: fixed;
+
+  /*丸の大きさと色の指定*/
+  background: #000;
+  width: 40px;
+  height: 40px;
+  border-radius:30px;
+  margin: -25px 0 0 -25px;/*真ん中にくるようにマイナスマージンで調整*/
+  z-index: 11;/*カーソルの後ろに来るように*/
+  pointer-events: none;/*クリックできなくなるのを防ぐため。noneで対応*/
+  opacity: 0;
+  transition: transform ease .1s;/*アニメーションの秒数指定*/
+}
+
+#stalker.active{
+  transform: scale(1.6);
+  background: #333;
+}
+
+// end of cursor
+
+@media (max-width:599px) {
+
+  h1{
+    color:$main-color;
+    &.page-title{
+      font-size:60px;
+      font-weight: 900;
+      margin-top: 6vh;
+    }
+    &.hero{
+      font-size:30px;
+      font-weight: 700;
+    }
+    &.heroSkills{
+      font-style: 25px !important;
+      font-weight: 700;
+    }
+  }
+  
+  h2 {
+      font-size: 46px;
+  }
+  p{
+    font-size: 16px;
+  }
+  button{
+    font-size:20px;
+  }
+}

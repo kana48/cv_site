@@ -1,6 +1,6 @@
 <section class="home-hero animate text-bg-img">
-  <h1 class="hero">Je m'appelle Kana.</h1>
-  <h1 class="heroSkills">Mes spécialités <br class="pc_hid"><span id="skills">Web Design</span></h1>
+  <h1 class="hero">My name is Kana.</h1>
+  <h1 class="heroSkills">I'm interested in <br class="pc_hid"><span id="skills">Web Design</span></h1>
 </section>
 
 <!-- Script to handle the typing effect : credit - https://github.com/mattboldt/typed.js/ -->
@@ -14,10 +14,10 @@
   typewriter.typeString('Web Design')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Localisation')
+    .typeString('Localization')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Développement')
+    .typeString('Development')
     .pauseFor(2500)
     .start()
 </script>
@@ -28,14 +28,10 @@
     <p>Kana YAMADA</p>
     <p>Web designer,<br class="pc_hid">Web developer</p>
   </div>
-  <p class=home-text>Etudiante M2 en <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> & Apprentie dans le département marketing chez <strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>. Née à
-    Tokyo, Japon. Après avoir travaillé pour une grande entreprise japonaise spécialisée dans l’imprimerie Dai Nippon
-    Printing, puis comme rédactrice de guides touristiques sur la France, je me suis installée en France. En 2020 j’ai
-    intégré le Master CAWEB à l'Université de Strasbourg. J'étudie le marketing digital, la localisation et la
-    conception de sites web. J'adore voyager et cuisiner. 
+  <p class=home-text>I’m a student of <strong><a href="https://mastercaweb.u-strasbg.fr/">#CAWEB Master </a></strong> & an apprentice in the marketing department at<strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>.Born in Tokyo, Japan, 27 years old. After working for a major general printing company and as an editor of a guidebook of French tourism, I moved to France. 2020: Enrolled in MasterCAWEB at the University of Strasbourg. I am studying Multilingual Web Design, Development, Localization and Translation.I love cooking and traveling. I'm also a specialist in Traditional Chinese medicine.
 
   </p>
-  <a href="?page=profile" class="readMore ver">En savoir plus</a>
+  <a href="?page=profile" class="readMore ver">Read more</a>
 </section>
 
 <section>
@@ -44,7 +40,7 @@
 
 
 <section class="travaux animate slide-from-right">
-  <h2>Travaux</h2>
+  <h2>Works</h2>
   <div class="body-slider">
     <div class="slider">
       <div class="slide-track">
@@ -75,7 +71,7 @@
       </div>
     </div>
   </div>
-  <a href="?page=travaux" class="seeMore ver">Voir plus</a>
+  <a href="?page=travaux" class="seeMore ver">See more</a>
   <ul class="sort">
     <li><a href="?page=web">#WEB</a></li>
     <!-- <li><a href="">#PAO</a></li> -->
@@ -84,5 +80,5 @@
 </section>
 
 <?php 
-  include "footer.php"; 
+  include "footer-en.php"; 
   ?>
