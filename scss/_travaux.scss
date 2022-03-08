@@ -62,25 +62,24 @@
 }
 
 
-.item:nth-of-type(1n) {
+#dalimsustainability {
 	background-image: url("../img/dalim-sust1.jpg");
 	
 }
-.item:nth-of-type(2n) {
+#kakekomigyoza {
 	background-image: url("../img/p2.jpg");
-	
 }
 
-.item:nth-of-type(3n) {
+#sunnyphotostory {
 	background-image: url("../img/p4.jpg");
-	
 }
 
-.item:nth-of-type(4n) {
+#hackmybody {
 	background-image: url("../img/hkm1.png");
-	
 }
-
+#deadlyBroadcast{
+	background-image: url("../img/deadlybroadcast.jpg") !important;
+}
 
 .item:after {
 	content: '';

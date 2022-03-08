@@ -1,4 +1,4 @@
-<section class="home-hero">
+<section class="home-hero animate text-bg-img">
   <h1 class="hero">Je m'appelle Kana.</h1>
   <h1 class="heroSkills">Mes spécialités <br class="pc_hid"><span id="skills">Web Design</span></h1>
 </section>
@@ -17,7 +17,7 @@
     .typeString('Localisation')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('PAO')
+    .typeString('Développement')
     .pauseFor(2500)
     .start()
 </script>
@@ -44,9 +44,6 @@
 
 
 <section class="travaux animate slide-from-right">
-
-
-
   <h2>Travaux</h2>
   <div class="body-slider">
     <div class="slider">
@@ -80,9 +77,9 @@
   </div>
   <a href="?page=travaux" class="seeMore ver">Voir plus</a>
   <ul class="sort">
-    <li><a href="">#WEB</a></li>
-    <li><a href="">#PAO</a></li>
-    <li><a href="">#Traducion</a></li>
+    <li><a href="?page=web">#WEB</a></li>
+    <!-- <li><a href="">#PAO</a></li> -->
+    <li><a href="?page=traduction">#L10n</a></li>
   </ul>
 </section>
 

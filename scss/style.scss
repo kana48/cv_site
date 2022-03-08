@@ -5,7 +5,7 @@ $sub-color:#fff;
 $fs-page-title:144px;
 // 80px
 $fs-hero:80px;
-$fs-hero-skills:59px;
+$fs-hero-skills:55px;
 // 11px
 $fs-cap:11px;
 $fs-p:20px;
@@ -58,6 +58,9 @@ button{
   font-size: $fs-h2;
 }
 
+.sort li a:hover{
+  text-decoration: underline;
+}
 
 
 // commun

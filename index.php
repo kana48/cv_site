@@ -32,7 +32,7 @@ switch ($page) {
         break;
   case 'web':
         $page="web";
-        $title="#web";
+        $title="#WEB";
         break;
   case 'traduction':
         $page="traduction";
