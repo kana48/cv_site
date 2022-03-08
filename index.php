@@ -6,8 +6,16 @@ switch ($page) {
     $page="contact";
     $title="Contact";
     break;
+  case 'contact-en':
+      $page="contact-en";
+      $title="Contact";
+      break;
   case 'profile':
     $page="profile";
+    $title="Profile";
+    break;
+  case 'profile-en':
+    $page="profile-en";
     $title="Profile";
     break;
   case 'travaux':
@@ -37,6 +45,10 @@ switch ($page) {
   case 'traduction':
         $page="traduction";
         $title="#L10n";
+        break;
+  case 'home-en':
+        $page="home-en";
+        $title="Hello.";
         break;
   default:
     $page="home";
