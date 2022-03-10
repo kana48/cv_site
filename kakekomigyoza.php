@@ -1,7 +1,7 @@
 <section class="travaux-single">
   <div class="intro travaux-single-info">
     <p>Duration: 6 mois</p>
-    <a>#Web</a>
+    <a href="?page=web">#WEB</a>
     <p>Team Project</p>
     <p>Position: Chef de projet</p>
     <hr>
