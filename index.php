@@ -4,51 +4,43 @@ $page = (!isset($_REQUEST['page'])) ? 'home' : $_REQUEST['page'];
 switch ($page) {
   case 'contact':
     $page="contact";
-    $title="Contact";
+    $title="Contact ";
     break;
-  case 'contact-en':
-      $page="contact-en";
-      $title="Contact";
-      break;
   case 'profile':
     $page="profile";
-    $title="Profile";
-    break;
-  case 'profile-en':
-    $page="profile-en";
-    $title="Profile";
+    $title="Profile ";
     break;
   case 'travaux':
     $page="travaux";
-    $title="Travaux";
+    $title="Travaux ";
     break;
   case 'dalimsustainability':
       $page="dalimsustainability";
-      $title="Travail";
+      $title="Travail ";
       break;
   case 'kakekomigyoza':
     $page="kakekomigyoza";
-    $title="Travail";
+    $title="Travail ";
     break;
   case 'sunnyphotostory':
       $page="sunnyphotostory";
-      $title="Travail";
+      $title="Travail ";
       break;
   case 'hackmybody':
         $page="hackmybody";
-        $title="Travail";
+        $title="Travail ";
         break;
   case 'web':
         $page="web";
-        $title="#WEB";
+        $title="#WEB    ";
         break;
   case 'traduction':
         $page="traduction";
-        $title="#L10n";
+        $title="#L10n   ";
         break;
-  case 'home-en':
-        $page="home-en";
-        $title="Hello.";
+  case 'deadlybroadcast':
+        $page="deadlybroadcast";
+        $title="Travail ";
         break;
   default:
     $page="home";
