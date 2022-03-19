@@ -48,9 +48,9 @@
   </div>
 
   <div class="h-right">
-    <a href="#" class="h-photo">
-      <div class="h-photo-date small ver">secret page</div>
-      <img src="../img/flo.jpg" alt="#" class="h-img gray">
+    <a href="https://kana-media-creation.com/en/top/" class="h-photo">
+      <div class="h-photo-date small ver">Old portfolio site</div>
+      <img src="../img/flo.jpg" alt="flower" class="h-img gray">
     </a>
     <div class="caption small ver">My name is Kana,</br>
       I’m a student of CAWEB Master</div>

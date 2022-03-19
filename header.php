@@ -25,9 +25,9 @@
 </div>
 
 <div class="h-right">
-<a href="#" class="h-photo">
-  <div class="h-photo-date small ver">secret page</div>
-  <img src="img/flo.jpg" alt="#" class="h-img gray">
+<a href="https://kana-media-creation.com/fr/top-fr/" class="h-photo">
+  <div class="h-photo-date small ver">Ancien site de portfolio</div>
+  <img src="img/flo.jpg" alt="fleur" class="h-img gray">
 </a>
 <div class="caption small ver">Je m’appele Kana,</br>
   Je suis etudiante en Master CAWEB</div>
