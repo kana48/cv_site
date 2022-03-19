@@ -4,7 +4,7 @@
   <ul class="sort">
     <li><a href="?page=web">#WEB</a></li>
     <!-- <li><a href="">#PAO</a></li> -->
-    <li><a href="?page=traduction">#L10n</a></li>
+    <li><a href="?page=traduction">#Localisation</a></li>
   </ul>
 
   <a class="item large" href="?page=hackmybody" id="hackmybody">

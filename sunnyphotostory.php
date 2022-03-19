@@ -5,7 +5,7 @@
     <p>Individual Project</p>
     <hr>
   </div>
-  <h2 class="travaux-single-title">Sunny_photostroy</h2>
+  <h2 class="travaux-single-title">Sunny photostroy</h2>
   <p class="travaux-single-subtitle">Site Web de la photographe multilingue Sonhee</p>
   </section>
 
