@@ -1,7 +1,7 @@
 <section class="travaux-single">
   <div class="intro travaux-single-info">
     <p>Duration: 1 mois</p>
-    <a href="?page=traduction">#L10n</a>
+    <a href="?page=traduction">#Localisation</a>
     <p>Freelance work</p>
     <hr>
   </div>

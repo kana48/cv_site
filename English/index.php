@@ -44,7 +44,7 @@ switch ($page) {
         break;
   default:
     $page="home";
-    $title="Hello.  ";
+    $title="Hello.   ";
     break;
 }
 ?>
@@ -54,7 +54,7 @@ switch ($page) {
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo $title;?></title>
+  <title>Kana YAMADA<?php echo $title;?></title>
   <link rel="stylesheet" href="../normalize.css">
 
 

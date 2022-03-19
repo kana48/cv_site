@@ -50,7 +50,7 @@
             <circle cx="43.11" cy="19.74" r="1.32"></circle>
           </svg></a></li>
       <!-- twitter -->
-      <li><a href="https://twitter.com/kanaMediaCreate"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"
+      <li><a href="https://twitter.com/kanaFR120919"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"
             stroke-width="3" stroke="#000000" fill="none" class="duration-300 transform transition-all"
             style="width: 48px; height: 48px;">
             <path

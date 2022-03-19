@@ -1,12 +1,12 @@
 
 
 .sp-menu {
-  // margin-left: auto;
   position: fixed;
   top: 50px;
   right: 20px;
   font-size: 32px;
   cursor: pointer;
+  z-index: 100;
 }
 
 
@@ -112,12 +112,8 @@
   }
   .active a{
     background-color: $main-color;
-    color:$main-color;
+    color:$sub-color;
   }
-  // .active a:hover{
-  //   opacity: 1;
-  // }
-
   .sp-menu {
     display: none;
   }
