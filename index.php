@@ -14,10 +14,14 @@ switch ($page) {
     $page="travaux";
     $title="Travaux ";
     break;
-  case 'dalimsustainability':
-      $page="dalimsustainability";
+  case 'dalimdevportal':
+      $page="dalimdevportal";
       $title="Travail ";
       break;
+  case 'dalimsustainability':
+        $page="dalimsustainability";
+        $title="Travail ";
+        break;
   case 'kakekomigyoza':
     $page="kakekomigyoza";
     $title="Travail ";
@@ -54,7 +58,9 @@ switch ($page) {
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kana YAMADA<?php echo $title;?></title>
+  <title>Kana YAMADA <?php echo $page;?></title>
+  <link rel="icon" href="img/favicon.ico" id="favicon">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
   <link rel="stylesheet" href="normalize.css">
 
 
