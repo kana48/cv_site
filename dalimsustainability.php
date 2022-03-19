@@ -19,9 +19,10 @@
   </section>
 
 <section>
-  <img src="img/dalim-sust1.jpg" alt="" class="travaux-single-img-horizontal">
-  <img src="img/dalim-sust2.jpg" alt="" class="travaux-single-img-horizontal">
-  <img src="img/dalim-sust3.jpg" alt="" class="travaux-single-img-horizontal">
+  <img src="img/dalim-sus-top.png" alt="" class="travaux-single-img-horizontal">
+  <img src="img/dalim-sus-9.png" alt="" class="travaux-single-img-horizontal">
+  <img src="img/dalim-sus-ourapproch.png" alt="" class="travaux-single-img-horizontal">
+  <img src="img/dalim-sus-contact.png" alt="" class="travaux-single-img-horizontal">
   <!-- <div class="travaux-single-img-vertical">
     <img src="img/p6.jpg" alt="">
     <img src="img/p7.jpg" alt="">

@@ -5,7 +5,7 @@
     <p>Individual Project</p>
     <hr>
   </div>
-  <h2 class="travaux-single-title">Sunny photostroy</h2>
+  <h2 class="travaux-single-title">Sunny photostory</h2>
   <p class="travaux-single-subtitle">Website of the multilingual photographer Sonhee</p>
   </section>
 
@@ -27,7 +27,9 @@
     <img src="img/p8.jpg" alt="">
   </div> -->
 </section>
+<section>
 <a href="?page=travaux" class="travaux-back">Back to the list</a>
+</section>
 <?php 
   include "footer.php"; 
   ?>
