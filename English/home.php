@@ -14,10 +14,10 @@
   typewriter.typeString('Web Design')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Localization')
+    .typeString('Motion design')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Development')
+    .typeString('UX design')
     .pauseFor(2500)
     .start()
 </script>
@@ -75,7 +75,7 @@
   <ul class="sort">
     <li><a href="?page=web">#WEB</a></li>
     <!-- <li><a href="">#PAO</a></li> -->
-    <li><a href="?page=traduction">#L10n</a></li>
+    <li><a href="?page=traduction">#Localization</a></li>
   </ul>
 </section>
 

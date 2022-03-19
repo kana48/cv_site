@@ -1,5 +1,5 @@
 <section>
-  <p>
+  <p class="contact-text">
     Si vous avez des questions à propos de ce site, de mon profil,</br>
     ou si vous voulez vous renseigner sur les meilleurs restaurants de Tokyo,</br>
     veuillez m'envoyer un e-mail ou me contacter sur <strong><a href="https://www.linkedin.com/in/kana-yamada-8b78a3188/?locale=fr_FR">#LinkedIn</a></strong>. Je vous répondrai dès que possible.
@@ -12,7 +12,7 @@
     <ul class="formTable">
       <li>
         <p class="title"><em>Votre nom<span>Requis</span></em></p>
-        <div class="box_det"><input size="20" type="text" class="wide" name="entry.1613331913" required /></div>
+        <div class="box_det"><input size="20" type="text" class="wide" name="entry.1613331913" placeholder="Prénom Nom" required /></div>
       </li>
 
       <li>
@@ -34,7 +34,7 @@
       </li>
 
     </ul>
-    <div class="con_pri">
+    <!-- <div class="con_pri">
       <div class="box_pri">
         <div class="box_tori">
           <h4>Politique de confidentialité</h4>
@@ -52,7 +52,7 @@
             sapiente a?</p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="box_check">
             <label>
                 <input type="checkbox" name="entry.1762089056" value="1" aria-invalid="false" class="agree" required><span class="check">Je suis d'accord avec la politique de confidentialité</span>

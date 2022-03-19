@@ -6,6 +6,10 @@
   margin-top: 5vh;
 }
 @media only screen and (max-width: 768px) {
+  .contact-text{
+    width:120%;
+    text-align:left;
+  }
   .box_con06 {
     width: 95%;
   }
@@ -116,7 +120,8 @@ em{
   .box_con06 form ul li .box_det {
     padding: 0em .5em 1.5em .5em;
     display: block;
-    width: 100%;
+    width: 70%;
+    margin:0 auto;
   }
 }
 .box_con06 form ul li .box_br {

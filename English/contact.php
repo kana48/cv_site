@@ -1,5 +1,5 @@
 <section>
-  <p>
+  <p class="contact-text">
   If you want to ask something about this website, about me or just say hi,
   please send me an e-mail or contact me on <strong><a href="https://www.linkedin.com/in/kana-yamada-8b78a3188/?locale=en_US" >#LinkedIn</a></strong>. I will get back to you as soon as possible.
   </p>
@@ -11,7 +11,7 @@
     <ul class="formTable">
       <li>
         <p class="title"><em>Name<span>required</span></em></p>
-        <div class="box_det"><input size="20" type="text" class="wide" name="entry.1613331913" required /></div>
+        <div class="box_det"><input size="20" type="text" class="wide" name="entry.1613331913" placeholder="Full name" required /></div>
       </li>
 
       <li>
@@ -33,7 +33,7 @@
       </li>
 
     </ul>
-    <div class="con_pri">
+    <!-- <div class="con_pri">
       <div class="box_pri">
         <div class="box_tori">
           <h4>Privacy Policy</h4>
@@ -51,7 +51,7 @@
             sapiente a?</p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="box_check">
             <label>
                 <input type="checkbox" name="entry.1762089056" value="1" aria-invalid="false" class="agree" required><span class="check">Je suis d'accord avec la politique de confidentialité</span>
