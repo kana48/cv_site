@@ -26,7 +26,7 @@
       <img src="img/hkm3.png" alt="" class="travaux-single-img-horizontal">
   </div>
 </section>
-
+<a href="?page=travaux" class="travaux-back">Retour à la liste</a>
 <?php 
   include "footer.php"; 
   ?>

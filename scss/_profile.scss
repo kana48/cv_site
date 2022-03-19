@@ -28,7 +28,7 @@
   p{
     width: auto;
     font-size: 16px;
-    width: 60%;
+    width: 100%;
     text-align: right;
   }
 }
@@ -58,6 +58,9 @@
 }
 .profile-certifications{
   margin-bottom: 100px;
+  ul{
+    list-style: inside square;
+  }
 }
 
 .profile-skills{
@@ -106,7 +109,7 @@
 }
 
 .profile-certifications{
-  width: 65%;
+  width: 70%;
   h2{
     text-align: left;
   }
@@ -119,7 +122,9 @@
 }
 
 @media (max-width:599px){
-
+  .profile-skills-text{
+    width:125%;
+  }
   .timeline-item .logo-img{
     margin:0 0 15px 65px;
   }
@@ -131,6 +136,8 @@
   .profile-education-item{
     display: flex;
     flex-direction: column;
+    width:70%;
+    margin-left: 20px;
   }
   .profile-text{
     width: 115% !important;
@@ -147,7 +154,9 @@
   .profile-timeline{
     width: 70%;
   }
-  
+  .timeline__content p{
+    text-align: left;
+  }
   .timeline__content-title{
     font-size: 30px !important;
   }
@@ -307,7 +316,7 @@ $timeline-container-width:100%;
     position: relative;
     &__title {
       color: #fff;
-      font-size: 46px;
+      font-size: 37px;
       font-weight: 700;
       margin: 0;
     }
@@ -333,7 +342,6 @@ $timeline-container-width:100%;
     align-items: center;
     height: 30vh;
     position: relative;
-    background: #eee;
     text-align: center;
     h1 {
         font-size: 2rem;
@@ -379,6 +387,9 @@ $timeline-container-width:100%;
       background: #000;
       transition: all 0.5s ease;
     }
+    &:hover svg{
+      stroke: #fff !important;
+    }
 }
 
 .profile-skills-tab-slider {
@@ -403,9 +414,14 @@ $timeline-container-width:100%;
   .profile-skills-tab {
     font-size: 1rem;
   }
+  .profile-skills-tab svg{
+    stroke: #fff !important;
+  }
   #timeline-1 > div.timeline > div.timeline-item.timeline-item--active > div > h2{
     margin-right: 45px !important;
   }
-
+  .et-main ul{
+    width: 225px;
+  }
 }
 // End of skills

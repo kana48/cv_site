@@ -1,7 +1,7 @@
 
 <section class="travaux-list">
 
-<a href="?page=travaux">←retour</a>
+<a href="?page=travaux" class="sort-back">←retour</a>
 
   <a class="item full" href="?page=dalimsustainability" id="dalimsustainability">
     <span class="web">Web</span>
