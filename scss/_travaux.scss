@@ -80,6 +80,9 @@
 #deadlyBroadcast{
 	background-image: url("../img/deadlybroadcast.jpg") !important;
 }
+#dalimdevportal{
+	background-image: url("../img/dalim-devportal1.jpg");
+}
 
 .item:after {
 	content: '';
@@ -188,6 +191,7 @@
 	text-decoration: underline;
 	padding: 10px 10px 10px 0;
 	text-align: center;
+	margin-bottom:50px;
 }
 
 .travaux-back:hover{

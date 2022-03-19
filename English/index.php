@@ -14,6 +14,10 @@ switch ($page) {
     $page="travaux";
     $title="Works   ";
     break;
+  case 'dalimdevportal':
+      $page="dalimdevportal";
+      $title="Travail ";
+      break;
   case 'dalimsustainability':
       $page="dalimsustainability";
       $title="Work    ";
@@ -54,7 +58,7 @@ switch ($page) {
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kana YAMADA<?php echo $title;?></title>
+  <title>Kana YAMADA <?php echo $page;?></title>
   <link rel="stylesheet" href="../normalize.css">
 
 

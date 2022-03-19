@@ -10,7 +10,7 @@
   </section>
 
   <section>
-  <p class=travaux-single-text>Il s'agit de ma première mission en tant qu'apprentie chez Dalim software, basée sur la maquette d'un designer web, construite à l'aide du CMS Hubspot.
+  <p class=travaux-single-text>This is my first project as an apprentice at Dalim software, based on a web designer's model, built using Hubspot CMS.
   </p>
   <a href="https://sustainability.dalim.com/" class="travaux-single-link">Visit the site</a>
   <h2>Tools</h2>
@@ -19,16 +19,23 @@
   </section>
 
 <section>
-  <img src="../img/dalim-sust1.jpg" alt="" class="travaux-single-img-horizontal">
-  <img src="../img/dalim-sust2.jpg" alt="" class="travaux-single-img-horizontal">
-  <img src="../img/dalim-sust3.jpg" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/dalim-sus-top.png" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/dalim-sus-9.png" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/dalim-sus-ourapproch.png" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/dalim-sus-contact.png" alt="" class="travaux-single-img-horizontal">
   <!-- <div class="travaux-single-img-vertical">
     <img src="img/p6.jpg" alt="">
     <img src="img/p7.jpg" alt="">
     <img src="img/p8.jpg" alt="">
   </div> -->
 </section>
+
+
+<section>
 <a href="?page=travaux" class="travaux-back">Back to the list</a>
+</section>
+
+
 
 <?php 
   include "footer.php"; 

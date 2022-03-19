@@ -90,6 +90,16 @@ section{
   width: 50%;
   margin: 50px auto;
 }
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+//Firefox
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
 
 // cursor
 body {
