@@ -1,0 +1,110 @@
+// header
+
+div{
+  &.small{
+    font-size:$fs-cap;
+  }
+  .caption{
+    position: absolute;
+    top:36vh;
+    right:16%;
+    width: 190px;
+  }
+  .h-photo-date{
+    position: absolute;
+    top:-86px;
+    left:-65px;
+  }
+}
+p{
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+img {
+  &.h-img{
+    width:656px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
+.ver{
+  display: block;
+  transform:rotate(90deg);
+}
+.h-photo{
+  position: relative;
+}
+header{
+  position: relative;
+  .logo{
+    text-align: left !important;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .h-left{
+    position: absolute;
+    left: 0vw;
+  }
+  .h-right{
+    position: absolute;
+    right:0;
+    top:26vh;
+  }
+    &.h-photo-date{
+      position: absolute;
+      top:100px;
+    }
+  }
+  ul.liens{
+    text-align: left;
+    margin: 5vh 50px 0 50px;
+    li:last-child{
+      margin-top: 5vh;
+    }
+  }
+.lang-btn{
+  background-color:$main-color;
+  color:$sub-color;
+  display: block;
+  width: 80px;
+  line-height: 64px;
+  text-align: center;
+}
+// end of header
+
+// nav
+nav{
+  padding: 50px 10px;
+  &.menu{
+    display: flex;
+    justify-content:center ;
+    gap:50px;
+    margin: 0 auto;
+    margin-top: 37vh;
+    text-align: center;
+  }
+}
+// end of nav
+
+@media (max-width:599px){
+  .h-photo{
+    display: none;
+  }
+  .caption{
+    right: -16% !important;
+  }
+  nav.menu{
+    margin-top: 5vh;
+  }
+  .h-left{
+    position: absolute;
+    left: 0vw;
+    width: 36vw;
+  }
+  .pc{
+    display: none;
+  }
+  .header .logo{
+    margin: 0 auto;
+  }
+}
