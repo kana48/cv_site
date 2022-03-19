@@ -1,7 +1,7 @@
 
 <section class="travaux-list">
 
-<a href="?page=travaux">←return</a>
+<a href="?page=travaux" class="sort-back">←return</a>
 
   <a class="item full" href="#" id="deadlyBroadcast">
     <span class="translation">Localization</span>
