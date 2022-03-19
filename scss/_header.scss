@@ -62,7 +62,14 @@ header{
       margin-top: 5vh;
     }
   }
-
+.lang-btn{
+  background-color:$main-color;
+  color:$sub-color;
+  display: block;
+  width: 80px;
+  line-height: 64px;
+  text-align: center;
+}
 // end of header
 
 // nav
