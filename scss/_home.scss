@@ -159,6 +159,7 @@ $animationSpeed: 40s;
 @media (max-width:599px){
   .home-text{
     padding: 0;
+    text-align: left;
   }
   .readMore{
     position: initial;
@@ -179,6 +180,9 @@ $animationSpeed: 40s;
    font-size: 25px;
    text-align: right;
  }
+ &.profile{
+  width:70%;
+}
 }
 
 @media (min-width:600px){

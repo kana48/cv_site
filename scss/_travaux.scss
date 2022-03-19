@@ -136,6 +136,17 @@
 	padding-right: 0.5em;
 	color: #444;
 }
+@media (max-width:599px){
+	.travaux-list{
+		width:70%;
+	}
+	.sort-back{
+		text-align:right;
+	}
+	.travaux-single-text{
+		text-align: left;
+	}
+}
 
 // single
 .travaux-single h2{
