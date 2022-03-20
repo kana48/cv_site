@@ -3,7 +3,7 @@
 
 <a href="?page=travaux" class="sort-back">←retour</a>
 
-  <a class="item full" href="#" id="deadlyBroadcast">
+  <a class="item full" href="?page=deadlybroadcast" id="deadlyBroadcast">
     <span class="translation">Localisation</span>
     <div class="details">
     Deadly Broadcast

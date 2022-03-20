@@ -49,7 +49,7 @@
 
   <div class="h-right">
     <a href="https://kana-media-creation.com/en/top/" class="h-photo">
-      <div class="h-photo-date small ver">Old portfolio site</div>
+      <div class="h-photo-date small ver">My old portfolio web site</div>
       <img src="../img/flo.jpg" alt="flower" class="h-img gray">
     </a>
     <div class="caption small ver">My name is Kana,</br>
