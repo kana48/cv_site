@@ -17,7 +17,7 @@
     .typeString('Motion design')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Communication visuelle')
+    .typeString('UX design')
     .pauseFor(2500)
     .start()
 </script>
@@ -26,7 +26,7 @@
   <h2>Profile</h2>
   <div class="intro">
     <p>Kana YAMADA</p>
-    <p>Web designer,<br class="pc_hid">Web developer</p>
+    <p>Web designer/developer</p>
   </div>
   <p class=home-text>Etudiante M2 en <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> & Apprentie dans le département marketing chez <strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>. Née à
     Tokyo, Japon. Après avoir travaillé pour une grande entreprise japonaise spécialisée dans l’imprimerie Dai Nippon
@@ -60,14 +60,14 @@
         <a class="slide" href="?page=hackmybody">
           <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />
         </a>
-        <a class="slide" href="?page=dalimsustainability">
-          <img src="img/dalim-sust1.jpg" height="200" width="300" alt="" class="gray" />
+        <a class="slide" href="?page=dalimdevportal">
+          <img src="img/dalim-devportal1.jpg" height="200" width="300" alt="" class="gray" />
        </a>
         <a class="slide" href="?page=kakekomigyoza">
           <img src="img/p2.jpg" height="200" width="300" alt="" class="gray" />
         </a>
-        <a class="slide" href="?page=sunnyphotostory">
-          <img src="img/p4.jpg" height="200" width="300" alt="" class="gray" />
+        <a class="slide" href="?page=deadlybroadcast">
+          <img src="img/deadlybroadcast.jpg" height="200" width="300" alt="" class="gray" />
         </a>
         <a class="slide" href="?page=hackmybody">
           <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />

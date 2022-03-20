@@ -75,7 +75,7 @@
       </div>
 
       <div class="timeline-item" data-text="Academic background">
-        <div class="timeline__content"><img class="timeline__img" src="../img/strasbourg.png" /><img
+        <div class="timeline__content"><img class="timeline__img" src="../img/Strasbg.png" /><img
             src="../img/caweb-logo.png" class="logo-img" height="100" width="100" />
           <h2 class="timeline__content-title">Sept 2019 -</br> Present</h2>
           <p class="timeline__content-desc">
