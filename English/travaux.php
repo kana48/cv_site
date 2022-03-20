@@ -41,7 +41,7 @@
   </a>
 
 
-  <a class="item full" href="?page=hackmybody" id="deadlyBroadcast">
+  <a class="item full" href="?page=deadlybroadcast" id="deadlyBroadcast">
     <span>Localization</span>
     <div class="details">
      deadly broadcast
