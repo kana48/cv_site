@@ -9,10 +9,9 @@
     <p>Web designer/developer</p>
   </div>
   <p class=profile-text>
-    My name is Kana Yamada, I am from Tokyo, Japan. I arrived in France in 2019, and after one year of study in a French school in a C1/C2 level class, I joined the <strong><a href="https://mastercaweb.u-strasbg.fr/">#CAWEB Master</a></strong> at the University of Strasbourg.<br class="pc_hid">
+    My name is Kana Yamada, I am from Tokyo, Japan. I arrived in France in 2019, and after one year of study in a french school in a C1/C2 level class, I joined the <strong><a href="https://mastercaweb.u-strasbg.fr/">#CAWEB Master</a></strong> at the University of Strasbourg.<br class="pc_hid">
     I am currently an apprentice as a marketing assistant at <strong><a href="https://www.dalim.com/fr/home">#Dalim software</a></strong>.<br class="pc_hid">
-    After studying media and French at <strong><a href="https://www.meiji.ac.jp/cip/english/">#Meiji University</a></strong> in Japan, I worked for two years in a large Japanese printing
-    Japanese printing and publishing company. <br class="pc_hid">
+    After studying media and French at <strong><a href="https://www.meiji.ac.jp/cip/english/">#Meiji University</a></strong> in Japan, I worked for two years in a large Japanese printing and publishing company. <br class="pc_hid">
     However, I decided to quit my job and move to France to realize my dream of working abroad.</br>
     By joining the CAWEB Master's program, my expertise now extends to the field of web, digital marketing, localization and technical translation.
     localization and technical translation.
