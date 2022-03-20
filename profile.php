@@ -48,8 +48,8 @@
       </div>
 
       <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/printing.png" /><img src="img/dnp-logo.png" class="logo-img"
-            height="60" width="110" />
+        <div class="timeline__content"><img class="timeline__img" src="img/printing.png" />
+        <img src="img/dnp-logo.png" class="logo-img" height="60" width="110" />
           <h2 class="timeline__content-title">Avril 2017 -</br> Mars 2019</h2>
           <p class="timeline__content-desc">
             <strong>
@@ -75,8 +75,8 @@
       </div>
 
       <div class="timeline-item" data-text="Formation universitaire">
-        <div class="timeline__content"><img class="timeline__img" src="img/strasbourg.png" /><img
-            src="img/caweb-logo.png" class="logo-img" height="100" width="100" />
+        <div class="timeline__content"><img class="timeline__img" src="img/Strasbg.png" />
+        <img src="img/caweb-logo.png" class="logo-img" height="100" width="100" />
           <h2 class="timeline__content-title">Sept 2019 -</br> aujourd'hui</h2>
           <p class="timeline__content-desc">
             <p>Université de Strasbourg</p>
