@@ -13,7 +13,7 @@
   <p class=travaux-single-text>I coded from mockups with Hubspot CMS, developed in a more professional environment using Hubspot CLI and also integrated prism.js for code highlighting.
   </p>
   <!-- <a href="https://sustainability.dalim.com/" class="travaux-single-link">Visiter le site</a> -->
-  <h2>Outils</h2>
+  <h2>Tools</h2>
   <p class=travaux-single-text-tool>Hubspot CMS <br class="pc_hid">Figma HTML&CSS JavaScript prism.js
   </p>
   </section>

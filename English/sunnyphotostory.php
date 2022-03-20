@@ -18,9 +18,9 @@
   </section>
 
 <section>
-  <img src="img/p4.jpg" alt="" class="travaux-single-img-horizontal">
-  <img src="img/p5.jpg" alt="" class="travaux-single-img-horizontal">
-  <img src="img/sunny_photostory.jpg" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/p4.jpg" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/p5.jpg" alt="" class="travaux-single-img-horizontal">
+  <img src="../img/sunny_photostory.jpg" alt="" class="travaux-single-img-horizontal">
   <!-- <div class="travaux-single-img-vertical">
     <img src="img/p6.jpg" alt="">
     <img src="img/p7.jpg" alt="">
