@@ -77,7 +77,7 @@ switch ($page) {
     rel="stylesheet">
   <link rel="stylesheet" href="../css/style.min.css" type="text/css">
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-  <meta property="og:url" content="https://kanayamada.website/?page=home">
+  <meta property="og:url" content="https://kanayamada.website/English/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="../img/OGP.png">
   <meta property="og:title" content="Kana YAMADA Portfolio Site home">
