@@ -28,11 +28,7 @@
     <p>Kana YAMADA</p>
     <p>Web designer/developer</p>
   </div>
-  <p class=home-text>Etudiante M2 en <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> & Apprentie dans le département marketing chez <strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>. Née à
-    Tokyo, Japon. Après avoir travaillé pour une grande entreprise japonaise spécialisée dans l’imprimerie Dai Nippon
-    Printing, puis comme rédactrice de guides touristiques sur la France, je me suis installée en France. En 2020 j’ai
-    intégré le Master CAWEB à l'Université de Strasbourg. J'étudie le marketing digital, la localisation et la
-    conception de sites web. J'adore voyager et cuisiner. 
+  <p class=home-text>Etudiante M2 en <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> & apprentie dans le département marketing chez <strong><a href="https://www.dalim.com/fr/home">#DALIM software</a></strong>. Née à Tokyo, Japon. Après avoir travaillé pour une grande entreprise japonaise spécialisée dans l’imprimerie Dai Nippon Printing, puis comme rédactrice de guides touristiques sur la France, je me suis installée en France. En 2020 j’ai intégré le Master CAWEB à l'Université de Strasbourg. J'étudie le marketing digital, la localisation et la conception de sites web. J'adore voyager et cuisiner. 
 
   </p>
   <a href="?page=profile" class="readMore ver">En savoir plus</a>

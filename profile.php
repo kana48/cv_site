@@ -9,7 +9,7 @@
     <p>Web designer/developer</p>
   </div>
   <p class=profile-text>
-    Je m'appelle Kana Yamada, je viens de Tokyo au Japon. Je suis arrivée en France en 2019, et après un an d'étude dans une école de français dans une classe de niveau C1/C2, j’ai intégré le <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> à l'université de Strasbourg.<br class="pc_hid">
+    Je m'appelle Kana Yamada, je viens de Tokyo au Japon. Je suis arrivée en France en 2019, et après un an d'étude dans une école de français dans une classe de niveau C1/C2, j’ai intégré le <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> à l'Université de Strasbourg.<br class="pc_hid">
     Je suis actuellement en apprentissage en tant qu'assistante marketing chez <strong><a href="https://www.dalim.com/fr/home">#Dalim software</a></strong>.<br class="pc_hid">
     Après avoir étudié les médias et le français à l'<strong><a href="https://www.meiji.ac.jp/cip/english/">#Université Meiji</a></strong> au Japon, j'ai travaillé pendant deux ans dans une
     grande entreprise japonaise d’imprimerie et d’édition. <br class="pc_hid">
