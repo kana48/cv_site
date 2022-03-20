@@ -21,7 +21,7 @@
 <section class="profile-timeline">
   <div class="timeline-container" id="timeline-1">
     <div class="timeline-header">
-      <h2 class="timeline-header__title">Expérience professionnelle & Formation universitaire</h2>
+      <h2 class="timeline-header__title">Expérience professionnelle &</br> Formation universitaire</h2>
     </div>
     <!-- Meiji -->
     <div class="timeline">

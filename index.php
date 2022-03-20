@@ -76,6 +76,13 @@ switch ($page) {
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200;500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+  <meta property="og:url" content="https://kanayamada.website/?page=home">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/OGP.png">
+  <meta property="og:title" content="Kana YAMADA Portfolio Site home">
+  <meta property="og:description" content="Le site de Kana, étudiante au CAWEB et apprentie chez DALIM software">
 </head>
 
 <body>
