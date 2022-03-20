@@ -84,7 +84,6 @@ main{
   filter: grayscale(100%);
   }
 section{
-  // width: calc(100% - 32px);
   margin: 0 auto;
   max-width: 800px;
   width: 50%;
@@ -94,7 +93,6 @@ section{
   background: #000;
   color: #fff;
 }
-
 //Firefox
 ::-moz-selection {
   background: #000;
@@ -105,6 +103,7 @@ section{
 body {
   position: relative;
   cursor: none;
+  overflow-x: hidden;
 }
 #cursor{
   position: fixed;
