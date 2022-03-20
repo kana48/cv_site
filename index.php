@@ -15,13 +15,13 @@ switch ($page) {
     $title="Travaux ";
     break;
   case 'dalimdevportal':
-      $page="dalimdevportal";
-      $title="Travail ";
-      break;
+    $page="dalimdevportal";
+    $title="Travail ";
+    break;
   case 'dalimsustainability':
-        $page="dalimsustainability";
-        $title="Travail ";
-        break;
+    $page="dalimsustainability";
+    $title="Travail ";
+    break;
   case 'kakekomigyoza':
     $page="kakekomigyoza";
     $title="Travail ";
