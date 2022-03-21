@@ -19,7 +19,6 @@
 <section>
   <img src="img/deadlybroadcast.jpg" alt="" class="travaux-single-img-horizontal">
 </section>
-<a href="?page=travaux" class="travaux-back">Retour à la liste</a>
 <?php 
   include "footer.php"; 
   ?>
