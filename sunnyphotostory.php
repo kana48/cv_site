@@ -27,7 +27,6 @@
     <img src="img/p8.jpg" alt="">
   </div> -->
 </section>
-<a href="?page=travaux" class="travaux-back">Retour à la liste</a>
 <?php 
   include "footer.php"; 
   ?>
