@@ -27,7 +27,6 @@
   </div>
 </section>
 <section>
-<a href="?page=travaux" class="travaux-back">Back to the list</a>
 </section>
 <?php 
   include "footer.php"; 

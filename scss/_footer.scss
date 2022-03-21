@@ -4,13 +4,15 @@ footer{
   background-color: $sub-color;
   margin-top: -50px;
   position: relative;
-
   h2{
     text-align: left;
   }
-  a{
+  a:hover{
+    opacity: 0.5;
+  }
+  .copyright{
     display: block;
-    text-align: center;
+    text-align: center !important;
   }
   #to_top{
     position: fixed;
