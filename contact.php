@@ -5,7 +5,8 @@
     veuillez m'envoyer un e-mail ou me contacter sur <strong><a href="https://www.linkedin.com/in/kana-yamada-8b78a3188/?locale=fr_FR">#LinkedIn</a></strong>. Je vous répondrai dès que possible.
   </p>
 </section>
-<section class="box_con06">
+
+<section class="contact-box">
 
   <form
     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScKTb6ylqPOHa7f9LHzPdQCLSBQFaPsrnZaEEuUoU2Mnk1xwQ/formResponse">

@@ -8,7 +8,7 @@ switch ($page) {
     break;
   case 'profile':
     $page="profile";
-    $title="Profile ";
+    $title="Profil  ";
     break;
   case 'travaux':
     $page="travaux";

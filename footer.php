@@ -5,7 +5,7 @@
     <?php
     switch ($page) {
       case 'home':
-        echo "<a href='?page=profile'>Consultez <br class='pc_hid'>mon profile</a>";
+        echo "<a href='?page=profile'>Consultez <br class='pc_hid'>mon profil</a>";
         break;
       case 'profile':
         echo "<a href='?page=travaux'>Voir mes travaux</a>";
