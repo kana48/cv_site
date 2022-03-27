@@ -1,6 +1,6 @@
 /*デザインcss↓*/
 
-.box_con06 {
+.contact-box {
   max-width: 900px;
   margin: 0  auto;
   margin-top: 5vh;
@@ -10,17 +10,17 @@
     width:120%;
     text-align:left;
   }
-  .box_con06 {
+  .contact-box {
     width: 95%;
   }
 }
-.box_con06 form {
+.contact-box form {
   width: 100%;
 }
-.box_con06 form ul {
+.contact-box form ul {
   width: 100%;
 }
-.box_con06 form ul li {
+.contact-box form ul li {
   position: relative;
   overflow: hidden;
   margin: .5em 0;
@@ -29,34 +29,36 @@
   box-sizing: border-box;
 }
 @media only screen and (min-width: 769px) {
-  .box_con06 form ul li {
+  .contact-box form ul li {
     display: -webkit-flex;
     display: flex;
   }
 }
 @media print {
-  .box_con06 form ul li {
+  .contact-box form ul li {
     display: -webkit-flex;
     display: flex;
   }
 }
-.ie8 .box_con06 form ul li {
+.ie8 .contact-box form ul li {
   display: -webkit-flex;
   display: flex;
 }
-.box_con06 form ul li .title {
+.contact-box form ul li .title {
   position: relative;
   width: 30%;
   font-weight: normal;
   padding: 1em;
   position: relative;
+  font-size: 18px;
 }
+
 .contact-footer{
   margin-top: 0 !important;
 }
 
 @media only screen and (min-width: 769px) {
-  .box_con06 form ul li .title {
+  .contact-box form ul li .title {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -65,7 +67,7 @@
   }
 }
 @media print {
-  .box_con06 form ul li .title {
+  .contact-box form ul li .title {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -73,7 +75,7 @@
     border-bottom: 3px solid #1c2e53;
   }
 }
-.ie8 .box_con06 form ul li .title {
+.ie8 .contact-box form ul li .title {
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -81,7 +83,7 @@
   border-bottom: 3px solid #1c2e53;
 }
 @media only screen and (max-width: 768px) {
-  .box_con06 form ul li .title {
+  .contact-box form ul li .title {
     text-align: center;
     width: 100%;
     display: block;
@@ -90,11 +92,11 @@
     // background: #1c2e53;
   }
 }
-.box_con06 form ul li .title em {
+.contact-box form ul li .title em {
   position: relative;
   z-index: 1;
 }
-.box_con06 form ul li .title span {
+.contact-box form ul li .title span {
   // background: #cd6f55;
   background: $main-color;
   padding: 0 .3em;
@@ -104,7 +106,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.box_con06 form ul li .box_det {
+.contact-box form ul li .box_det {
   width: 70%;
   position: relative;
   padding: 1em;
@@ -117,17 +119,17 @@ em{
   font-style: normal !important;
 }
 @media only screen and (max-width: 768px) {
-  .box_con06 form ul li .box_det {
+  .contact-box form ul li .box_det {
     padding: 0em .5em 1.5em .5em;
     display: block;
     width: 70%;
     margin:0 auto;
   }
 }
-.box_con06 form ul li .box_br {
+.contact-box form ul li .box_br {
   display: block;
 }
-.box_con06 form ul li select, .box_con06 form ul li textarea, .box_con06 form ul li .wide {
+.contact-box form ul li select, .contact-box form ul li textarea, .contact-box form ul li .wide {
   width: 100%;
   height: 3em;
   padding: .5em;
@@ -135,7 +137,7 @@ em{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.box_con06 form ul li textarea {
+.contact-box form ul li textarea {
   height: 10em;
 }
 
