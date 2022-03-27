@@ -9,13 +9,13 @@
         echo "<a href='?page=profile'>Check my profile</a>";
         break;
       case 'profile':
-        echo "<a href='?page=travaux'>Check my work</a>";
+        echo "<a href='?page=travaux'>Check my works</a>";
         break;
       case 'travaux':
         echo "<a href='?page=contact'>Conctact me</a>";
         break;
       default:
-        echo "<a href='?page=travaux'>Go back to <br class='pc_hid'> my work</a>";
+        echo "<a href='?page=travaux'>Go back to <br class='pc_hid'> my works</a>";
         break;
     }
     ?>

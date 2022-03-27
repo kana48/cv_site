@@ -49,7 +49,7 @@
 
       <div class="timeline-item" data-text="Expérience professionnelle">
         <div class="timeline__content"><img class="timeline__img" src="img/printing.png" />
-        <img src="img/dnp-logo.png" class="logo-img" height="60" width="110" />
+        <img src="img/dnp-logo.png" class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;"/>
           <h2 class="timeline__content-title">Avril 2017 -</br> Mars 2019</h2>
           <p class="timeline__content-desc">
             <strong>
@@ -63,6 +63,7 @@
 
       <div class="timeline-item" data-text="Expérience professionnelle">
         <div class="timeline__content"><img class="timeline__img" src="img/travel-guide.png" />
+        <img src="img/officeguia-logo.jpg" class="logo-img" height="80" width="80" />
           <h2 class="timeline__content-title">Mai 2019 -</br> Déc 2019</h2>
           <p class="timeline__content-desc">
             <strong>
@@ -99,7 +100,7 @@
 
       <div class="timeline-item" data-text="Expérience professionnelle">
         <div class="timeline__content"><img class="timeline__img" src="img/mac.png" /><img src="img/dalim-logo.png"
-        class="logo-img" height="60" width="110" />
+        class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;"/>
           <h2 class="timeline__content-title">Nov 2021 -</br> aujourd'hui</h2>
           <p class="timeline__content-desc">
             <strong>

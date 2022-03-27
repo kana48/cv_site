@@ -4,7 +4,7 @@
       <nav class="menu">
         <ul>
           <li class="<?php echo($page == 'home')? 'active':'';?>"><a href="?page=home">Bonjour</a></li>
-          <li class="<?php echo($page == 'profile')? 'active':'';?>"><a href="?page=profile">Profile</a></li>
+          <li class="<?php echo($page == 'profile')? 'active':'';?>"><a href="?page=profile">Profil</a></li>
           <li class="<?php echo($page == 'travaux')? 'active':'';?>"><a href="?page=travaux">Travaux</a></li>
           <li class="<?php echo($page == 'contact')? 'active':'';?>"><a href="?page=contact">Contact</a></li>
         </ul>
@@ -20,7 +20,7 @@
     <nav>
       <ul>
         <li ><a href="?page=home">Bonjour</a></li>
-        <li ><a href="?page=profile">Profile</a></li>
+        <li ><a href="?page=profile">Profil</a></li>
         <li ><a href="?page=travaux">Travaux</a></li>
         <li ><a href="?page=contact">Contact</a></li>
       </ul>
