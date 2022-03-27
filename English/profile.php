@@ -47,8 +47,8 @@
       </div>
 
       <div class="timeline-item" data-text="Work experience">
-        <div class="timeline__content"><img class="timeline__img" src="../img/printing.png" /><img src="../img/dnp-logo.png" class="logo-img"
-            height="60" width="110" />
+        <div class="timeline__content"><img class="timeline__img" src="../img/printing.png" /><img src="../img/dnp-logo.png" class="logo-img logo-img-margin"
+            height="60" width="110" style="margin-bottom: 20px;"/>
           <h2 class="timeline__content-title">April 2017 -</br> March 2019</h2>
           <p class="timeline__content-desc">
             <strong>
@@ -62,6 +62,7 @@
 
       <div class="timeline-item" data-text="Work experience">
         <div class="timeline__content"><img class="timeline__img" src="../img/travel-guide.png" />
+        <img src="../img/officeguia-logo.jpg" class="logo-img" height="80" width="80" />
           <h2 class="timeline__content-title">May 2019 -</br> Dec 2019</h2>
           <p class="timeline__content-desc">
             <strong>
@@ -98,7 +99,7 @@
 
       <div class="timeline-item" data-text="Work experience">
         <div class="timeline__content"><img class="timeline__img" src="../img/mac.png" /><img src="../img/dalim-logo.png"
-        class="logo-img" height="60" width="110" />
+        class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;" />
           <h2 class="timeline__content-title">Nov 2021 -</br> Present</h2>
           <p class="timeline__content-desc">
             <strong>

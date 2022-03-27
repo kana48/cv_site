@@ -23,7 +23,7 @@
 </script>
 
 <section class="profile animate slide-from-left">
-  <h2>Profile</h2>
+  <h2>Profil</h2>
   <div class="intro">
     <p>Kana YAMADA</p>
     <p>Web designer/developer</p>
