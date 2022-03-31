@@ -13,8 +13,8 @@
   <p class=travaux-single-text>This was a website redesign project for a personal training coach company. In collaboration with a web developer, I was in charge of the website design. We are now in the coding phase.
   You can see the mock-ups from the button below.
   </p>
-  <a href="https://www.figma.com/file/wwLSBAofcJcfG2WRuxouA5/Hack-My-Body?node-id=0%3A1" class="travaux-single-link">Desktop</a>
-  <a href="https://www.figma.com/file/wwLSBAofcJcfG2WRuxouA5/Hack-My-Body?node-id=18%3A181" class="travaux-single-link">Mobile</a>
+  <a href="https://www.figma.com/file/wwLSBAofcJcfG2WRuxouA5/Hack-My-Body?node-id=0%3A1" class="travaux-single-link">Desktop Design Layout</a>
+  <a href="https://www.figma.com/file/wwLSBAofcJcfG2WRuxouA5/Hack-My-Body?node-id=18%3A181" class="travaux-single-link">Mobile Design Layout</a>
   <h2>Tools</h2>
   <p class=travaux-single-text-tool>Adobe XD</p>
   </section>
