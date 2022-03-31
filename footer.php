@@ -1,5 +1,5 @@
 <footer>
-  <button type="button"><a href="?page=contact">Contact</a></button>
+<a href="?page=contact"><button type="button">Contact</button></a>
   <a href="#" id="to_top"></a>
   <h2 class="footer-next">
     <?php

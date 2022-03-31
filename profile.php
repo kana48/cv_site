@@ -9,13 +9,13 @@
     <p>Web designer/developer</p>
   </div>
   <p class=profile-text>
-    Je m'appelle Kana Yamada, je viens de Tokyo au Japon. Je suis arrivée en France en 2019, et après un an d'étude dans une école de français dans une classe de niveau C1/C2, j’ai intégré le <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> à l'Université de Strasbourg.<br class="pc_hid">
+    Je m'appelle Kana Yamada, je viens de Tokyo au Japon. Je suis arrivée en France en 2019, et après un an d'étude dans une école de français dans une classe de niveau C1/C2, j’ai intégré le <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> Communication web multilingue à l'Université de Strasbourg.<br class="pc_hid">
     Je suis actuellement en apprentissage en tant qu'assistante marketing chez <strong><a href="https://www.dalim.com/fr/home">#Dalim software</a></strong>.<br class="pc_hid">
     Après avoir étudié les médias et le français à l'<strong><a href="https://www.meiji.ac.jp/cip/english/">#Université Meiji</a></strong> au Japon, j'ai travaillé pendant deux ans dans une
     grande entreprise japonaise d’imprimerie et d’édition. <br class="pc_hid">
     Cependant, j'ai décidé de quitter mon emploi et de m'installer en France pour réaliser mon rêve de travailler à l'étranger.</br>
-    En rejoignant le Master CAWEB, mon expertise s'étend désormais au domaine du Web, du marketing digital, de la
-    localisation et la traduction technique.
+    En rejoignant le Master CAWEB Communication web multilingue, mon expertise s'étend désormais au domaine du Web, du marketing digital, de la
+    localisation et la traduction technique. Et maintenant, je m'intéresse aussi au motion design.
   </p>
 </section>
 <section class="profile-timeline">
