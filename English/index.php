@@ -81,7 +81,7 @@ switch ($page) {
   <meta property="og:type" content="website">
   <meta property="og:image" content="../img/OGP.png">
   <meta property="og:title" content="Kana YAMADA Portfolio Site home">
-  <meta property="og:description" content="Kana's website, student at CAWEB and apprentice at DALIM software">
+  <meta property="og:description" content="Kana's website, student at CAWEB Master Multilingual web communication and apprentice at DALIM software">
 
 </head>
 

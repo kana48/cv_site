@@ -176,15 +176,20 @@
 	text-align: right;
 }
 .travaux-single-link{
+	background-color: $main-color;
+	color:#fff;
 	display: block;
-	text-decoration: underline;
-	padding: 10px 10px 10px 0;
+	padding: 50px 10px 50px 0;
+	margin:50px 0;
 	text-align: center;
+	border:1px solid gray;
+	font-size:40px;
+	font-weight: bold;
 }
 
 .travaux-single-link:hover{
-	background-color: $main-color;
-	color:#fff;
+	background-color: $sub-color;
+	color:$main-color;
 }
 .travaux-back{
 	display: block;
