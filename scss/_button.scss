@@ -11,6 +11,8 @@ button:hover{
   color:#000 !important;
   padding: 3% 15%;
   font-weight: bold;
+  outline: 1px solid gray;
+  outline-offset: -1px;
 }
 
 button>a {

@@ -28,7 +28,7 @@
     <p>Kana YAMADA</p>
     <p>Web designer/developer</p>
   </div>
-  <p class=home-text>I’m a student of <strong><a href="https://mastercaweb.u-strasbg.fr/">#CAWEB Master </a></strong> & an apprentice in the marketing department at<strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>.Born in Tokyo, Japan. After working for a major general printing company and as an editor of a guidebook of french tourism, I moved to France. 2020: Enrolled in MasterCAWEB at the University of Strasbourg. I am studying multilingual web design, development, localization and translation. I love cooking and traveling. 
+  <p class=home-text>I’m a student of <strong><a href="https://mastercaweb.u-strasbg.fr/">#CAWEB Master </a></strong> Multilingual web communication & an apprentice in the marketing department at<strong><a href="https://www.dalim.com/fr/home">#DALIM SoftWare</a></strong>.Born in Tokyo, Japan. After working for a major general printing company and as an editor of a guidebook of french tourism, I moved to France. 2020: Enrolled in CAWEB Master Multilingual web communication at the University of Strasbourg. I am studying multilingual web design, development, localization and translation. I love cooking and traveling. 
 
   </p>
   <a href="?page=profile" class="readMore ver">Read more</a>
