@@ -1,61 +1,185 @@
 <?php
+// start a new session
+session_start();
 $page = (!isset($_REQUEST['page'])) ? 'home' : $_REQUEST['page'];
 
-switch ($page) {
-  case 'contact':
-    $page="contact";
-    $title="Contact ";
-    break;
-  case 'profile':
-    $page="profile";
-    $title="Profil  ";
-    break;
-  case 'travaux':
-    $page="travaux";
-    $title="Travaux ";
-    break;
-  case 'dalimdevportal':
-    $page="dalimdevportal";
-    $title="Travail ";
-    break;
-  case 'dalimsustainability':
-    $page="dalimsustainability";
-    $title="Travail ";
-    break;
-  case 'kakekomigyoza':
-    $page="kakekomigyoza";
-    $title="Travail ";
-    break;
-  case 'sunnyphotostory':
-      $page="sunnyphotostory";
+if (!isset($_SESSION['lang'])) {
+  $_SESSION['lang'] = "fr";
+}
+
+if (isset($_SESSION['lang'])) {
+  $page_lang = $_SESSION['lang'];
+} elseif (isset($_GET['lang']) && !empty($_GET['lang'])) {
+  $page_lang = $_GET['lang'] ;
+} else {
+  $page_lang = "fr" ;
+}
+
+if($page_lang == "fr") {
+  switch ($page) {
+    case 'contact':
+      $page="contact";
+      $title="Contact ";
+      break;
+    case 'profile':
+      $page="profile";
+      $title="Profil  ";
+      break;
+    case 'travaux':
+      $page="travaux";
+      $title="Travaux ";
+      break;
+    case 'dalimdevportal':
+      $page="dalimdevportal";
       $title="Travail ";
       break;
-  case 'hackmybody':
-        $page="hackmybody";
+    case 'dalimsustainability':
+      $page="dalimsustainability";
+      $title="Travail ";
+      break;
+    case 'kakekomigyoza':
+      $page="kakekomigyoza";
+      $title="Travail ";
+      break;
+    case 'sunnyphotostory':
+        $page="sunnyphotostory";
         $title="Travail ";
         break;
-  case 'web':
-        $page="web";
-        $title="#WEB    ";
-        break;
-  case 'traduction':
-        $page="traduction";
-        $title="#L10n   ";
-        break;
-  case 'deadlybroadcast':
-        $page="deadlybroadcast";
+    case 'hackmybody':
+          $page="hackmybody";
+          $title="Travail ";
+          break;
+    case 'web':
+          $page="web";
+          $title="#WEB    ";
+          break;
+    case 'traduction':
+          $page="traduction";
+          $title="#L10n   ";
+          break;
+    case 'deadlybroadcast':
+          $page="deadlybroadcast";
+          $title="Travail ";
+          break;
+    case 'mentions-legales':
+            $page="mentions-legales";
+            $title="";
+            break;
+    default:
+      $page="home";
+      $title="Bonjour,";
+      break;
+  }
+} else if ($page_lang == "en") {
+  switch ($page) {
+    case 'contact':
+      $page="contact";
+      $title="Contact ";
+      break;
+    case 'profile':
+      $page="profile";
+      $title="Profile ";
+      break;
+    case 'travaux':
+      $page="travaux";
+      $title="Works   ";
+      break;
+    case 'dalimdevportal':
+        $page="dalimdevportal";
         $title="Travail ";
         break;
-  default:
-    $page="home";
-    $title="Bonjour,";
-    break;
+    case 'dalimsustainability':
+        $page="dalimsustainability";
+        $title="Work    ";
+        break;
+    case 'kakekomigyoza':
+      $page="kakekomigyoza";
+      $title="Work    ";
+      break;
+    case 'sunnyphotostory':
+        $page="sunnyphotostory";
+        $title="Work    ";
+        break;
+    case 'hackmybody':
+          $page="hackmybody";
+          $title="Work    ";
+          break;
+    case 'web':
+          $page="web";
+          $title="#WEB    ";
+          break;
+    case 'traduction':
+          $page="traduction";
+          $title="#L10n   ";
+          break;
+    case 'deadlybroadcast':
+          $page="deadlybroadcast";
+          $title="Travail ";
+          break;
+    case 'mentions-legales':
+            $page="mentions-legales";
+            $title="";
+            break;
+    default:
+      $page="home";
+      $title="Hello.   ";
+      break;
+  }
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
+    <!-- Tarte citron -->
+    <script src="tarteaucitron/tarteaucitron.js"></script>
+
+<script type="text/javascript">
+tarteaucitron.init({
+"privacyUrl": "", /* Privacy policy url */
+  "bodyPosition": "bottom", /* or top to bring it as first element for accessibility */
+
+"hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+"cookieName": "tarteaucitron", /* Cookie name */
+
+"orientation": "middle", /* Banner position (top - bottom) */
+
+  "groupServices": false, /* Group services by category */
+  "serviceDefaultState": "wait", /* Default state (true - wait - false) */
+                   
+"showAlertSmall": false, /* Show the small banner on bottom right */
+"cookieslist": false, /* Show the cookie list */
+                   
+  "closePopup": false, /* Show a close X on the banner */
+
+  "showIcon": true, /* Show cookie icon to manage cookies */
+  //"iconSrc": "", /* Optionnal: URL or base64 encoded image */
+  "iconPosition": "BottomRight", /* BottomRight, BottomLeft, TopRight and TopLeft */
+
+"adblocker": false, /* Show a Warning if an adblocker is detected */
+                   
+  "DenyAllCta" : true, /* Show the deny all button */
+  "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+  "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+                   
+"handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+"removeCredit": false, /* Remove credit link */
+"moreInfoLink": true, /* Show more info link */
+
+  "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+  "useExternalJs": false, /* If false, the tarteaucitron.js file will be loaded */
+
+//"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+                  
+  "readmoreLink": "", /* Change the default readmore link */
+
+  "mandatory": true, /* Show a message about mandatory cookies */
+  "mandatoryCta": true /* Show the disabled accept button when mandatory on */
+});
+</script>
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kana YAMADA <?php echo $page;?></title>
@@ -89,17 +213,23 @@ switch ($page) {
   <div id="cursor"></div>
   <div id="stalker"></div>
 <?php 
-  include "header.php";
+  if($page_lang == "en") {
+    include "./en/header.php";
+  } else {
+    include "./fr/header.php";
+  }
   ?>
   <main>
   <div id="target">
   <?php 
-  include "navig.php";
-  include $page.".php"; 
+  include ($page_lang.'/navig.php');
+  include ($page_lang.'/'.$page.".php"); 
   ?>
   </div>
   </main>
-
+  <script type="text/javascript">
+        (tarteaucitron.job = tarteaucitron.job || []).push('gforms');
+  </script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
