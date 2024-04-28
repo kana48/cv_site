@@ -67,64 +67,64 @@ if($page_lang == "fr") {
             break;
     default:
       $page="home";
-      $title="Bonjour,";
+      $title="";
       break;
   }
-} else if ($page_lang == "en") {
-  switch ($page) {
-    case 'contact':
-      $page="contact";
-      $title="Contact ";
-      break;
-    case 'profile':
-      $page="profile";
-      $title="Profile ";
-      break;
-    case 'travaux':
-      $page="travaux";
-      $title="Works   ";
-      break;
-    case 'dalimdevportal':
-        $page="dalimdevportal";
-        $title="Travail ";
-        break;
-    case 'dalimsustainability':
-        $page="dalimsustainability";
-        $title="Work    ";
-        break;
-    case 'kakekomigyoza':
-      $page="kakekomigyoza";
-      $title="Work    ";
-      break;
-    case 'sunnyphotostory':
-        $page="sunnyphotostory";
-        $title="Work    ";
-        break;
-    case 'hackmybody':
-          $page="hackmybody";
-          $title="Work    ";
-          break;
-    case 'web':
-          $page="web";
-          $title="#WEB    ";
-          break;
-    case 'traduction':
-          $page="traduction";
-          $title="#L10n   ";
-          break;
-    case 'deadlybroadcast':
-          $page="deadlybroadcast";
-          $title="Travail ";
-          break;
-    case 'mentions-legales':
-            $page="mentions-legales";
-            $title="";
-            break;
-    default:
-      $page="home";
-      $title="Hello.   ";
-      break;
-  }
+// } else if ($page_lang == "en") {
+//   switch ($page) {
+//     case 'contact':
+//       $page="contact";
+//       $title="Contact ";
+//       break;
+//     case 'profile':
+//       $page="profile";
+//       $title="Profile ";
+//       break;
+//     case 'travaux':
+//       $page="travaux";
+//       $title="Works   ";
+//       break;
+//     case 'dalimdevportal':
+//         $page="dalimdevportal";
+//         $title="Travail ";
+//         break;
+//     case 'dalimsustainability':
+//         $page="dalimsustainability";
+//         $title="Work    ";
+//         break;
+//     case 'kakekomigyoza':
+//       $page="kakekomigyoza";
+//       $title="Work    ";
+//       break;
+//     case 'sunnyphotostory':
+//         $page="sunnyphotostory";
+//         $title="Work    ";
+//         break;
+//     case 'hackmybody':
+//           $page="hackmybody";
+//           $title="Work    ";
+//           break;
+//     case 'web':
+//           $page="web";
+//           $title="#WEB    ";
+//           break;
+//     case 'traduction':
+//           $page="traduction";
+//           $title="#L10n   ";
+//           break;
+//     case 'deadlybroadcast':
+//           $page="deadlybroadcast";
+//           $title="Travail ";
+//           break;
+//     case 'mentions-legales':
+//             $page="mentions-legales";
+//             $title="";
+//             break;
+//     default:
+//       $page="home";
+//       $title="Hello.   ";
+//       break;
+//   }
 }
 
 ?>

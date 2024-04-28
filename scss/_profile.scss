@@ -379,13 +379,13 @@ $timeline-container-width:100%;
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: #000;
+    color: #646464;
     letter-spacing: 0.1rem;
     transition: all 0.5s ease;
     font-size: 0.8rem;
     &:hover {
       color:white;
-      background: #000;
+      background: #646464;
       transition: all 0.5s ease;
     }
     &:hover svg{
@@ -398,7 +398,7 @@ $timeline-container-width:100%;
     bottom: 0;
     width: 0;
     height: 6px;
-    background: #000;
+    background: #646464;
     transition: left 0.3s ease;
 }
 

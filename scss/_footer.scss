@@ -1,12 +1,15 @@
 // footer
 footer {
   margin: 0 100px;
-  background-color: $sub-color;
+  // background-color: $sub-color;
   margin-top: -50px;
   position: relative;
+  display: flex;
+  min-height: 260px;
 
   h2 {
     text-align: left;
+    font-size: 32px;
   }
 
   .footer-next :hover {
@@ -14,6 +17,9 @@ footer {
   }
 
   .copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
     display: block;
     text-align: center !important;
   }

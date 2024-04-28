@@ -88,7 +88,7 @@
     width: 100%;
     display: block;
     padding: .8em .2em .8em .7em;
-    color: $main-color;
+    color: $color_gray100;
     // background: #1c2e53;
   }
 }
@@ -98,7 +98,7 @@
 }
 .contact-box form ul li .title span {
   // background: #cd6f55;
-  background: $main-color;
+  background: $color_gray100;
   padding: 0 .3em;
   color: $sub-color;
   margin-left: .5em;
@@ -239,7 +239,7 @@ em{
   display: inline-block;
   background: #eee;
   padding: .5em 4em;
-  color: #000;
+  color: #646464;
   text-decoration: none;
   cursor: pointer;
   border: none;

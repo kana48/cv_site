@@ -1,7 +1,12 @@
 <footer>
-<a href="?page=contact"><button type="button">Contact</button></a>
   <a href="#" id="to_top"></a>
-  <h2 class="footer-next">
+  <div>
+  <h2>Merci d’avoir visité mon site!</h2>
+  <p>Kana YAMADA</p>
+  <p>Web designer</p>
+  </div>
+  <a href="?page=contact"><button type="button">Contact</button></a>
+  <!-- <h2 class="footer-next">
     <?php
     switch ($page) {
       case 'home':
@@ -21,7 +26,7 @@
         break;
     }
     ?>
-  </h2>
-  <p class="copyright">@2022 kanayamada</p>
+  </h2> -->
+  <p class="copyright">@2024 kanayamada</p>
   <a class="mentions-legales" href="?page=mentions-legales">Mentions légales</a>
 </footer>

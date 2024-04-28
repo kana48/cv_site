@@ -32,20 +32,20 @@
     <div class="details">Dalim Developer Portal</div>
   </a>
 
-  <a class="item medium" href="?page=sunnyphotostory" id="sunnyphotostory">
+  <!-- <a class="item medium" href="?page=sunnyphotostory" id="sunnyphotostory">
     <span class="web">Web</span>
     <div class="details">
       Sunny_photostory
     </div>
-  </a>
+  </a> -->
 
 
-  <a class="item full" href="?page=deadlybroadcast" id="deadlyBroadcast">
+  <!-- <a class="item full" href="?page=deadlybroadcast" id="deadlyBroadcast">
     <span>Localisation</span>
     <div class="details">
      deadly broadcast
     </div>
-  </a>
+  </a> -->
 
   <!-- <a class="item large">
     <span>Web</span>
