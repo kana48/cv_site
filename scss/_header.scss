@@ -10,11 +10,7 @@ div{
     right:16%;
     width: 190px;
   }
-  .h-photo-date{
-    position: absolute;
-    top:-70px;
-    left:-70px;
-  }
+
 }
 p{
   text-align: justify;
@@ -70,18 +66,26 @@ header{
   line-height: 64px;
   text-align: center;
 }
+
 // end of header
 
 // nav
 nav{
-  padding: 50px 10px;
+  // padding: 50px 10px;
   &.menu{
     display: flex;
     justify-content:center ;
     gap:50px;
     margin: 0 auto;
-    margin-top: 37vh;
+    width: 100%;
     text-align: center;
+    align-items: center;
+  }
+  .logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: auto;
   }
 }
 // end of nav
@@ -93,9 +97,7 @@ nav{
   .caption{
     right: -16% !important;
   }
-  nav.menu{
-    margin-top: 5vh;
-  }
+
   .h-left{
     position: absolute;
     left: 0vw;

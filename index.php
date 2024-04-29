@@ -31,23 +31,35 @@ if($page_lang == "fr") {
       break;
     case 'dalimdevportal':
       $page="dalimdevportal";
-      $title="Travail ";
+      $title="";
       break;
     case 'dalimsustainability':
       $page="dalimsustainability";
-      $title="Travail ";
+      $title="";
       break;
+    case 'quisuisje':
+        $page="quisuisje";
+        $title="";
+        break;
+    case 'ademe':
+          $page="ademe";
+          $title="";
+          break;
     case 'kakekomigyoza':
       $page="kakekomigyoza";
-      $title="Travail ";
+      $title="";
       break;
     case 'sunnyphotostory':
         $page="sunnyphotostory";
-        $title="Travail ";
+        $title="";
         break;
+    case 'rainbowservicenotif':
+          $page="rainbowservicenotif";
+          $title="";
+          break;
     case 'hackmybody':
           $page="hackmybody";
-          $title="Travail ";
+          $title="";
           break;
     case 'web':
           $page="web";
@@ -59,7 +71,7 @@ if($page_lang == "fr") {
           break;
     case 'deadlybroadcast':
           $page="deadlybroadcast";
-          $title="Travail ";
+          $title="";
           break;
     case 'mentions-legales':
             $page="mentions-legales";
@@ -187,6 +199,10 @@ tarteaucitron.init({
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
   <link rel="stylesheet" href="normalize.css">
 
+  <!-- travail imgs -->
+  <link rel="stylesheet" href="flickity/flickity.css">
+
+
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta charset="UTF-8">
@@ -232,6 +248,7 @@ tarteaucitron.init({
   </script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="flickity/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

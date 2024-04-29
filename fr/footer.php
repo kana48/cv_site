@@ -1,11 +1,20 @@
 <footer>
   <a href="#" id="to_top"></a>
-  <div>
-  <h2>Merci d’avoir visité mon site!</h2>
-  <p>Kana YAMADA</p>
-  <p>Web designer</p>
+  <img src="img/logo_fotter.png" alt="">
+  <div class="footer_text">
+    <h2>Merci d’avoir visité mon site!</h2>
+    <p>Kana YAMADA</p>
+    <p>Web designer</p>
   </div>
-  <a href="?page=contact"><button type="button">Contact</button></a>
+  <!-- <a href="?page=contact"> -->
+  <a>
+    <button type="button">
+      <span>Contact</span>
+      <img src="img/icon_contact.svg" alt="contact">
+
+    </button>
+
+  </a>
   <!-- <h2 class="footer-next">
     <?php
     switch ($page) {
@@ -28,5 +37,5 @@
     ?>
   </h2> -->
   <p class="copyright">@2024 kanayamada</p>
-  <a class="mentions-legales" href="?page=mentions-legales">Mentions légales</a>
+  <!-- <a class="mentions-legales" href="?page=mentions-legales">Mentions légales</a> -->
 </footer>

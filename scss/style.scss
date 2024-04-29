@@ -40,15 +40,18 @@ $fs-h2:60px;
 
 *{
   font-family: 'Barlow', sans-serif;
+  color:$color_gray100;
   box-sizing: border-box;
   ::before,
   ::after {
     box-sizing: border-box;
   }
 }
-
+body{
+  background-color: $sub-color;
+}
 h1{
-  color:$color_gray100;
+  color:$color-hot80;
   &.page-title{
     font-size:$fs-page-title;
     font-weight: 900;
@@ -58,17 +61,17 @@ h1{
     font-size:48px;
     font-weight: 200;
   }
-
+  span{
+    color:$color-hot80 !important;
+  }
 }
+
 h2 {
     font-size: $fs-h2;
     font-weight: 800;
 }
 p{
   font-size: $fs-p;
-}
-button{
-  font-size: $fs-h2;
 }
 
 .sort li a:hover{
@@ -101,11 +104,11 @@ main{
   filter: grayscale(100%);
   }
 section{
-  margin: 0 auto;
+  // margin: 0 auto;
   // max-width: 800px;
-  max-width: 1280px;
+  // max-width: 1280px;
   // width: 80%;
-  padding:  5%;
+  padding:  8%;
 }
 ::selection {
   background: #646464;
