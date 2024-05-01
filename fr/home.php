@@ -79,7 +79,8 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
   <a class="work"  href="?page=quisuisje">
     <div class="work_image">
     <span class="motion">Motion design</span>
-    <video src="video/qui_suis_je.mp4" class="work_image"></video>
+    <img src="img/qui_suis_je/22.jpg" alt="">
+    <!-- <video src="https://youtu.be/zGFKZHewwnw" class="work_image"></video> -->
     </div>
   <div class="work_text">
     <p>Qui suis-je?</p>
