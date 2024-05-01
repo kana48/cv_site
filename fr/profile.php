@@ -3,29 +3,44 @@
   <img src="img/profile-sp.jpg" alt="" class="profile-profile-img gray-only sp">
 </section> -->
 
-<section class="profile-profile">
+<section class="profile-profile bg_red">
   <img src="img/kana_teacup.png" alt="">
-    <p>Kana YAMADA</p>
-    <p>Web designer/developer</p>
-  </div>
+  <div>
+    <div class="intro">
+      <p>Kana YAMADA</p>
+      <p>Web designer/developer</p>
+    </div>
   <p class=profile-text>
-    Je m'appelle Kana Yamada, je viens de Tokyo au Japon. Je suis arrivée en France en 2019, et après un an d'étude dans une école de français dans une classe de niveau C1/C2, j’ai intégré le <strong><a href="https://mastercaweb.u-strasbg.fr/">#Master CAWEB</a></strong> Communication web multilingue à l'Université de Strasbourg.<br class="pc_hid">
-    Je suis actuellement en apprentissage en tant qu'assistante marketing chez <strong><a href="https://www.dalim.com/fr/home">#Dalim software</a></strong>.<br class="pc_hid">
-    Après avoir étudié les médias et le français à l'<strong><a href="https://www.meiji.ac.jp/cip/english/">#Université Meiji</a></strong> au Japon, j'ai travaillé pendant deux ans dans une
-    grande entreprise japonaise d’imprimerie et d’édition. <br class="pc_hid">
-    Cependant, j'ai décidé de quitter mon emploi et de m'installer en France pour réaliser mon rêve de travailler à l'étranger.</br>
-    En rejoignant le Master CAWEB Communication web multilingue, mon expertise s'étend désormais au domaine du Web, du marketing digital, de la
-    localisation et la traduction technique. Et maintenant, je m'intéresse aussi au motion design.
+  Je suis spécialiste en Web design et en Motion design. Avant d'intégrer la MJM, j’ai étudié le digital marketing, la Communication multilingue et la rédaction technique au Master CAWEB à l'Université de Strasbourg. 
+Depuis l'année dernière, j'ai étudié le motion design et le web design à la MJM en alternance dans l'équipe de support client chez Alcatel-lucent enterprise.
   </p>
+  <a href="linkedin" class="see_project_linkedin">
+      <img src="img/icon_linkedin.svg" alt="Linkedin">
+      <span>Voir mon profil détaillé sur Linkedin</span>
+    </a>
+  </div>
+
 </section>
-<section class="profile-timeline">
+
+<section class="nomargin flex">
+<div class="parcours_tag">
+  <div class="web">Formation universitaire</div>
+  <div class="motion">Expérience professionnelle</div>
+</div>
+<h2>Parcours</h2>
+</section>
+
+
+<section class="parcours_visual">
+<img src="img/parcours.png" alt="">
+</section>
+
+<!-- <section class="profile-timeline">
   <div class="timeline-container" id="timeline-1">
     <div class="timeline-header">
       <h2 class="timeline-header__title">Expérience professionnelle &</br> Formation universitaire</h2>
     </div>
-    <!-- Meiji -->
     <div class="timeline">
-
       <div class="timeline-item" data-text="Formation universitaire">
         <div class="timeline__content"><img class="timeline__img" src="img/tokyo-day.png" /><img
             src="img/meiji-logo.png" class="logo-img" height="100" width="100" />
@@ -46,7 +61,6 @@
           </p>
         </div>
       </div>
-
       <div class="timeline-item" data-text="Expérience professionnelle">
         <div class="timeline__content"><img class="timeline__img" src="img/printing.png" />
         <img src="img/dnp-logo.png" class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;"/>
@@ -60,7 +74,6 @@
           </p>
         </div>
       </div>
-
       <div class="timeline-item" data-text="Expérience professionnelle">
         <div class="timeline__content"><img class="timeline__img" src="img/travel-guide.png" />
         <img src="img/officeguia-logo.jpg" class="logo-img" height="80" width="80" />
@@ -74,7 +87,6 @@
           </p>
         </div>
       </div>
-
       <div class="timeline-item" data-text="Formation universitaire">
         <div class="timeline__content"><img class="timeline__img" src="img/Strasbg.png" />
         <img src="img/caweb-logo.png" class="logo-img" height="100" width="100" />
@@ -97,7 +109,6 @@
           </p>
         </div>
       </div>
-
       <div class="timeline-item" data-text="Expérience professionnelle">
         <div class="timeline__content"><img class="timeline__img" src="img/mac.png" /><img src="img/dalim-logo.png"
         class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;"/>
@@ -115,12 +126,11 @@
           </p>
         </div>
       </div>
-
     </div>
   </div>
-</section>
+</section> -->
 <!-- Hero -->
-<section class="profile-skills">
+<!-- <section class="profile-skills">
   <h2>Compétences</h2>
   <div class="profile-skills-container">
     <a class="profile-skills-tab" href="#tab-langues"><p class="sp_hid">Langues</p>
@@ -135,10 +145,10 @@
     
     <span class="profile-skills-tab-slider"></span>
   </div>
-</section>
+</section> -->
 
-<!-- Main -->
-<section class="et-main">
+
+<!-- <section class="et-main">
 <div class="pc_hid box-debug"></div>
   <div class="et-slide" id="tab-langues">
     <h3>Langues/Rédaction</h3>
@@ -147,10 +157,10 @@
         <li>- japonais (Langue maternelle)</li>
         <li>- français (C1)</li>
         <li>- anglais (B2)</li>
-      </ul>
+      </ul> -->
       <!-- <p>Je peux planifier, interviewer et rédiger des articles. Et avec CAWEB j’arrive à réutiliser certaines de ces
         notions et de les approfondir dans les cours de SEO par exemple.</p> -->
-    </div>
+    <!-- </div>
   </div>
 
   <div class="et-slide" id="tab-adobe">
@@ -163,10 +173,10 @@
         <li>- Premier Pro</li>
         <li>- Illustorator</li>
         <li>- AfterEffect (notion)</li>
-      </ul>
+      </ul> -->
       <!-- <p>J’ai de bonnes notions sur comment utiliser Adobe InDesign , comment soumettre une demande à une imprimerie,
         les différentes méthodes d'impression.</p> -->
-    </div>
+    <!-- </div>
   </div>
 
 
@@ -181,10 +191,10 @@
         <li>- PrestaShop (notion)</li>
         <li>- Magento (notion)</li>
         <li>- SEMrush</li>
-      </ul>
+      </ul> -->
       <!-- <p>J'ai une série d'expériences allant de l'audition de clients, wireframing, moodboarding, création de mockup,
         sélection de CMS, codage, uploading, SEO et gestion de communauté pour l'opération.</p> -->
-    </div>
+    <!-- </div>
   </div>
 
   <div class="et-slide" id="tab-developpement">
@@ -197,11 +207,11 @@
       <li>- JavaScript</li>
       <li>- PHP</li>
       <li>- Git</li>
-    </ul>
+    </ul> -->
     <!-- <p>
     Ma première rencontre avec le développement a eu lieu lorsque je me suis inscrite au CAWEB en 2020. J'ai tout de suite été intéressé et j'ai fait beaucoup d'auto-apprentissage en dehors de la classe. Par exemple, ce site a été créé en php, sans CMS, et géré avec Git.
     </p> -->
-    </div>
+    <!-- </div>
   </div>
 
   <div class="et-slide" id="tab-microsoft">
@@ -212,15 +222,15 @@
         <li>- Powerpoint</li>
         <li>- Excel</li>
         <li>- Trados Studio (Niveau 1)</li>
-      </ul>
+      </ul> -->
       <!-- <p>J'étais employée d'une entreprise au Japon, et j'utilisais donc ces outils au quotidien.</p> -->
-    </div>
+    <!-- </div>
   </div>
-</section>
+</section> -->
 
 
 
-<section class="profile-certifications">
+<!-- <section class="profile-certifications">
   <h2>Certifications</h2>
   <ul>
   <li>2021 : <a href="https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing">Les principes fondamentaux du marketing numérique</a></li>
@@ -229,7 +239,7 @@
     <li>2017 : Certification de bibliothécaire</li>
     <li>30 septembre 2015 : DELF B2</li>
   </ul>
-</section>
+</section> -->
 
 
 <?php 

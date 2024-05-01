@@ -11,12 +11,14 @@
 }
 .profile-profile{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap:32px;
   &.intro{
     width: 100px;
   }
   .profile-text{
-    width: 60%;
+    width: 413px;
   }
 }
 .profile-skills-text{
@@ -61,6 +63,9 @@
   ul{
     list-style: inside square;
   }
+}
+.parcours_visual{
+  text-align: center;
 }
 
 .profile-skills{
@@ -120,7 +125,29 @@
     font-weight: normal;
   }
 }
+.parcours_tag .web,
+.parcours_tag .motion{
+  width: auto;
+	margin: 20PX;
+	padding: 7px;
+	border-radius: 4px;
+  display:block;
+	color:$sub-color;
+  width: 250px;
+}
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:64px;
+}
+.parcours_tag .web{
+  background: $color_cold80;
+}
+.parcours_tag .motion{
+  background: $color_hot80;
+}
 @media (max-width:599px){
   .profile-skills-text{
     width:125%;

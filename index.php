@@ -145,7 +145,7 @@ if($page_lang == "fr") {
 
 <head>
     <!-- Tarte citron -->
-    <script src="tarteaucitron/tarteaucitron.js"></script>
+    <!-- <script src="tarteaucitron/tarteaucitron.js"></script>
 
 <script type="text/javascript">
 tarteaucitron.init({
@@ -190,7 +190,7 @@ tarteaucitron.init({
   "mandatory": true, /* Show a message about mandatory cookies */
   "mandatoryCta": true /* Show the disabled accept button when mandatory on */
 });
-</script>
+</script> -->
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

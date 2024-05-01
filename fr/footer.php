@@ -11,9 +11,7 @@
     <button type="button">
       <span>Contact</span>
       <img src="img/icon_contact.svg" alt="contact">
-
     </button>
-
   </a>
   <!-- <h2 class="footer-next">
     <?php

@@ -1,4 +1,5 @@
 
+<img src="img/travaux.png" alt="travaux" class="travaux_img">
 <section class="travaux-list">
 
 
@@ -16,26 +17,28 @@
       Dalim Sustainability
     </div>
   </a> -->
-  <a class="item full" href="?page=rainbowservicenotif" id="rainbowservicenotif">
+
+  <a class="item large" href="?page=quisuisje" id="quisuisje">
+    <span class="motion">Motion</span>
+    <div class="details">
+      Qui suis-je?
+    </div>
+  </a>
+
+  <a class="item large" href="?page=ademe" id="ademe">
+    <span class="web">Web</span>
+    <div class="details">
+      ADEME
+    </div>
+  </a>
+  <a class="item large" href="?page=rainbowservicenotif" id="rainbowservicenotif">
     <span class="web">Web</span>
     <div class="details">
     Rainbow Service Notifications
     </div>
   </a>
 
-  <a class="item full" href="?page=quisuisje" id="quisuisje">
-    <span class="web">Motion</span>
-    <div class="details">
-      Qui suis-je?
-    </div>
-  </a>
 
-  <a class="item full" href="?page=ademe" id="ademe">
-    <span class="web">Web</span>
-    <div class="details">
-      ADEME
-    </div>
-  </a>
 <!-- 
   <a class="item large" href="?page=kakekomigyoza" id="kakekomigyoza">
     <span class="web">Web</span>

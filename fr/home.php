@@ -46,75 +46,76 @@
 <section class="profile animate slide-from-left bg_blue">
 <img src="img/profile_image.png" alt="Kana YAMADA Profile image" class="p-img">
   <div> 
-  <h2>Profil</h2>
+  <!-- <h2>Profil</h2> -->
   <div class="intro">
     <p>Kana YAMADA</p>
     <p>Web/Motion designer</p>
   </div>
-  <p class=home-text>Je suis spécialiste en Web design et en Motion design. Avant d'intégrer la MJM, j’ai étudié le digital marketing, la Communication multilingue et la rédaction technique au Master CAWEB à l'Université de Strasbourg. Durant la deuxième année de ce Master j'ai travaillé en alternance dans le département marketing d'une entreprise de logiciels en Allemagne à Kehl.
+  <p class=home-text>Je suis spécialiste en Web design et en Motion design. Avant d'intégrer la MJM, j’ai étudié le digital marketing, la Communication multilingue et la rédaction technique au Master CAWEB à l'Université de Strasbourg. 
 Depuis l'année dernière, j'ai étudié le motion design et le web design à la MJM en alternance dans l'équipe de support client chez Alcatel-lucent enterprise.
-
   </p>
-  <a href="?page=profile" class="readMore">En savoir plus</a>
   </div>
+  <a href="?page=profile">
+    <button type="button">
+      <span>Voir mon profile</span>
+    </button>
+  </a>
 </section>
 
+
+
+<div class="travaux-title">
+  <h2>Travaux</h2>
+  <a href="?page=travaux">
+    <button type="button">
+      <span>Voir mes travaux</span>
+    </button>
+  </a>
+  </div>
 
 
 
 <section class="travaux animate slide-from-right">
-  <h2>Travaux</h2>
-
-  <a class="work">
+  <a class="work"  href="?page=quisuisje">
     <div class="work_image">
-    <span class="tag_motion">Motion design</span>
-    <img src="img/work_sample.png" alt="">
+    <span class="motion">Motion design</span>
+    <video src="video/qui_suis_je.mp4" class="work_image"></video>
     </div>
-
   <div class="work_text">
-    <p>ADEME</p>
-    <p>WEB</p>
-    <p>L'Agence de l'environnement et de la maîtrise de l'énergie (ADEME) souhaite développer une application mobile pour sensibiliser le public aux problématiques liées à l'empreinte carbone des produits du quotidien. Cette initiative vise à encourager une consommation plus responsable pour faire face au réchauffement climatique. </p>
+    <p>Qui suis-je?</p>
+    <p>
+    J'ai développé l'épisode pilote d'une série web sur l'architecture, nommée « Un endroit à Strasbourg », sous forme de quiz où les indices révèlent le nom d'un bâtiment ou monument. Pour une touche mystérieuse et élégante, j'ai intégré des fleurs dans mes photocollages. Ce projet m'a permis de combiner différentes techniques de motion design et de perfectionner mon storytelling, visant à maintenir un thème et un message cohérents..</p>
   </div>
   </a>
-
-  <!-- <div class="body-slider">
-    <div class="slider">
-      <div class="slide-track">
-        <a class="slide" href="?page=dalimsustainability">
-          <img src="img/dalim-sust1.jpg" height="200" width="300" alt="" class="gray" />
-       </a>
-        <a class="slide" href="?page=kakekomigyoza">
-          <img src="img/p2.jpg" height="200" width="300" alt="" class="gray" />
-        </a>
-        <a class="slide" href="?page=sunnyphotostory">
-          <img src="img/p4.jpg" height="200" width="300" alt="" class="gray" />
-        </a>
-        <a class="slide" href="?page=hackmybody">
-          <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />
-        </a>
-        <a class="slide" href="?page=dalimdevportal">
-          <img src="img/dalim-devportal1.jpg" height="200" width="300" alt="" class="gray" />
-       </a>
-        <a class="slide" href="?page=kakekomigyoza">
-          <img src="img/p2.jpg" height="200" width="300" alt="" class="gray" />
-        </a>
-        <a class="slide" href="?page=deadlybroadcast">
-          <img src="img/deadlybroadcast.jpg" height="200" width="300" alt="" class="gray" />
-        </a>
-        <a class="slide" href="?page=hackmybody">
-          <img src="img/hkm1.png" height="200" width="300" alt="" class="gray" />
-        </a>
-      </div>
-    </div>
-  </div> -->
-  <a href="?page=travaux" class="seeMore">Voir plus</a>
-  <!-- <ul class="sort">
-    <li><a href="?page=web">#WEB</a></li>
-    <li><a href="?page=traduction">#Localisation</a></li>
-  </ul> -->
 </section>
 
+<!-- Ademe -->
+<section class="travaux animate slide-from-right bg_blue">
+  <a class="work"  href="?page=ademe">
+  <div class="work_text">
+    <p>ADEME</p>
+    <p>L'Agence de l'environnement et de la maîtrise de l'énergie (ADEME) souhaite développer une application mobile pour sensibiliser le public aux problématiques liées à l'empreinte carbone des produits du quotidien. Cette initiative vise à encourager une consommation plus responsable pour faire face au réchauffement climatique. </p>
+  </div>
+  <div class="work_image">
+    <span class="web">Web</span>
+    <img src="img/ademe/mockup_1.png" alt="">
+    </div>
+  </a>
+</section>
+
+<!-- Rainbow -->
+<section class="travaux animate slide-from-right">
+  <a class="work"  href="?page=rainbowservicenotif">
+    <div class="work_image">
+      <span class="web">Web</span>
+      <img src="img/rainbow/1.png" alt="">
+    </div>
+  <div class="work_text">
+    <p>Rainbow Service Notifications</p>
+    <p>Rainbow est une application de télécommunication pour entreprises, intégrant des fonctions téléphoniques avancées, signature d'Alcatel-Lucent. Vendue sous licence, elle est régulièrement mise à jour, pouvant entraîner des interruptions de service. Pour améliorer la communication, j'ai conçu une interface dans le panneau d'administration permettant aux partenaires de recevoir des notifications critiques et de les personnaliser selon leurs besoins.</p>
+  </div>
+  </a>
+</section>
 <?php 
   include "footer.php"; 
   ?>
