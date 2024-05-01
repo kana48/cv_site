@@ -31,7 +31,7 @@
 // 	color: #fff;
 // }
 .item {
-	width: 450px;
+	width: 400px;
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -87,7 +87,7 @@
 	background: $color_hot80;
 }
 .travaux_img{
-	position: absolute;
+	position: fixed;
 	right: 0;
 	top:0;
 }
