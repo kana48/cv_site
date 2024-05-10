@@ -21,7 +21,7 @@
   <a class="item large" href="?page=quisuisje" id="quisuisje">
     <span class="motion">Motion</span>
     <div class="details">
-      Qui suis-je?
+    Les trésors cachés de Strasbourg
     </div>
   </a>
 

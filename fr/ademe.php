@@ -2,11 +2,9 @@
 <section>
 
 <section class="travaux-single-video">
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/xphEA9iDq8Y">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/xphEA9iDq8Y?autoplay=1&mute=1&playsinline=1&loop=1&playlist=xphEA9iDq8Y">
 </iframe>
-<!-- <video controls width="1280" class="travaux-single-video">
-  <source src="video/ademe.mp4" type="video/mp4" />
-</video> -->
+
 </section>
 
 

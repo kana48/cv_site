@@ -222,7 +222,7 @@
 }
 
 .travaux-single-title,
-.travaux-single-subtitle,
+// .travaux-single-subtitle,
 .travaux-single-text-tool{
 	text-align: center;
 }
@@ -331,10 +331,10 @@ body { font-family: sans-serif; }
 	margin:16px auto;
 	text-align: center;
 }
-.travaux-single-video video{
-	max-width: 1280px;
-	width: 100%;
-	height: auto;
+.travaux-single-video iframe{
+	// max-width: 1280px;
+	// width: 100%;
+	// height: auto;
 	margin:16px auto;
 }
 .travaux-single-video img{

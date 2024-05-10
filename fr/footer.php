@@ -4,7 +4,7 @@
   <div class="footer_text">
     <h2>Merci d’avoir visité mon site!</h2>
     <p>Kana YAMADA</p>
-    <p>Web designer</p>
+    <p>Motion/Web designer</p>
   </div>
   <!-- <a href="?page=contact"> -->
   <a>

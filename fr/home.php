@@ -83,7 +83,7 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
     <!-- <video src="https://youtu.be/zGFKZHewwnw" class="work_image"></video> -->
     </div>
   <div class="work_text">
-    <p>Qui suis-je?</p>
+    <p>Les trésors cachés de Strasbourg</p>
     <p>
     J'ai développé l'épisode pilote d'une série web sur l'architecture, nommée « Un endroit à Strasbourg », sous forme de quiz où les indices révèlent le nom d'un bâtiment ou monument. Pour une touche mystérieuse et élégante, j'ai intégré des fleurs dans mes photocollages. Ce projet m'a permis de combiner différentes techniques de motion design et de perfectionner mon storytelling, visant à maintenir un thème et un message cohérents..</p>
   </div>

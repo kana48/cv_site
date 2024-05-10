@@ -1,11 +1,10 @@
 <h2 class="travaux-single-title">Rainbow Service Notifications</h2>
 <section class="travaux-single-video">
-<!-- <video controls width="1280" class="travaux-single-video">
-  <source src="video/qui_suis_je.mp4" type="video/mp4" />
-</video> -->
-<img src="img/rainbow/1.png" alt="">
-</section>
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/WlY8uvxDHj4?autoplay=1&mute=1&playsinline=1&loop=1&playlist=WlY8uvxDHj4"
+>
+</iframe>
+</section>
 
 
 <section>

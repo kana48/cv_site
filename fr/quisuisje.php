@@ -1,13 +1,11 @@
-<h2 class="travaux-single-title">Qui suis-je?</h2>
+<h2 class="travaux-single-title">Les trésors cachés de Strasbourg</h2>
 <section class="travaux-single-video">
 <!-- <video controls width="1280" class="travaux-single-video">
   <source src="https://youtu.be/zGFKZHewwnw"/>
 </video> -->
-<iframe width="1280" height="720"
-src="https://www.youtube.com/embed/zGFKZHewwnw">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/zGFKZHewwnw?autoplay=1&mute=1&playsinline=1&loop=1&playlist=zGFKZHewwnw">
 </iframe>
 </section>
-
 <section>
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
@@ -44,7 +42,7 @@ src="https://www.youtube.com/embed/zGFKZHewwnw">
   </div>
 
   <div class="travaux-single-text">
-  <h3 class="travaux-single-subtitle">Un lieu a Strasbourg</h3>
+  <h3 class="travaux-single-subtitle">Un lieu à Strasbourg</h3>
   <!-- <p class=travaux-single-text-tool>After effects/Cinema 4D/Adobe Audition</p> -->
   <p class=travaux-single-text>Ce projet a été développé pour les Journées de l’architecture en collaboration avec la Maison Européenne de l’Architecture. Il cible les amateurs d’architecture et d’histoire, ainsi que le grand public intéressé par la culture strasbourgeoise.
   </p>
