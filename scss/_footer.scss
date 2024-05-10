@@ -1,12 +1,16 @@
 // footer
+.footer_info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 footer {
   margin: 0 72px;
   // background-color: $sub-color;
   margin-top: -50px;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 260px;
   color:$color-cold80;
   font-weight: 400;
@@ -37,10 +41,7 @@ footer {
   }
 
   .copyright {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    display: block;
+
     text-align: center !important;
   }
 
@@ -89,9 +90,16 @@ footer {
 @media (max-width:599px) {
   footer {
     margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .mentions-legales {
     display: block;
     text-align: left !important;
   }
 }
+// *{
+//   outline: red solid 3px;
+// }

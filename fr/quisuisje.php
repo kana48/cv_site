@@ -3,10 +3,12 @@
 <!-- <video controls width="1280" class="travaux-single-video">
   <source src="https://youtu.be/zGFKZHewwnw"/>
 </video> -->
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/zGFKZHewwnw?autoplay=1&mute=1&playsinline=1&loop=1&playlist=zGFKZHewwnw">
+<!-- <iframe width="1280" height="720" class="sp_hid" src="https://www.youtube.com/embed/zGFKZHewwnw?autoplay=1&mute=1&playsinline=1&loop=1&playlist=zGFKZHewwnw">
+</iframe> -->
+<iframe src="https://www.youtube.com/embed/zGFKZHewwnw?autoplay=1&mute=1&playsinline=1&loop=1&playlist=zGFKZHewwnw">
 </iframe>
 </section>
-<section>
+<section class="nomargin">
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
   <img src="img/qui_suis_je/3.jpg" alt="" class="travaux-single-img-horizontal gallery-cell">

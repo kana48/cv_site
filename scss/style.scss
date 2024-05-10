@@ -19,7 +19,7 @@ $color_gray100:#646464;
 
 
 // 144px
-$fs-page-title:144px;
+$fs-page-title:84px;
 // 80px
 $fs-hero:80px;
 $fs-hero-skills:52px;
@@ -40,6 +40,7 @@ $fs-h2:60px;
 
 *{
   font-family: 'Barlow', sans-serif;
+  max-width: 100%;
   // color:$color_gray100;
   box-sizing: border-box;
   ::before,
@@ -52,6 +53,7 @@ $fs-h2:60px;
 }
 body{
   background-color: $sub-color;
+  overflow-x: hidden;
 }
 h1{
   color:$color-hot80;
@@ -85,7 +87,6 @@ p{
 
 // commun
 main{
-  // background: linear-gradient(to right, #fff 0%, #fff 16%, #f2f2f2 16%,  #f2f2f2 84%, #fff 84%, #fff 100%);
   margin:0 auto;
 }
 .gray{
@@ -110,6 +111,12 @@ main{
 section{
   padding:  8%;
 }
+
+p{
+  width: auto;
+  max-width: 500px;
+  min-width: 300px;
+}
 .nomargin{
   padding: 1% 8% ;
   }
@@ -129,16 +136,9 @@ section{
 .bg_red{
   background-color: $color-hot20;
 }
-.work{
-  display: flex;
-  gap:64px;
-  align-items: center;
-}
-.work img{
-  height: 400px;
-  width: 790px;
-  object-fit: cover;
-}
+
+
+
 // cursor
 body {
   position: relative;
@@ -185,13 +185,18 @@ body {
 // end of cursor
 
 @media (max-width:599px) {
+  main{
+    margin-top:13vh;
+  }
   h1{
     color:$color_gray100;
     &.page-title{
       font-size:60px;
       font-weight: 900;
-      margin-top: 6vh;
+      margin-top:0px;
+      // margin-top: 6vh;
     }
+
     &.hero{
       font-size:30px;
       font-weight: 700;
@@ -214,6 +219,11 @@ body {
   #cursor,
   #stalker{
     display:none;
+  }
+  section{
+    padding: 5%;
+    flex-direction: column;
+    width: 100vw;
   }
 }
 

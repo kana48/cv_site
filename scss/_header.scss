@@ -110,4 +110,19 @@ nav{
   .header .logo{
     margin: 0 auto;
   }
+  .sp-menu {
+    width: 100%;
+    text-align: right;
+    position: relative;
+  }
+  .sp-menu .logo{
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    z-index: 200;
+  }
+  nav .logo{
+    margin-left:0px;
+  }
 }

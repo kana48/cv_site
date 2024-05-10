@@ -18,7 +18,7 @@
     width: 100px;
   }
   .profile-text{
-    width: 413px;
+    width: auto;
   }
 }
 .profile-skills-text{
@@ -149,6 +149,9 @@
   background: $color_hot80;
 }
 @media (max-width:599px){
+  .profile-profile img{
+    width: 100%;
+  }
   .profile-skills-text{
     width:125%;
   }
@@ -163,11 +166,10 @@
   .profile-education-item{
     display: flex;
     flex-direction: column;
-    width:70%;
-    margin-left: 20px;
+    // width:70%;
+    // margin-left: 20px;
   }
   .profile-text{
-    width: 115% !important;
     text-align: left;
   }
   .caption{

@@ -7,6 +7,15 @@ section{
     position: relative;
   }
 }
+
+.home_hero_img{
+  max-width: 620px;
+  height: auto;
+  position: absolute;
+  left:-70px;
+  top: 490px;
+  z-index: 1;
+}
 .pc_hid{
   display: none;
 }
@@ -18,18 +27,30 @@ section{
   .button{
     margin-bottom: 500px;
   }
+  .home-text{
+    width: auto;
+    max-width: 500px;
+  }
 }
+.work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:2vw;
+}
+
 .work_image{
   position: relative;
-  width: 790px;
-  min-height: 400px;
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  padding: 16px;
 }
 .work_image img{
   object-fit:  cover;
+  width: 100%;
 }
-.work_image video{
-  width: 790px;
-}
+
 h2{
   font-weight: bold;
   text-align: right;
@@ -43,12 +64,10 @@ h2{
   }
   p:first-child{
     font-weight: bold;
+    padding-bottom:16px;
   }
 }
-.home-text{
-  // padding: 50px 100px;
-  width: 324px;
-}
+
 
 .kana{
   height: 86px;
@@ -64,17 +83,11 @@ ul.sort li{
 ul.sort li a{
   font-weight: bold;
 }
-
-.travaux{
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  img{
-    width: 248px;
-    height: 160px;
-    object-fit: cover;
-  }
+.eye_text{
+  color:$color_gray100;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
 }
 
 .travaux-title{
@@ -86,28 +99,10 @@ ul.sort li a{
 h2{
   color: $color-hot80;
 }
-// .readMore{
-//   display: block;
-//   border-bottom: 1px solid;
 
-//   font-weight: bold;
-//   &:hover{
-//     background-color: $color_gray100;
-//     color:$sub-color;
-//   }
-// }
-// .seeMore{
-//   display: block;
-//   border-bottom: 1px solid;
-//   font-weight: bold;
-//   &:hover{
-//     background-color: $color_gray100;
-//     color:$sub-color;
-//   }
-// }
 .p-img{
   max-height: 300px;
-  // width:130% !important;
+  height: auto;
   object-fit: contain;
 }
 // animate
@@ -132,10 +127,12 @@ h2{
 
 
 .work_text{
-  width: 356px;
+  max-width: 500px;
+  width:auto;
   padding: 16px;
   p:first-child{
     font-weight: bold;
+    padding-bottom: 16px;
   }
 }
 
@@ -207,22 +204,62 @@ $animationSpeed: 40s;
 // }
 
 // end of carousel
+
+// MOBILE
 @media (max-width:599px){
-  .home-text{
-    padding: 0;
-    text-align: left;
+  .home-hero{
+    flex-direction: column-reverse;
+    margin-top:11vh;
+    .home-text{
+      padding: 0;
+      width: 324px;
+      }
+    }
+    .home-hero_visual video{
+      width: 250px;
+    }
+    .home-hero_text{
+      width: 100%;
+      text-align: right;
+    }
+    .home_hero_img{
+      width: 390px;
+    }
+    .travaux{
+      width: 100%;
+      .bg_blue{
+        flex-direction: column-reverse;
+      }
+    }
+    .travaux-title{
+      flex-direction: column;
+    }
+    .work{
+      flex-direction: column;
+      gap:16px;
+    }
+    .work_image{
+      width: 100%;
+    }
+    .work img{
+      width: 100%;
+      height: auto;
+    }
+    .travaux{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: auto;
+        height: auto;
+        object-fit: cover;
+      }
+    }
   }
-  // .readMore{
-  //   position: initial;
-  //   transform: rotate(0deg);
-  // } 
-  // .seeMore{
-  //   position: initial;
-  //   transform: rotate(0deg);
-  // }
-  .p-img{
-    height: 100px;
-  }
+
+  
+
   .pc_hid{
     display: block;
  }
@@ -231,10 +268,8 @@ $animationSpeed: 40s;
    font-size: 25px;
    text-align: right;
  }
- .profile{
-    width:70%;
-  }
-}
+
+
 
 @media (min-width:600px){
    .heroSkills{
@@ -242,17 +277,26 @@ $animationSpeed: 40s;
     font-weight: 800;
     text-align: right;
   }
+
 }
 
-
+@media (max-width:599px){
+  .profile{
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 // Video
 .home-hero{
   display:flex;
   align-items: center;
   justify-content: center;
+  gap:6vw;
 }
 .home-hero_text{
-  width: 740px;
+  max-width: 740px;
 }
 
 .home-hero video{
@@ -274,11 +318,3 @@ $animationSpeed: 40s;
   }
 }
 
-.home_hero_img{
-  width: 620px;
-  height: auto;
-  position: absolute;
-  left:-70px;
-  top: 490px;
-  z-index: 1;
-}

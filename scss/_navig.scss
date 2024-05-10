@@ -2,25 +2,25 @@
 
 .sp-menu {
   position: fixed;
-  top: 50px;
+  top: 32px;
   right: 20px;
   font-size: 32px;
   cursor: pointer;
   z-index: 100;
+  .sp_logo{
+    width: 70px;
+  }
 }
-
 
 .sp-menu #open {
   font-size: 32px;
   line-height: 64px;
-  cursor: pointer;
   z-index:100;
 }
 
-.sp-menu #open.hide {
+.sp-menu .hide {
   display: none;
 }
-
 
 .overlay {
   position: fixed;
@@ -34,6 +34,11 @@
   pointer-events: none;
   transition: opacity .6s;
   z-index: 11;
+  background-color: rgba(247,247,247,0.4);
+  .show {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 .overlay.show {
@@ -53,6 +58,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  .logo{
+    width: 50px;
+  }
 }
 
 .overlay li {

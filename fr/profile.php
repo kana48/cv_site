@@ -8,7 +8,7 @@
   <div>
     <div class="intro">
       <p>Kana YAMADA</p>
-      <p>Web designer/developer</p>
+      <p>Motion/Web designer</p>
     </div>
   <p class=profile-text>
   Je suis spécialiste en Web design et en Motion design. Avant d'intégrer la MJM, j’ai étudié le digital marketing, la Communication multilingue et la rédaction technique au Master CAWEB à l'Université de Strasbourg. 

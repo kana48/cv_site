@@ -237,6 +237,7 @@ tarteaucitron.init({
   ?>
   <main>
   <div id="target">
+  <h1 class="page-title"><?php echo $title; ?></h1>
   <?php 
   include ($page_lang.'/navig.php');
   include ($page_lang.'/'.$page.".php"); 
