@@ -31,23 +31,35 @@ if($page_lang == "fr") {
       break;
     case 'dalimdevportal':
       $page="dalimdevportal";
-      $title="Travail ";
+      $title="";
       break;
     case 'dalimsustainability':
       $page="dalimsustainability";
-      $title="Travail ";
+      $title="";
       break;
+    case 'quisuisje':
+        $page="quisuisje";
+        $title="";
+        break;
+    case 'ademe':
+          $page="ademe";
+          $title="";
+          break;
     case 'kakekomigyoza':
       $page="kakekomigyoza";
-      $title="Travail ";
+      $title="";
       break;
     case 'sunnyphotostory':
         $page="sunnyphotostory";
-        $title="Travail ";
+        $title="";
         break;
+    case 'rainbowservicenotif':
+          $page="rainbowservicenotif";
+          $title="";
+          break;
     case 'hackmybody':
           $page="hackmybody";
-          $title="Travail ";
+          $title="";
           break;
     case 'web':
           $page="web";
@@ -59,7 +71,7 @@ if($page_lang == "fr") {
           break;
     case 'deadlybroadcast':
           $page="deadlybroadcast";
-          $title="Travail ";
+          $title="";
           break;
     case 'mentions-legales':
             $page="mentions-legales";
@@ -67,64 +79,64 @@ if($page_lang == "fr") {
             break;
     default:
       $page="home";
-      $title="Bonjour,";
+      $title="";
       break;
   }
-} else if ($page_lang == "en") {
-  switch ($page) {
-    case 'contact':
-      $page="contact";
-      $title="Contact ";
-      break;
-    case 'profile':
-      $page="profile";
-      $title="Profile ";
-      break;
-    case 'travaux':
-      $page="travaux";
-      $title="Works   ";
-      break;
-    case 'dalimdevportal':
-        $page="dalimdevportal";
-        $title="Travail ";
-        break;
-    case 'dalimsustainability':
-        $page="dalimsustainability";
-        $title="Work    ";
-        break;
-    case 'kakekomigyoza':
-      $page="kakekomigyoza";
-      $title="Work    ";
-      break;
-    case 'sunnyphotostory':
-        $page="sunnyphotostory";
-        $title="Work    ";
-        break;
-    case 'hackmybody':
-          $page="hackmybody";
-          $title="Work    ";
-          break;
-    case 'web':
-          $page="web";
-          $title="#WEB    ";
-          break;
-    case 'traduction':
-          $page="traduction";
-          $title="#L10n   ";
-          break;
-    case 'deadlybroadcast':
-          $page="deadlybroadcast";
-          $title="Travail ";
-          break;
-    case 'mentions-legales':
-            $page="mentions-legales";
-            $title="";
-            break;
-    default:
-      $page="home";
-      $title="Hello.   ";
-      break;
-  }
+// } else if ($page_lang == "en") {
+//   switch ($page) {
+//     case 'contact':
+//       $page="contact";
+//       $title="Contact ";
+//       break;
+//     case 'profile':
+//       $page="profile";
+//       $title="Profile ";
+//       break;
+//     case 'travaux':
+//       $page="travaux";
+//       $title="Works   ";
+//       break;
+//     case 'dalimdevportal':
+//         $page="dalimdevportal";
+//         $title="Travail ";
+//         break;
+//     case 'dalimsustainability':
+//         $page="dalimsustainability";
+//         $title="Work    ";
+//         break;
+//     case 'kakekomigyoza':
+//       $page="kakekomigyoza";
+//       $title="Work    ";
+//       break;
+//     case 'sunnyphotostory':
+//         $page="sunnyphotostory";
+//         $title="Work    ";
+//         break;
+//     case 'hackmybody':
+//           $page="hackmybody";
+//           $title="Work    ";
+//           break;
+//     case 'web':
+//           $page="web";
+//           $title="#WEB    ";
+//           break;
+//     case 'traduction':
+//           $page="traduction";
+//           $title="#L10n   ";
+//           break;
+//     case 'deadlybroadcast':
+//           $page="deadlybroadcast";
+//           $title="Travail ";
+//           break;
+//     case 'mentions-legales':
+//             $page="mentions-legales";
+//             $title="";
+//             break;
+//     default:
+//       $page="home";
+//       $title="Hello.   ";
+//       break;
+//   }
 }
 
 ?>
@@ -133,7 +145,7 @@ if($page_lang == "fr") {
 
 <head>
     <!-- Tarte citron -->
-    <script src="tarteaucitron/tarteaucitron.js"></script>
+    <!-- <script src="tarteaucitron/tarteaucitron.js"></script>
 
 <script type="text/javascript">
 tarteaucitron.init({
@@ -178,7 +190,7 @@ tarteaucitron.init({
   "mandatory": true, /* Show a message about mandatory cookies */
   "mandatoryCta": true /* Show the disabled accept button when mandatory on */
 });
-</script>
+</script> -->
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -186,6 +198,10 @@ tarteaucitron.init({
   <link rel="icon" href="img/favicon.ico" id="favicon">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
   <link rel="stylesheet" href="normalize.css">
+
+  <!-- travail imgs -->
+  <link rel="stylesheet" href="flickity/flickity.css">
+
 
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -221,6 +237,7 @@ tarteaucitron.init({
   ?>
   <main>
   <div id="target">
+  <h1 class="page-title"><?php echo $title; ?></h1>
   <?php 
   include ($page_lang.'/navig.php');
   include ($page_lang.'/'.$page.".php"); 
@@ -232,6 +249,7 @@ tarteaucitron.init({
   </script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="flickity/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

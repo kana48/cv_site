@@ -2,25 +2,25 @@
 
 .sp-menu {
   position: fixed;
-  top: 50px;
+  top: 32px;
   right: 20px;
   font-size: 32px;
   cursor: pointer;
   z-index: 100;
+  .sp_logo{
+    width: 70px;
+  }
 }
-
 
 .sp-menu #open {
   font-size: 32px;
   line-height: 64px;
-  cursor: pointer;
   z-index:100;
 }
 
-.sp-menu #open.hide {
+.sp-menu .hide {
   display: none;
 }
-
 
 .overlay {
   position: fixed;
@@ -28,13 +28,17 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.95);
   text-align: center;
   padding: 64px;
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
   z-index: 11;
+  background-color: rgba(247,247,247,0.4);
+  .show {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 .overlay.show {
@@ -54,6 +58,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  .logo{
+    width: 50px;
+  }
 }
 
 .overlay li {
@@ -94,27 +101,44 @@
   .pc-menu {
     display: block;
     margin-left: auto;
+    display: flex;
+    align-items: center;
   }
   .pc-menu ul{
     list-style-type: none;
     margin: 0;
+    margin-right: 88px;
     padding: 0;
     display: flex;
   }
   .pc-menu a{
     display: block;
-    width: 80px;
+    width: 150px;
     line-height: 64px;
     text-align: center;
+    color:$color-cold80;
   }
   .pc-menu a:hover{
     opacity: .5;
   }
   .active a{
-    background-color: $main-color;
-    color:$sub-color;
+    border-bottom:1px solid $color-cold80;
   }
   .sp-menu {
     display: none;
   }
+}
+
+#fixed-header {
+  position: fixed;
+  top: -110px; 
+  height: 110px; 
+  width: 100%;
+  background-color: rgba(247,247,247,0.4);
+  box-sizing: border-box;
+  transition: .5s; /* アニメーションタイミング */
+  z-index: 100;
+}
+#fixed-header.is-show {
+  top: 0;
 }

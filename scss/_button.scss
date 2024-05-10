@@ -1,18 +1,29 @@
 button{
-  background-color: $main-color;
+  // background-color: $color_cold80;
+  background-color: $color_cold40;
   color:$sub-color;
-  padding: 3% 15%;
-  font-weight: bold;
+  width: 125px;
+  height: 125px;
+  font-size: 20px;
   transition: .3s;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  img{
+    width: 42px;
+    height: 42px;
+  }
+  span{
+    color:$sub-color;
+  }
 }
 
 button:hover{
-  background-color: $sub-color;
-  color:#000 !important;
-  padding: 3% 15%;
-  font-weight: bold;
-  outline: 1px solid gray;
-  outline-offset: -1px;
+  background-color: $color_cold40;
 }
 
 button>a {

@@ -1,8 +1,25 @@
 
-$main-color:#000;
-$sub-color:#fff;
+
+$sub-color:#F7F7F7;
+
+$color_hot20:#FFE1E1;
+$color_hot40:#FFADAD;
+$color_hot80:#FF8989;
+$color_hot100:#F53D3E;
+
+$color_cold20:#D9E7FF;
+$color_cold40:#9BBEF7;
+$color_cold80:#5093FF;
+$color_cold100:#376FFA;
+
+$color_gray20:#D9D9D9;
+$color_gray40:#C0C0C0;
+$color_gray60:#868686;
+$color_gray100:#646464;
+
+
 // 144px
-$fs-page-title:144px;
+$fs-page-title:84px;
 // 80px
 $fs-hero:80px;
 $fs-hero-skills:52px;
@@ -23,35 +40,44 @@ $fs-h2:60px;
 
 *{
   font-family: 'Barlow', sans-serif;
+  max-width: 100%;
+  // color:$color_gray100;
   box-sizing: border-box;
   ::before,
   ::after {
     box-sizing: border-box;
   }
+  p{
+    color:$color_gray100;
+  }
 }
-
+body{
+  background-color: $sub-color;
+  overflow-x: hidden;
+}
 h1{
-  color:$main-color;
+  color:$color-hot80;
   &.page-title{
     font-size:$fs-page-title;
     font-weight: 900;
-    margin-top: 12vh;
+    margin-top:150px;
+    margin-left:8%;
   }
   &.hero{
-    font-size:$fs-hero;
-    font-weight: 800;
+    font-size:48px;
+    font-weight: 200;
   }
-
+  span{
+    color:$color-hot80 !important;
+  }
 }
+
 h2 {
     font-size: $fs-h2;
     font-weight: 800;
 }
 p{
   font-size: $fs-p;
-}
-button{
-  font-size: $fs-h2;
 }
 
 .sort li a:hover{
@@ -61,7 +87,6 @@ button{
 
 // commun
 main{
-  background: linear-gradient(to right, #fff 0%, #fff 16%, #f2f2f2 16%,  #f2f2f2 84%, #fff 84%, #fff 100%);
   margin:0 auto;
 }
 .gray{
@@ -84,20 +109,35 @@ main{
   filter: grayscale(100%);
   }
 section{
-  margin: 0 auto;
-  max-width: 800px;
-  width: 50%;
-  margin: 50px auto;
+  padding:  8%;
 }
+
+p{
+  width: auto;
+  max-width: 500px;
+  min-width: 300px;
+}
+.nomargin{
+  padding: 1% 8% ;
+  }
 ::selection {
-  background: #000;
+  background: #646464;
   color: #fff;
 }
 //Firefox
 ::-moz-selection {
-  background: #000;
+  background: #646464;
   color: #fff;
 }
+
+.bg_blue{
+  background-color: $color-cold20;
+}
+.bg_red{
+  background-color: $color-hot20;
+}
+
+
 
 // cursor
 body {
@@ -109,7 +149,7 @@ body {
   position: fixed;
 
   /*丸の大きさと色の指定*/
-  background: #000;
+  background: $color_cold80;
   border-radius:10px;
   width: 10px;
   height: 10px;
@@ -126,7 +166,7 @@ body {
   position: fixed;
 
   /*丸の大きさと色の指定*/
-  background: #000;
+  background: $color_hot40;
   width: 40px;
   height: 40px;
   border-radius:30px;
@@ -139,19 +179,24 @@ body {
 
 #stalker.active{
   transform: scale(1.6);
-  background: #333;
+  background: $color_hot80;
 }
 
 // end of cursor
 
 @media (max-width:599px) {
+  main{
+    margin-top:13vh;
+  }
   h1{
-    color:$main-color;
+    color:$color_gray100;
     &.page-title{
       font-size:60px;
       font-weight: 900;
-      margin-top: 6vh;
+      margin-top:0px;
+      // margin-top: 6vh;
     }
+
     &.hero{
       font-size:30px;
       font-weight: 700;
@@ -175,8 +220,10 @@ body {
   #stalker{
     display:none;
   }
+  section{
+    padding: 5%;
+    flex-direction: column;
+    width: 100vw;
+  }
 }
 
-.test-git {
-  
-}

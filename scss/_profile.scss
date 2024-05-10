@@ -11,12 +11,14 @@
 }
 .profile-profile{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap:32px;
   &.intro{
     width: 100px;
   }
   .profile-text{
-    width: 60%;
+    width: auto;
   }
 }
 .profile-skills-text{
@@ -61,6 +63,9 @@
   ul{
     list-style: inside square;
   }
+}
+.parcours_visual{
+  text-align: center;
 }
 
 .profile-skills{
@@ -120,8 +125,33 @@
     font-weight: normal;
   }
 }
+.parcours_tag .web,
+.parcours_tag .motion{
+  width: auto;
+	margin: 20PX;
+	padding: 7px;
+	border-radius: 4px;
+  display:block;
+	color:$sub-color;
+  width: 250px;
+}
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:64px;
+}
+.parcours_tag .web{
+  background: $color_cold80;
+}
+.parcours_tag .motion{
+  background: $color_hot80;
+}
 @media (max-width:599px){
+  .profile-profile img{
+    width: 100%;
+  }
   .profile-skills-text{
     width:125%;
   }
@@ -136,11 +166,10 @@
   .profile-education-item{
     display: flex;
     flex-direction: column;
-    width:70%;
-    margin-left: 20px;
+    // width:70%;
+    // margin-left: 20px;
   }
   .profile-text{
-    width: 115% !important;
     text-align: left;
   }
   .caption{
@@ -379,13 +408,13 @@ $timeline-container-width:100%;
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: #000;
+    color: #646464;
     letter-spacing: 0.1rem;
     transition: all 0.5s ease;
     font-size: 0.8rem;
     &:hover {
       color:white;
-      background: #000;
+      background: #646464;
       transition: all 0.5s ease;
     }
     &:hover svg{
@@ -398,7 +427,7 @@ $timeline-container-width:100%;
     bottom: 0;
     width: 0;
     height: 6px;
-    background: #000;
+    background: #646464;
     transition: left 0.3s ease;
 }
 
