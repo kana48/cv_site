@@ -8,6 +8,13 @@ section{
   }
 }
 
+.h-right .liens li svg{
+  fill:$color-cold20;
+  background-color: $color-cold80;
+  border-radius: 100%;
+  padding: 10px;
+}
+
 .home_hero_img{
   max-width: 620px;
   height: auto;

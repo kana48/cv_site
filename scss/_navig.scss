@@ -34,7 +34,7 @@
   pointer-events: none;
   transition: opacity .6s;
   z-index: 11;
-  background-color: rgba(247,247,247,0.4);
+  background-color: rgba(247,247,247,0.8);
   .show {
     opacity: 1;
     pointer-events: auto;
@@ -74,6 +74,9 @@
 .overlay li a{
   display: block;
   z-index: 3;
+  font-size: 24px;
+  font-weight: bold;
+  color: $color-hot80;
 }
 
 .overlay.show li {

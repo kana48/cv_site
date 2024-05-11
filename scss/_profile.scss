@@ -199,6 +199,9 @@
   .timeline-item--active .timeline__content-title {
     margin: 0 !important;
   }
+  .profile_parcours_item{
+    flex-direction: column;
+  }
 }
 
 // Timeline
@@ -455,3 +458,29 @@ $timeline-container-width:100%;
   }
 }
 // End of skills
+
+.profile_parcours_item{
+  display: flex;
+  color:$color_gray100;
+  align-items: center;
+  justify-content: center;
+  gap:64px;
+  margin:32px auto;
+  width: auto;
+  max-width: 1000px;
+  h3{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .company_name{
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .title_name{
+    font-size: 24px;
+  }
+}
+
+.profile_parcours_text{
+  width: 500px;
+}

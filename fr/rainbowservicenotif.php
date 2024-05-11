@@ -54,7 +54,27 @@
   </div>
 
   </section>
+  <section class="bg_blue travaux-list nomargin travaux-single-list">
+  <a class="item large" href="?page=quisuisje" id="quisuisje">
+    <span class="motion">Motion</span>
+    <div class="details">
+    Les trésors cachés de Strasbourg
+    </div>
+  </a>
 
+  <a class="item large" href="?page=ademe" id="ademe">
+    <span class="web">Web</span>
+    <div class="details">
+      ADEME
+    </div>
+  </a>
+  <a class="item large" href="?page=rainbowservicenotif" id="rainbowservicenotif">
+    <span class="web">Web</span>
+    <div class="details">
+    Rainbow Service Notifications
+    </div>
+  </a>
+  </section>
 
 
 <?php 

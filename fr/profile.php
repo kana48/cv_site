@@ -1,7 +1,4 @@
-<!-- <section>
-  <img src="img/profile.jpg" alt="" class="profile-profile-img gray-only pc">
-  <img src="img/profile-sp.jpg" alt="" class="profile-profile-img gray-only sp">
-</section> -->
+
 
 <section class="profile-profile bg_red">
   <img src="img/kana_teacup.png" alt="">
@@ -12,9 +9,9 @@
     </div>
   <p class=profile-text>
   Je suis spécialiste en Web design et en Motion design. Avant d'intégrer la MJM, j’ai étudié le digital marketing, la Communication multilingue et la rédaction technique au Master CAWEB à l'Université de Strasbourg. 
-Depuis l'année dernière, j'ai étudié le motion design et le web design à la MJM en alternance dans l'équipe de support client chez Alcatel-lucent enterprise.
+Depuis l'année dernière, j'ai étudié le motion design et le web design à la MJM en alternance dans l'équipe de support client chez Alcatel-Lucent Enterprise.
   </p>
-  <a href="linkedin" class="see_project_linkedin">
+  <a href="https://www.linkedin.com/in/kana-y-8b78a3188/" class="see_project_linkedin">
       <img src="img/icon_linkedin.svg" alt="Linkedin">
       <span>Voir mon profil détaillé sur Linkedin</span>
     </a>
@@ -31,104 +28,101 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 </section>
 
 
-<section class="parcours_visual">
+<!-- <section class="parcours_visual">
 <img src="img/parcours.png" alt="">
-</section>
+</section> -->
+<section class="parcours_visu nomargin">
 
-<!-- <section class="profile-timeline">
-  <div class="timeline-container" id="timeline-1">
-    <div class="timeline-header">
-      <h2 class="timeline-header__title">Expérience professionnelle &</br> Formation universitaire</h2>
+  <div class="profile_parcours_item">
+    <div class="profile_parcours_img">
+      <img src="img/parcours/1.png" alt="">
     </div>
-    <div class="timeline">
-      <div class="timeline-item" data-text="Formation universitaire">
-        <div class="timeline__content"><img class="timeline__img" src="img/tokyo-day.png" /><img
-            src="img/meiji-logo.png" class="logo-img" height="100" width="100" />
-          <h2 class="timeline__content-title">Avril 2013 -</br> Mars 2017</h2>
-          <p class="timeline__content-desc">
-            <strong>
-              <p>Université de Meiji</p>
-            </strong>
-            <p>Licence Littérature et Art</p>
-            <ul>
-              <li>- Français </li>
-              <li>- Littérature et édition</li>
-              <li>- Études des médias</li>
-            </ul>
-            <strong>
-              <p>Echange Universitaire en France Université Lyon3 2014 - 2015</p>
-            </strong>
-          </p>
-        </div>
+    <div class="profile_parcours_text">
+      <div class="profile_parcours_item_text">
+        <h3>2022-aid.</h3>
+        <div class="company_name">Alcatel-Lucent Enterprise (alternance)</div>
+        <div class="title_name">Content Manager en alternance</div>
       </div>
-      <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/printing.png" />
-        <img src="img/dnp-logo.png" class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;"/>
-          <h2 class="timeline__content-title">Avril 2017 -</br> Mars 2019</h2>
-          <p class="timeline__content-desc">
-            <strong>
-              <p>Cheffe de Fabrication des industries graphiques</p>
-            </strong>
-            <p>DNP Dai Nippon Printing co.</p>
-            <p>Négociation avec les fournisseurs et imprimeurs. Relation et conseil client</p>
-          </p>
-        </div>
+
+      <div class="profile_parcours_item_text">
+        <h3>2023</h3>
+        <div class="company_name">MJM Graphic Design Strasbourg</div>
+        <div class="title_name">Web Design</div>
       </div>
-      <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/travel-guide.png" />
-        <img src="img/officeguia-logo.jpg" class="logo-img" height="80" width="80" />
-          <h2 class="timeline__content-title">Mai 2019 -</br> Déc 2019</h2>
-          <p class="timeline__content-desc">
-            <strong>
-              <p>Rédactrice du guide</p>
-            </strong>
-            <p>Office Guia inc.</p>
-            <p>Rédaction d'articles sur le tourisme en France pour des guides touristiques</p>
-          </p>
-        </div>
-      </div>
-      <div class="timeline-item" data-text="Formation universitaire">
-        <div class="timeline__content"><img class="timeline__img" src="img/Strasbg.png" />
-        <img src="img/caweb-logo.png" class="logo-img" height="100" width="100" />
-          <h2 class="timeline__content-title">Sept 2019 -</br> aujourd'hui</h2>
-          <p class="timeline__content-desc">
-            <p>Université de Strasbourg</p>
-            <strong>
-              <p>IIEF - DUEF C1/ C2</p>
-            </strong>
-            <strong>
-              <p>Master CAWEB</p>
-            </strong>
-            <ul>
-              <li>- Marketing digital. Rédaction web</li>
-              <li>- Création de sites web multilingues</li>
-              <li>- PAO, La vidéo dans le digital</li>
-              <li>- Méthodes et outils de la localisation</li>
-              <li>- Gestion de projet</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-      <div class="timeline-item" data-text="Expérience professionnelle">
-        <div class="timeline__content"><img class="timeline__img" src="img/mac.png" /><img src="img/dalim-logo.png"
-        class="logo-img logo-img-margin" height="60" width="110" style="margin-bottom: 20px;"/>
-          <h2 class="timeline__content-title">Nov 2021 -</br> aujourd'hui</h2>
-          <p class="timeline__content-desc">
-            <strong>
-              <p>Assistante Marketing</p>
-            </strong>
-            <p>DALIM SOFTWARE GmbH.</p>
-            <ul>
-              <li>- Développement web (HTML&CSS JavaScript PHP Hubspot CMS)</li>
-              <li>- Community management</li>
-              <li>- Analyse du marché japonais</li>
-            </ul>
-          </p>
-        </div>
+
+      <div class="profile_parcours_item_text">
+        <h3>2022</h3>
+        <div class="company_name">MJM Graphic Design Strasbourg</div>
+        <div class="title_name">Motion Design</div>
       </div>
     </div>
   </div>
-</section> -->
+
+
+  <div class="profile_parcours_item">
+    <div class="profile_parcours_img">
+      <img src="img/parcours/1.png" alt="">
+    </div>
+    <div class="profile_parcours_text">
+      <div class="profile_parcours_item_text">
+        <h3>2021</h3>
+        <div class="company_name">Dalim software (alternance)</div>
+        <div class="title_name">Web Developper</div>
+      </div>
+
+      <div class="profile_parcours_item_text">
+        <h3>2020</h3>
+        <div class="company_name">Master CAWEB  (Bac+5)</div>
+        <div class="title_name">Communication web multilangue </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile_parcours_item">
+    <div class="profile_parcours_img">
+      <img src="img/parcours/1.png" alt="">
+    </div>
+    <div class="profile_parcours_text">
+      <div class="profile_parcours_item_text">
+        <h3>2019</h3>
+        <div class="company_name">IIEF École du français</div>
+        <div class="title_name">Français langue étrangère C1-C2</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile_parcours_item">
+    <div class="profile_parcours_img">
+      <img src="img/parcours/1.png" alt="">
+    </div>
+    <div class="profile_parcours_text">
+      <div class="profile_parcours_item_text">
+        <h3>2017</h3>
+        <div class="company_name">DNP Dai Nippon Printing (CDI)</div>
+        <div class="title_name">Product Manager</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile_parcours_item">
+    <div class="profile_parcours_img">
+      <img src="img/parcours/1.png" alt="">
+    </div>
+    <div class="profile_parcours_text">
+      <div class="profile_parcours_item_text">
+        <h3>2014</h3>
+        <div class="company_name">Univercité Lyon 3</div>
+        <div class="title_name">Etudiante en échange</div>
+      </div>
+
+      <div class="profile_parcours_item_text">
+        <h3>2013</h3>
+        <div class="company_name">Meiji University (Japon, Bac+4)</div>
+        <div class="title_name">Médias et littérature</div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Hero -->
 <!-- <section class="profile-skills">
   <h2>Compétences</h2>
@@ -147,99 +141,6 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
   </div>
 </section> -->
 
-
-<!-- <section class="et-main">
-<div class="pc_hid box-debug"></div>
-  <div class="et-slide" id="tab-langues">
-    <h3>Langues/Rédaction</h3>
-    <div class="profile-skills-text">
-      <ul>
-        <li>- japonais (Langue maternelle)</li>
-        <li>- français (C1)</li>
-        <li>- anglais (B2)</li>
-      </ul> -->
-      <!-- <p>Je peux planifier, interviewer et rédiger des articles. Et avec CAWEB j’arrive à réutiliser certaines de ces
-        notions et de les approfondir dans les cours de SEO par exemple.</p> -->
-    <!-- </div>
-  </div>
-
-  <div class="et-slide" id="tab-adobe">
-    <h3>Adobe</h3>
-    <div class="profile-skills-text">
-      <ul>
-        <li>- InDesign</li>
-        <li>- Adobe XD</li>
-        <li>- Photoshop</li>
-        <li>- Premier Pro</li>
-        <li>- Illustorator</li>
-        <li>- AfterEffect (notion)</li>
-      </ul> -->
-      <!-- <p>J’ai de bonnes notions sur comment utiliser Adobe InDesign , comment soumettre une demande à une imprimerie,
-        les différentes méthodes d'impression.</p> -->
-    <!-- </div>
-  </div>
-
-
-  <div class="et-slide" id="tab-web">
-    <h3>Web</h3>
-    <div class="profile-skills-text">
-      <ul>
-        <li>- Figma</li>
-        <li>- Wordpress</li>
-        <li>- Hubspot CMS</li>
-        <li>- Drupal</li>
-        <li>- PrestaShop (notion)</li>
-        <li>- Magento (notion)</li>
-        <li>- SEMrush</li>
-      </ul> -->
-      <!-- <p>J'ai une série d'expériences allant de l'audition de clients, wireframing, moodboarding, création de mockup,
-        sélection de CMS, codage, uploading, SEO et gestion de communauté pour l'opération.</p> -->
-    <!-- </div>
-  </div>
-
-  <div class="et-slide" id="tab-developpement">
-    <h3>Développement</h3>
-    <div class="profile-skills-text">
-    <ul>
-      <li>- HTML&CSS</li>
-      <li>- Saas</li>
-      <li>- Jquery</li>
-      <li>- JavaScript</li>
-      <li>- PHP</li>
-      <li>- Git</li>
-    </ul> -->
-    <!-- <p>
-    Ma première rencontre avec le développement a eu lieu lorsque je me suis inscrite au CAWEB en 2020. J'ai tout de suite été intéressé et j'ai fait beaucoup d'auto-apprentissage en dehors de la classe. Par exemple, ce site a été créé en php, sans CMS, et géré avec Git.
-    </p> -->
-    <!-- </div>
-  </div>
-
-  <div class="et-slide" id="tab-microsoft">
-    <h3>Microsoft</h3>
-    <div class="profile-skills-text">
-      <ul>
-        <li>- Word </li>
-        <li>- Powerpoint</li>
-        <li>- Excel</li>
-        <li>- Trados Studio (Niveau 1)</li>
-      </ul> -->
-      <!-- <p>J'étais employée d'une entreprise au Japon, et j'utilisais donc ces outils au quotidien.</p> -->
-    <!-- </div>
-  </div>
-</section> -->
-
-
-
-<!-- <section class="profile-certifications">
-  <h2>Certifications</h2>
-  <ul>
-  <li>2021 : <a href="https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing">Les principes fondamentaux du marketing numérique</a></li>
-    <li>2021 : <a href="https://www.trados.com/fr/learning/certification/">SDL Trados Studio-Niveau 1</a></li>
-    <li>2017 : <a href="https://www.jagat.or.jp/cat5/dtp"></a>PAO certification délivrée par JACAT</li>
-    <li>2017 : Certification de bibliothécaire</li>
-    <li>30 septembre 2015 : DELF B2</li>
-  </ul>
-</section> -->
 
 
 <?php 

@@ -1,60 +1,47 @@
-<h2 class="travaux-single-title">ADEME</h2>
+<h2 class="travaux-single-title">Magazine JDS</h2>
 
-<section class="travaux-single-video">
+<!-- <section class="travaux-single-video">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/BiDvoNybhvU?autoplay=1&mute=1&playsinline=1&loop=1&playlist=BiDvoNybhvU">
+</iframe>
+</section> -->
+
+
+
+<section>
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
+  <div class="desktop">
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/BiDvoNybhvU?autoplay=1&mute=1&playsinline=1&loop=1&playlist=BiDvoNybhvU">
-  </iframe>
-  <div class="mobile">
-      <img src="img/ademe/1.png" alt="">
-  </div>
-  <div class="mobile">
-      <img src="img/ademe/2.png" alt="">
-  </div>
-  <div class="mobile">
-      <img src="img/ademe/3.png" alt="">
-  </div>
-  <div class="mobile">
-      <img src="img/ademe/4.png" alt="">
-  </div>
-  <div class="mobile">
-      <img src="img/ademe/5.png" alt="">
+</iframe>
   </div>
   <div class="desktop">
-      <img src="img/ademe/ademe_landing_ds.png" alt="">
+      <img src="img/jds/1.png" alt="">
   </div>
-  <div class="mobile">
-      <img src="img/ademe/ademe_landing_mb.png" alt="">
+  <div class="desktop">
+      <img src="img/jds/2.png" alt="">
   </div>
-  <div class="mockup">
-    <img src="img/ademe/mockup_1.png" alt="" class="travaux-single-img-horizontal gallery-cell">
-  </div>
-  <div class="mockup">
-  <img src="img/ademe/mockup_2.png" alt="" class="travaux-single-img-horizontal gallery-cell">
-  </div>
-  <div class="mockup">
-    <img src="img/ademe/mood_board.png" alt="" class="travaux-single-img-horizontal gallery-cell">
+  <div class="desktop">
+      <img src="img/jds/3.png" alt="">
   </div>
 </div>
 </section>
 
 
 
-
 <section class="travaux-single nomargin">
   <div class="intro travaux-single-info">
 
-    <div>03.01.2022</div>
+    <div>03.11.2023</div>
     <div>Web</div>
 
     <hr>
 
     <div>Figma</div>
     <div>MJM Projets de diplômes</div>
-    <div>Duration: 2 mois</div>
+    <div>Duration: 3 semaines</div>
 
     <hr> 
-    <a href="https://www.figma.com/proto/ej0kaKfXKttbSQ0ElaRuDR/ADEME_Landing_page?type=design&node-id=1290-2020&t=2kcWvdGnRUuMCQro-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1290%3A2020" class="see_project_figma">
+    <a href="https://www.figma.com/proto/QMz0HemNZImb2FhwzORXhc/JDS?type=design&node-id=3-31&t=2kcWvdGnRUuMCQro-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A31&show-proto-sidebar=1" class="see_project_figma">
       <img src="img/icon_figma.svg" alt="Figma">
       <span>Voir les maquettes<br>dans Figma</span>
     </a>
@@ -73,9 +60,7 @@
   </div>
 
   </section>
-  <section class="bg_blue nomargin travaux-single-list">
-    <h3 class="voir_mes_travaux">Voir mes travaux</h3>
-    <div class="travaux-list">
+  <section class="bg_blue travaux-list nomargin travaux-single-list">
   <a class="item large" href="?page=quisuisje" id="quisuisje">
     <span class="motion">Motion</span>
     <div class="details">
@@ -95,7 +80,6 @@
     Rainbow Service Notifications
     </div>
   </a>
-  </div>
   </section>
 
 

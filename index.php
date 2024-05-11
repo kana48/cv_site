@@ -57,10 +57,18 @@ if($page_lang == "fr") {
           $page="rainbowservicenotif";
           $title="";
           break;
+    case 'showreel23':
+            $page="showreel23";
+            $title="";
+            break;
     case 'hackmybody':
           $page="hackmybody";
           $title="";
           break;
+    case 'jds':
+            $page="jds";
+            $title="";
+            break;
     case 'web':
           $page="web";
           $title="#WEB    ";
