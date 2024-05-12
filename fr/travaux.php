@@ -22,17 +22,24 @@
     </div>
   </a>
 
-  <a class="item large" href="?page=jds" id="jds">
+  <!-- <a class="item large" href="?page=jds" id="jds">
     <span class="web">Web</span>
     <div class="details">
     JDS
     </div>
-  </a>
+  </a> -->
 
   <a class="item large" href="?page=showreel23" id="showreel23">
     <span class="motion">Motion</span>
     <div class="details">
     Showreel
+    </div>
+  </a>
+
+  <a class="item large" href="?page=lomography" id="lomography">
+    <span class="web">Web</span>
+    <div class="details">
+    Lomography
     </div>
   </a>
   </div>

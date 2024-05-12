@@ -13,7 +13,7 @@ footer {
   min-height: 260px;
   color:$color-cold80;
   font-weight: 400;
-
+  
   img{
     width: 118px;
     height: 118px;
@@ -89,6 +89,7 @@ footer {
 @media (max-width:599px) {
   footer {
     margin: 0;
+    margin-bottom: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;

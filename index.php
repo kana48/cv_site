@@ -69,6 +69,10 @@ if($page_lang == "fr") {
             $page="jds";
             $title="";
             break;
+    case 'lomography':
+              $page="lomography";
+              $title="";
+              break;
     case 'web':
           $page="web";
           $title="#WEB    ";

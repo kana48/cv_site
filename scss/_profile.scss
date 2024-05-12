@@ -468,6 +468,7 @@ $timeline-container-width:100%;
   margin:32px auto;
   width: auto;
   max-width: 1000px;
+  padding:8px 0;
   h3{
     font-weight: bold;
     font-size: 40px;
@@ -475,6 +476,7 @@ $timeline-container-width:100%;
   .company_name{
     font-weight: bold;
     font-size: 24px;
+    padding: 4px 0;
   }
   .title_name{
     font-size: 24px;
@@ -483,4 +485,7 @@ $timeline-container-width:100%;
 
 .profile_parcours_text{
   width: 500px;
+  .profile_parcours_item_text{
+    padding: 8px 0;
+  }
 }

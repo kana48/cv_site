@@ -55,6 +55,8 @@ body{
   background-color: $sub-color;
   overflow-x: hidden;
 }
+
+// Fontsize
 h1{
   color:$color-hot80;
   &.page-title{
@@ -71,7 +73,6 @@ h1{
     color:$color-hot80 !important;
   }
 }
-
 h2 {
     font-size: $fs-h2;
     font-weight: 800;
@@ -79,6 +80,14 @@ h2 {
 p{
   font-size: $fs-p;
 }
+.button{
+  font-size: 20px;
+  color:$sub-color;
+}
+
+
+
+
 
 .sort li a:hover{
   text-decoration: underline;
@@ -111,7 +120,9 @@ main{
 section{
   padding:  8%;
 }
-
+.material-icons{
+  color:$color_cold80;
+}
 p{
   width: auto;
   max-width: 500px;
