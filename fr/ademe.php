@@ -83,16 +83,17 @@
     </div>
   </a>
 
-  <a class="item large" href="?page=ademe" id="ademe">
-    <span class="web">Web</span>
+  <a class="item large" href="?page=showreel23" id="showreel23">
+    <span class="motion">Motion</span>
     <div class="details">
-      ADEME
+    Showreel
     </div>
   </a>
-  <a class="item large" href="?page=rainbowservicenotif" id="rainbowservicenotif">
+
+  <a class="item large" href="?page=lomography" id="lomography">
     <span class="web">Web</span>
     <div class="details">
-    Rainbow Service Notifications
+    Lomography
     </div>
   </a>
   </div>

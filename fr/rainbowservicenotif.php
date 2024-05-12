@@ -68,10 +68,10 @@
       ADEME
     </div>
   </a>
-  <a class="item large" href="?page=rainbowservicenotif" id="rainbowservicenotif">
+  <a class="item large" href="?page=lomography" id="lomography">
     <span class="web">Web</span>
     <div class="details">
-    Rainbow Service Notifications
+    Lomography
     </div>
   </a>
   </section>
