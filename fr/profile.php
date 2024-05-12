@@ -1,5 +1,3 @@
-
-
 <section class="profile-profile bg_red">
   <img src="img/kana_teacup.png" alt="">
   <div>
@@ -19,6 +17,10 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 
 </section>
 
+
+
+
+
 <section class="nomargin flex">
 <div class="parcours_tag">
   <div class="web">Formation universitaire</div>
@@ -35,7 +37,9 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 
   <div class="profile_parcours_item">
     <div class="profile_parcours_img">
-      <img src="img/parcours/1.png" alt="">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+<dotlottie-player src="https://lottie.host/537b247b-1295-4860-9fd8-fe1b039e9be9/UIryBgS1DU.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
     </div>
     <div class="profile_parcours_text">
       <div class="profile_parcours_item_text">
@@ -61,7 +65,9 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 
   <div class="profile_parcours_item">
     <div class="profile_parcours_img">
-      <img src="img/parcours/1.png" alt="">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+<dotlottie-player src="https://lottie.host/92d53f2b-13a1-4e15-b9f9-f10e5a68a4bd/VtawwxwIgV.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
     </div>
     <div class="profile_parcours_text">
       <div class="profile_parcours_item_text">
@@ -80,7 +86,9 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 
   <div class="profile_parcours_item">
     <div class="profile_parcours_img">
-      <img src="img/parcours/1.png" alt="">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+<dotlottie-player src="https://lottie.host/9bada9f5-2827-496b-a5d6-7ae0e491cf15/zTrOoQnTox.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
     </div>
     <div class="profile_parcours_text">
       <div class="profile_parcours_item_text">
@@ -93,7 +101,9 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 
   <div class="profile_parcours_item">
     <div class="profile_parcours_img">
-      <img src="img/parcours/1.png" alt="">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+<dotlottie-player src="https://lottie.host/a349e9a5-fb95-412e-9dd2-55d49326b9e3/732EiK8yma.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
     </div>
     <div class="profile_parcours_text">
       <div class="profile_parcours_item_text">
@@ -106,7 +116,9 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 
   <div class="profile_parcours_item">
     <div class="profile_parcours_img">
-      <img src="img/parcours/1.png" alt="">
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+      <dotlottie-player src="https://lottie.host/1557c724-eee7-49c9-9b6b-04fc448dd9f0/G3ZFTsfPGZ.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
     </div>
     <div class="profile_parcours_text">
       <div class="profile_parcours_item_text">

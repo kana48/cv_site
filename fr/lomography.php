@@ -81,14 +81,14 @@
   </div>
 
   <div class="travaux-single-text">
-  <h3 class="travaux-single-subtitle">Application mobile de sensibilisation à l'empreinte carbone</h3>
-  <p class=travaux-single-text>L'Agence de l'environnement et de la maîtrise de l'énergie (ADEME) souhaite développer une application mobile pour sensibiliser le public aux problématiques liées à l'empreinte carbone des produits du quotidien. Cette initiative vise à encourager une consommation plus responsable pour faire face au réchauffement climatique.
+  <h3 class="travaux-single-subtitle">Web design de la campagne de l'appareil photo Polaroïd.</h3>
+  <p class=travaux-single-text>Lomography, basée en Autriche, est une entreprise pionnière dans la photographie argentique depuis sa fondation à Vienne en 1992. Elle promeut la lomographie, un mouvement photographique lo-fi initié par leur appareil phare le Lomo LC-A. Le public cible comprend des amateurs de tous âges passionnés par la photographie argentique.
   </p>
   <h4>Le contexte</h4>
-  <p class=travaux-single-text>Cette application, inspirée par « Yuka », permet aux utilisateurs de scanner les codes-barres de leurs achats pour obtenir des informations sur l'empreinte carbone de chaque produit. Destinée à tous, elle cherche à sensibiliser hommes et femmes de toutes catégories socioprofessionnelles à l'impact de leurs habitudes de consommation. L'objectif est d'informer et de motiver des choix plus écologiques tout en exerçant une pression sur les industriels pour qu'ils réduisent leur impact environnemental.
+  <p class=travaux-single-text>Pour les 40 ans du Lomo LC-A, Lomography lance un mini-site dédié à ses appareils iconiques. Le projet vise à créer un site contemporain qui mélange l'esthétique traditionnelle de Lomography avec des fonctionnalités modernes et interactives, pour une expérience utilisateur immersive et visuellement dynamique.
   </p>
   <h4>Mon approche</h4>
-  <p class=travaux-single-text>Le concept visuel central est floral. Pour cela on va représenter chaque score par un cercle dont la taille est proportionnel à son score, et tous ces scores vont visuellement se superposer pour créer visuellement l’image abstraite d’une fleur. Ainsi plus un produit a un bon score et plus visuellement la fleur qui en éclot aura l’air forte. Le design est moderne et joue sur des dégradés de couleurs, principalement le vert, qui évoquent la nature. 
+  <p class=travaux-single-text>Je voulais créer une atmosphère de fête, car le site est destiné à l'anniversaire de leur produit phare, en soulignant la nature dynamique de la photographie de Lomography et la créativité que les photos font naître chez ses utilisateurs. En même temps, en tant que site web d'un fabricant d'appareils photo avec des fonctionnalités E-commerce, j’ai conçu chaque page avec un objectif spécifique pour l'utilisateur, afin qu’il puisse facilement accéder à l'information qu'il souhaite. Par exemple, les pages de produits sont peu décorées et affichent les prix et les informations de manière facile à lire, et des CTA (call to action) stratégiquement placé. En revanche, les pages d'histoire utilisent beaucoup d'éléments décoratifs pour créer un design immersif et retranscrire l’histoire riche de la marque.
   </p>
   </div>
 

@@ -42,6 +42,13 @@
     Lomography
     </div>
   </a>
+
+  <a class="item large" href="?page=queerpalm" id="queerpalm">
+    <span class="web">Web</span>
+    <div class="details">
+    Queer Palm
+    </div>
+  </a>
   </div>
 </section>
 <?php 
