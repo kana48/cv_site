@@ -302,6 +302,16 @@ $animationSpeed: 40s;
   justify-content: center;
   gap:6vw;
 }
+@media (max-width:599px){
+  .home-hero{
+    gap:0vw;
+  }
+  .p-img{
+    margin-top: 80px;
+    
+  }
+}
+
 .home-hero_text{
   max-width: 740px;
 }

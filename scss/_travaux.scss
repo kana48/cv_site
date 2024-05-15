@@ -195,7 +195,7 @@
 	h4{
 		font-size: 48px;
 		font-weight: bold;
-		padding-top:8px;
+		padding:32px 0 8px 0;
 	}
 } 
 .travaux-single-info{
@@ -223,7 +223,9 @@
 .travaux-single-text-tool{
 	text-align: center;
 }
-
+.travaux-single-text{
+	padding: 4px 0;
+}
 .travaux-single-title{
 	color:$color-hot80;
 	max-width: 1280px;
@@ -236,15 +238,16 @@
 	margin-right: auto;
 }
 .travaux-single-subtitle{
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: bold;
 	line-height: 1;
+	padding-bottom: 16px;
 }
 
-.travaux-single-text{
+.travaux-single-container{
 	max-width: 600px;
 	width: auto;
-	padding: 8px 0 32px 0;
+	padding-bottom: 64px;
 	line-height: 1.2;
 	color:$color_gray100;
 }
@@ -292,6 +295,7 @@ body { font-family: sans-serif; }
 	padding: 8px;
 	gap:16px;
 	margin:26px 0;
+	border-radius: 4px;
 	span{
 		color:$sub-color;
 		padding:5px;

@@ -8,7 +8,8 @@
       <p>Motion/Web designer</p>
     </div>
     <!-- <a href="?page=contact"> -->
-    <a>
+
+    <a href="mailto:kana.yamada48@gmail.com">
       <button type="button">
         <span>Contact</span>
         <img src="img/icon_contact.svg" alt="contact">

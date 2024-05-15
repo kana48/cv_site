@@ -1,10 +1,10 @@
 <h2 class="travaux-single-title">Rainbow Service Notifications</h2>
-<section class="travaux-single-video">
+<!-- <section class="travaux-single-video">
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/WlY8uvxDHj4?autoplay=1&mute=1&playsinline=1&loop=1&playlist=WlY8uvxDHj4"
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/ISgMjT976yk?autoplay=1&mute=1&playsinline=1&loop=1&playlist=ISgMjT976yk"
 >
 </iframe>
-</section>
+</section> -->
 
 
 <section>
@@ -41,9 +41,13 @@
     </a> -->
   </div>
 
-  <div class="travaux-single-text">
+  <div class="travaux-single-container">
   <h3 class="travaux-single-subtitle">Notifications de Service Rainbow</h3>
-  <p class=travaux-single-text>Rainbow est une application de télécommunication utilisée par les entreprises et les organisations, similaire à Slack ou Microsoft Teams. Sa caractéristique principale est l'intégration de fonctions téléphoniques avancées, une spécialité de longue date d'Alcatel-Lucent. L'application est vendue sous licence payante par l'intermédiaire de partenaires commerciaux. Elle est fréquemment mise à jour, avec des opérations incluant parfois des interruptions de service de quelques minutes à plusieurs dizaines de minutes. L’équipe de support client, dont je fais partie, fournit des rapports préliminaires sur ces opérations via notre site web à l'intention des partenaires commerciaux. Cependant avant mon arrivée sur le projet, il n’y avait aucune notion de criticité. En d’autres mots, il n’y avait aucun moyen de différencier le niveau d’importance et l’impact qu'avaient les mises à jour. À cause de cela, les partenaires commerciaux avaient du mal à évaluer et comprendre les conséquences et les timings de ces opérations pour les clients pour les informer le mieux possible. J'ai donc été chargé de concevoir une interface dans le panneau d'administration de Rainbow, qui utilise une base de données, pour rendre les informations plus claires et permettre aux partenaires commerciaux de recevoir les notifications critiques et de paramétrer ces notifications selon leurs besoins.
+  <p class=travaux-single-text>Rainbow est une application de télécommunication utilisée par les entreprises et les organisations, similaire à Slack ou Microsoft Teams. Sa caractéristique principale est l'intégration de fonctions téléphoniques avancées, une spécialité de longue date d'Alcatel-Lucent. L'application est vendue sous licence payante par l'intermédiaire de partenaires commerciaux. Elle est fréquemment mise à jour, avec des opérations incluant parfois des interruptions de service de quelques minutes à plusieurs dizaines de minutes.</p>
+  <p class=travaux-single-text>
+  L’équipe de support client, dont je fais partie, fournit des rapports préliminaires sur ces opérations via notre site web à l'intention des partenaires commerciaux. Cependant avant mon arrivée sur le projet, il n’y avait aucune notion de criticité. En d’autres mots, il n’y avait aucun moyen de différencier le niveau d’importance et l’impact qu'avaient les mises à jour. À cause de cela, les partenaires commerciaux avaient du mal à évaluer et comprendre les conséquences et les timings de ces opérations pour les clients pour les informer le mieux possible. </p>
+  <p class=travaux-single-text>
+  J'ai donc été chargé de concevoir une interface dans le panneau d'administration de Rainbow, qui utilise une base de données, pour rendre les informations plus claires et permettre aux partenaires commerciaux de recevoir les notifications critiques et de paramétrer ces notifications selon leurs besoins.
   </p>
   <h4>Le contexte</h4>
   <p class=travaux-single-text>En réfléchissant aux mouvements des PLM et des partenaires commerciaux, j'ai élaboré un système de classification de l'impact et du type des opérations, permettant aux utilisateurs de recevoir des notifications et de faire des recherches filtrées selon ces critères.

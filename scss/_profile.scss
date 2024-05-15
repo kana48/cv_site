@@ -12,13 +12,19 @@
 .profile-profile{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   gap:32px;
   &.intro{
     width: 100px;
   }
+  .profile_profile_text{
+    margin:auto 0;
+  }
   .profile-text{
     width: auto;
+  }
+  button{
+    align-self: flex-start;
   }
 }
 .profile-skills-text{
@@ -167,12 +173,14 @@
   .profile-education-item{
     display: flex;
     flex-direction: column;
+    align-items: center;
     // width:70%;
     // margin-left: 20px;
   }
   .profile-text{
     text-align: left;
   }
+
   .caption{
     display: none;
   }

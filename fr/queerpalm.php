@@ -49,17 +49,21 @@
     </a>
   </div>
 
-  <div class="travaux-single-text">
+  <div class="travaux-single-container">
   <h3 class="travaux-single-subtitle">Refonte du site Queer Palm</h3>
   <p class=travaux-single-text>Depuis 2010, Queer Palm récompense au Festival de Cannes des œuvres cinématographiques qui reflètent la diversité, les problématiques LGBT+, féministes et qui remettent en question les normes de genre.
   </p>
   <h4>Le contexte</h4>
-  <p class=travaux-single-text>En prévision de l'édition 2024, notre mission était de réaliser une refonte complète du site, en privilégiant une approche "mobile first". Ce projet impliquait la rénovation de l'expérience utilisateur (UX) pour optimiser l'ergonomie sur les smartphones, et la mise à jour de l'interface utilisateur (UI) pour renforcer l'identité visuelle du site.
+  <p class=travaux-single-text>En prévision de l'édition 2024, notre mission était de réaliser une refonte complète du site, en privilégiant une approche "mobile first". </p>
+  <p class=travaux-single-text>
+  Ce projet impliquait la rénovation de l'expérience utilisateur (UX) pour optimiser l'ergonomie sur les smartphones, et la mise à jour de l'interface utilisateur (UI) pour renforcer l'identité visuelle du site.
   </p>
   <h4>Mon approche</h4>
-  <p class=travaux-single-text>Pour travailler sur ce projet, le groupe de travail a établi des personas et analysé les problèmes des utilisateurs sur le site actuel. L'analyse a montré que les utilisateurs souhaitaient davantage d'informations et un contenu plus riche, de sorte qu'une conception basée sur le texte a été envisagée.
-
-La Queer Palm est un festival de cinéma, et pour que les films soient au centre de l'attention, j’ai donné au site un aspect brut en noir et blanc, comme un musée d'art contemporain. En même temps, il m’a semblé nécessaire de mettre l'accent sur le concept au coeur de Queer Palm. La page d'accueil présente donc des extraits d'interviews des fondateurs de Queer Palm et des messages sur les LGBTQ+. Le logo Q de Queer Palm a été caché en mode fusion, ce qui donne un beau dégradé au texte et aux photos au fur et à mesure qu'ils défilent. L’effet que j’ai recherché à transmettre via mon UX est “qu'à travers le cinéma, nous avons un aperçu de l'humanité des autres”.
+  <p class=travaux-single-text>Pour travailler sur ce projet, le groupe de travail a établi des personas et analysé les problèmes des utilisateurs sur le site actuel. L'analyse a montré que les utilisateurs souhaitaient davantage d'informations et un contenu plus riche, de sorte qu'une conception basée sur le texte a été envisagée.</p>
+  <p class=travaux-single-text>
+La Queer Palm est un festival de cinéma, et pour que les films soient au centre de l'attention, j’ai donné au site un aspect brut en noir et blanc, comme un musée d'art contemporain. En même temps, il m’a semblé nécessaire de mettre l'accent sur le concept au coeur de Queer Palm. </p>
+<p class=travaux-single-text>
+La page d'accueil présente donc des extraits d'interviews des fondateurs de Queer Palm et des messages sur les LGBTQ+. Le logo Q de Queer Palm a été caché en mode fusion, ce qui donne un beau dégradé au texte et aux photos au fur et à mesure qu'ils défilent. L’effet que j’ai recherché à transmettre via mon UX est “qu'à travers le cinéma, nous avons un aperçu de l'humanité des autres”.
   </p>
   </div>
 

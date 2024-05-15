@@ -1,12 +1,14 @@
 <h2 class="travaux-single-title">Lomography</h2>
+<section class="travaux-single-video">
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/cBSh4kkd_S8?autoplay=1&mute=1&playsinline=1&loop=1&playlist=cBSh4kkd_S8"
+>
+</iframe>
+</section>
 
-<section>
+<section class="travaux-single-video nomargin">
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
-
-
-
   <div class="desktop">
       <img src="img/lomography/Desktop_1.png" alt="">
   </div>
@@ -80,15 +82,21 @@
     </a> -->
   </div>
 
-  <div class="travaux-single-text">
+  <div class="travaux-single-container">
   <h3 class="travaux-single-subtitle">Web design de la campagne de l'appareil photo Polaroïd.</h3>
-  <p class=travaux-single-text>Lomography, basée en Autriche, est une entreprise pionnière dans la photographie argentique depuis sa fondation à Vienne en 1992. Elle promeut la lomographie, un mouvement photographique lo-fi initié par leur appareil phare le Lomo LC-A. Le public cible comprend des amateurs de tous âges passionnés par la photographie argentique.
+  <p class=travaux-single-text>Lomography, basée en Autriche, est une entreprise pionnière dans la photographie argentique depuis sa fondation à Vienne en 1992. </p>
+  <p class=travaux-single-text>
+  Elle promeut la lomographie, un mouvement photographique lo-fi initié par leur appareil phare le Lomo LC-A. Le public cible comprend des amateurs de tous âges passionnés par la photographie argentique.
   </p>
   <h4>Le contexte</h4>
   <p class=travaux-single-text>Pour les 40 ans du Lomo LC-A, Lomography lance un mini-site dédié à ses appareils iconiques. Le projet vise à créer un site contemporain qui mélange l'esthétique traditionnelle de Lomography avec des fonctionnalités modernes et interactives, pour une expérience utilisateur immersive et visuellement dynamique.
   </p>
   <h4>Mon approche</h4>
-  <p class=travaux-single-text>Je voulais créer une atmosphère de fête, car le site est destiné à l'anniversaire de leur produit phare, en soulignant la nature dynamique de la photographie de Lomography et la créativité que les photos font naître chez ses utilisateurs. En même temps, en tant que site web d'un fabricant d'appareils photo avec des fonctionnalités E-commerce, j’ai conçu chaque page avec un objectif spécifique pour l'utilisateur, afin qu’il puisse facilement accéder à l'information qu'il souhaite. Par exemple, les pages de produits sont peu décorées et affichent les prix et les informations de manière facile à lire, et des CTA (call to action) stratégiquement placé. En revanche, les pages d'histoire utilisent beaucoup d'éléments décoratifs pour créer un design immersif et retranscrire l’histoire riche de la marque.
+  <p class=travaux-single-text>Je voulais créer une atmosphère de fête, car le site est destiné à l'anniversaire de leur produit phare, en soulignant la nature dynamique de la photographie de Lomography et la créativité que les photos font naître chez ses utilisateurs. </p>
+  <p class=travaux-single-text>
+  En même temps, en tant que site web d'un fabricant d'appareils photo avec des fonctionnalités E-commerce, j’ai conçu chaque page avec un objectif spécifique pour l'utilisateur, afin qu’il puisse facilement accéder à l'information qu'il souhaite.  </p>
+  <p class=travaux-single-text>
+  Par exemple, les pages de produits sont peu décorées et affichent les prix et les informations de manière facile à lire, et des CTA (call to action) stratégiquement placé. En revanche, les pages d'histoire utilisent beaucoup d'éléments décoratifs pour créer un design immersif et retranscrire l’histoire riche de la marque.
   </p>
   </div>
 

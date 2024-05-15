@@ -47,7 +47,7 @@
     </a>
   </div>
 
-  <div class="travaux-single-text">
+  <div class="travaux-single-container">
   <h3 class="travaux-single-subtitle">Application mobile de sensibilisation à l'empreinte carbone</h3>
   <p class=travaux-single-text>L'Agence de l'environnement et de la maîtrise de l'énergie (ADEME) souhaite développer une application mobile pour sensibiliser le public aux problématiques liées à l'empreinte carbone des produits du quotidien. Cette initiative vise à encourager une consommation plus responsable pour faire face au réchauffement climatique.
   </p>

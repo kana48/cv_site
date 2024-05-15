@@ -63,6 +63,13 @@
   }
 }
 
+@media (max-width:599px){
+
+  .overlay ul {
+    padding: 40px 40px 40px 62px;
+  }
+}
+
 .overlay li {
   margin-top: 24px;
   opacity: 0;

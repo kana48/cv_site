@@ -1,6 +1,7 @@
 <section class="profile-profile bg_red">
+
   <img src="img/kana_teacup.png" alt="">
-  <div>
+  <div class="profile_profile_text">
     <div class="intro">
       <p>Kana YAMADA</p>
       <p>Motion/Web designer</p>
@@ -14,7 +15,12 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
       <span>Voir mon profil détaillé sur Linkedin</span>
     </a>
   </div>
-
+  <a href="img/kana_yamada_cv.pdf" download="kana_yamada_cv.pdf">
+  <button type="button">
+    <span>Download <br>mon CV</span>
+    <img src="img/icon_download.svg" alt="download">
+  </button>
+</a>
 </section>
 
 
@@ -30,9 +36,6 @@ Depuis l'année dernière, j'ai étudié le motion design et le web design à la
 </section>
 
 
-<!-- <section class="parcours_visual">
-<img src="img/parcours.png" alt="">
-</section> -->
 <section class="parcours_visu nomargin">
 
   <div class="profile_parcours_item">

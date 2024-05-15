@@ -7,6 +7,8 @@
 <section class="nomargin">
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
+
+
   <img src="img/qui_suis_je/3.jpg" alt="" class="travaux-single-img-horizontal gallery-cell">
   <img src="img/qui_suis_je/4.jpg" alt="" class="travaux-single-img-horizontal gallery-cell">
   <img src="img/qui_suis_je/8.jpg" alt="" class="travaux-single-img-horizontal gallery-cell">
@@ -38,7 +40,7 @@
     <hr> 
   </div>
 
-  <div class="travaux-single-text">
+  <div class="travaux-single-container">
   <h3 class="travaux-single-subtitle">Un lieu à Strasbourg</h3>
   <p class=travaux-single-text>Ce projet a été développé pour les Journées de l’architecture en collaboration avec la Maison Européenne de l’Architecture. Il cible les amateurs d’architecture et d’histoire, ainsi que le grand public intéressé par la culture strasbourgeoise.
   </p>
@@ -46,7 +48,11 @@
   <p class=travaux-single-text>Le projet consiste en la création d’un épisode pilote d’une websérie en “explainer video”, visant à dévoiler et à illustrer l'histoire et l'importance culturelle de lieux emblématiques à Strasbourg. L'épisode utilise des animations en motion design pour rendre l'information accessible et captivante, tout en étant éducatif et divertissant. La production combine astucieusement éléments 2D et 3D pour un rendu visuel harmonieux.
   </p>
   <h4>Mon approche</h4>
-  <p class=travaux-single-text>Le monument dont j’ai dû faire l’épisode était le Barrage Vauban. Pour le travail en amont afin de recueillir des informations et trouver de l’inspiration, j'ai participé à une visite guidée du barrage organisée par le Musée Historique de la Ville de Strasbourg. Ensuite, j'ai eu l'idée d'un format de quiz où j’ai personnifié le monument afin d’en faire un personnage à part entière. Le monument pose la question « Qui suis-je ? », tout en racontant son histoire qui servent d'indices. Pour la direction artistique, j'ai décidé de relever le défi d'un photomontage qui évoque un certain surréalisme, entraînant le public dans un univers énigmatique et énigmatique. La vidéo utilise une palette de couleurs tirée des murs des maisons alsaciennes et intègre divers éléments caractéristiques de Strasbourg, tels que le vin, les cigognes, et les enseignes suspendues. J'ai également utilisé de nombreux éléments floraux, car les fleurs sont une imagerie qui m'avait marqué lors de ma première visite à Strasbourg.
+  <p class=travaux-single-text>Le monument dont j’ai dû faire l’épisode était le Barrage Vauban. Pour le travail en amont afin de recueillir des informations et trouver de l’inspiration, j'ai participé à une visite guidée du barrage organisée par le Musée Historique de la Ville de Strasbourg. </p>
+  <p class=travaux-single-text>
+  Ensuite, j'ai eu l'idée d'un format de quiz où j’ai personnifié le monument afin d’en faire un personnage à part entière. Le monument pose la question « Qui suis-je ? », tout en racontant son histoire qui servent d'indices. Pour la direction artistique, j'ai décidé de relever le défi d'un photomontage qui évoque un certain surréalisme, entraînant le public dans un univers énigmatique. </p>
+  <p class=travaux-single-text>
+  La vidéo utilise une palette de couleurs tirée des murs des maisons alsaciennes et intègre divers éléments caractéristiques de Strasbourg, tels que le vin, les cigognes, et les enseignes suspendues. J'ai également utilisé de nombreux éléments floraux, car les fleurs sont une imagerie qui m'avait marqué lors de ma première visite à Strasbourg.
   </p>
   </div>
   </section>
